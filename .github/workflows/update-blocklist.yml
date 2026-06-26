@@ -33,19 +33,19 @@ jobs:
       - name: Check for changes
         id: diff
         run: |
-          git diff --quiet dist/ || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet docs/ || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push if changed
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name  "blocklist-bot"
           git config user.email "blocklist-bot@users.noreply.github.com"
-          DOMAIN_COUNT=$(python -c "import json; print(json.load(open('dist/metadata.json'))['domain_count'])")
-          git add dist/
+          DOMAIN_COUNT=$(python -c "import json; print(json.load(open('docs/metadata.json'))['domain_count'])")
+          git add docs/
           git commit -m "chore: auto-update blocklist — ${DOMAIN_COUNT} domains [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
 
-  # Publish dist/ to GitHub Pages after every successful update
+  # Publish docs/ to GitHub Pages after every successful update
   deploy-pages:
     needs: update
     runs-on: ubuntu-latest
