@@ -1,0 +1,139 @@
+# Anti-AI Blocklist — Hand-curated seed domains
+# These are the baseline. crt.sh + community sources expand this automatically.
+# Format: one domain per line. Lines starting with # are ignored.
+
+# ── OpenAI / ChatGPT ──────────────────────────────────────────────────────
+openai.com
+chatgpt.com
+chat.openai.com
+api.openai.com
+platform.openai.com
+labs.openai.com
+auth.openai.com
+auth0.openai.com
+setup.auth.openai.com
+oaistatic.com
+oaiusercontent.com
+openaiapi-site.azureedge.net
+openaicom.imgix.net
+sora.com
+ai.com
+bzr.openai.com
+bzrcdn.openai.com
+
+# ── Anthropic / Claude ────────────────────────────────────────────────────
+anthropic.com
+claude.ai
+api.anthropic.com
+statsig.anthropic.com
+
+# ── Google Gemini / DeepMind ──────────────────────────────────────────────
+gemini.google.com
+bard.google.com
+ai.google.dev
+makersuite.google.com
+generativeai.google
+deepmind.com
+deepmind.google
+cloudcode-pa.googleapis.com
+optimizationguide-pa.googleapis.com
+proactivebackend-pa.googleapis.com
+alkalimakersuite-pa.clients6.google.com
+labs.google
+
+# ── DeepSeek ─────────────────────────────────────────────────────────────
+deepseek.com
+chat.deepseek.com
+api.deepseek.com
+platform.deepseek.com
+www.deepseek.com
+
+# ── xAI / Grok ───────────────────────────────────────────────────────────
+x.ai
+grok.com
+api.x.ai
+
+# ── Mistral ──────────────────────────────────────────────────────────────
+mistral.ai
+chat.mistral.ai
+api.mistral.ai
+console.mistral.ai
+
+# ── Meta AI ───────────────────────────────────────────────────────────────
+ai.meta.com
+meta.ai
+research.facebook.com
+
+# ── Perplexity ───────────────────────────────────────────────────────────
+perplexity.ai
+api.perplexity.ai
+pplx.ai
+
+# ── Cohere ───────────────────────────────────────────────────────────────
+cohere.ai
+cohere.com
+api.cohere.ai
+api.cohere.com
+
+# ── Hugging Face ─────────────────────────────────────────────────────────
+huggingface.co
+hugging.co
+
+# ── Character.ai ─────────────────────────────────────────────────────────
+character.ai
+beta.character.ai
+c.ai
+
+# ── AI Code Editors ───────────────────────────────────────────────────────
+cursor.com
+cursor.sh
+windsurf.com
+codeium.com
+
+# ── AI Media / Creative / Voice ───────────────────────────────────────────
+midjourney.com
+runwayml.com
+runwayml.cloud
+stability.ai
+stablediffusionweb.com
+suno.ai
+udio.com
+elevenlabs.io
+
+# ── Microsoft Copilot ────────────────────────────────────────────────────
+copilot.microsoft.com
+copilot.office.com
+cortana.office.com
+api.copilot.microsoft.com
+
+# ── Meeting AI Bots ───────────────────────────────────────────────────────
+fireflies.ai
+read.ai
+tactiq.io
+fathom.video
+granola.ai
+otter.ai
+
+# ── Autonomous Agents ────────────────────────────────────────────────────
+openclaw.ai
+nanoclaw.dev
+
+# ── Shared Telemetry / Analytics Backends ────────────────────────────────
+# These are specifically used by AI platforms for telemetry/feature flags.
+# Note: full sentry.io and datadoghq.com are NOT blocked — only specific ingestion subdomains.
+statsig.com
+statsigapi.net
+events.statsigapi.net
+featuregates.org
+featureassets.org
+prodregistryv2.org
+o33249.ingest.sentry.io
+o207216.ingest.sentry.io
+rum.browser-intake-datadoghq.com
+browser-intake-datadoghq.com
+intercom.io
+intercomcdn.com
+launchdarkly.com
+segment.io
+openai-api.arkoselabs.com
+client-api.arkoselabs.com
