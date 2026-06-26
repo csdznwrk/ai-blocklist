@@ -137,3 +137,109 @@ launchdarkly.com
 segment.io
 openai-api.arkoselabs.com
 client-api.arkoselabs.com
+
+# ── ISP Snooping / Ad Injection / DNS Hijacking ───────────────────────────
+# Comcast / Xfinity
+xfinity.com
+customerexperiencecenter.comcast.net
+adinfuse.comcast.net
+dplus.comcast.net
+cdn.adinfuse.com
+v-collector.dp.aws.charter.com
+splunk.spectrum.net
+charter-analytics.smithmicro.com
+usage.comcast.net
+xfinity-analytics.comcast.net
+dns-upper-redirect.xfinity.com
+searchassist.xfinity.com
+
+# AT&T
+att.net
+dns.att.net
+searchassist.att.net
+dnserror.att.net
+att-services.net
+crittercism.att.net
+applemetrics.att.net
+analytics.att.com
+appmetrics.att.com
+
+# Verizon / Fios
+verizon.net
+overpocket.net
+superpages.com
+dnserror.verizon.net
+dns.verizon.net
+analytics.vzw.com
+vzwstat.verizon.com
+tracker.verizon.com
+data.verizon.com
+
+# Charter / Spectrum
+charter.com
+spectrum.net
+brighthouse.com
+analytics.spectrum.net
+metrics.spectrum.net
+tracking.charter.com
+
+# Cox Communications
+cox.net
+coxdns.cox.net
+searchassist.cox.net
+adhelper.cox.net
+analytic.cox.net
+
+# T-Mobile / Sprint
+searchpages.t-mobile.com
+analytics.t-mobile.com
+metrics.t-mobile.com
+searchpages.sprint.com
+
+# CenturyLink / Lumen
+centurylink.net
+dnserror.centurylink.net
+searchassist.centurylink.net
+
+# Frontier
+frontier.com
+searchassist.frontier.com
+dns.frontier.com
+
+# Rogers (Canada)
+rogers.com
+analytics.rogers.com
+searchresults.rogers.com
+
+# TalkTalk / BT / Virgin Media (UK)
+talktalk.net
+dnserror.talktalk.net
+barefruit.co.uk
+searchassist.talktalk.net
+bt.com
+dnserror.bt.com
+searchassist.bt.com
+virginmedia.com
+analytics.virginmedia.com
+
+# BareFruit — NXDOMAIN hijacking provider used by multiple ISPs
+barefruit.com
+barefruit.co.uk
+search.barefruit.com
+ads.barefruit.com
+
+# Paxar / 121Media / Optic Adnetwork — ISP ad injection middleware
+121media.com
+paxar.net
+opticadnetwork.com
+
+# Phorm — ISP deep packet inspection/behavioral ad targeting (used by BT, Virgin, TalkTalk)
+phorm.com
+webwise.net
+oas.webwise.net
+profileserver.webwise.net
+
+# RoadRunner / Time Warner (now Spectrum)
+rr.com
+searchassist.rr.com
+twcable.com
