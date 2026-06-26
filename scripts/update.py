@@ -7,9 +7,9 @@ Pulls from:
   3. Static seed list — hand-curated baseline domains
 
 Outputs:
-  dist/domains.txt         — plain domain-per-line (Little Snitch hosts format)
-  dist/blocklist.lsrules   — Little Snitch JSON rule group
-  dist/metadata.json       — last updated, domain count, source stats
+  docs/domains.txt         — plain domain-per-line (Little Snitch hosts format)
+  docs/blocklist.lsrules   — Little Snitch JSON rule group
+  docs/metadata.json       — last updated, domain count, source stats
 """
 
 import json
@@ -26,7 +26,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent
 SEED_FILE = REPO_ROOT / "seeds.txt"
-DIST_DIR  = REPO_ROOT / "dist"
+DIST_DIR  = REPO_ROOT / "docs"
 
 # AI company apex domains to watch on crt.sh
 CRT_WATCH_DOMAINS = [
@@ -275,9 +275,9 @@ def main():
     write_domains_txt(sorted_domains, DIST_DIR / "domains.txt")
     write_lsrules(sorted_domains, DIST_DIR / "blocklist.lsrules")
     write_metadata(sorted_domains, source_stats, DIST_DIR / "metadata.json")
-    print("  dist/domains.txt")
-    print("  dist/blocklist.lsrules")
-    print("  dist/metadata.json")
+    print("  docs/domains.txt")
+    print("  docs/blocklist.lsrules")
+    print("  docs/metadata.json")
     print("\nDone.")
 
 
