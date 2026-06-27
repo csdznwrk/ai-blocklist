@@ -1,6 +1,6 @@
 {
-  "name": "Anti-AI + Anti-ISP + Anti-Ads Blocklist",
-  "description": "Auto-updated every 15 min. Blocks: AI platform endpoints & telemetry, ISP tracking/ad-injection, Reddit ad pixel & programmatic partners, YouTube ad serving (IMA SDK, pagead, pubads, DoubleClick, Google Analytics/Tag Manager), and cross-site Google ad targeting infrastructure. DNS firewall forces trusted resolvers to block ISP interception. Sources: crt.sh CT logs, Hagezi Pro, v2fly, MoralCode, seed list. Updated: 2026-06-27 17:00 UTC | Domains: 295",
+  "name": "Anti-AI + Anti-ISP + Anti-Ads + DoH-Bypass Blocklist",
+  "description": "Auto-updated every 15 min. Blocks: AI endpoints, ISP snooping, Reddit/YouTube ad infrastructure, and hardcoded browser DoH bypasses (Cloudflare/Fastly/Google) used by Safari and DDG on macOS Tahoe. Forces all DNS through system resolver (NextDNS). Updated: 2026-06-27 18:24 UTC | Domains: 309",
   "rules": [
     {
       "action": "allow",
@@ -9,7 +9,7 @@
       "ports": "53, 853",
       "protocol": "udp,tcp",
       "direction": "outgoing",
-      "notes": "Allow DNS/DoT to trusted resolvers only (Cloudflare, Quad9, Google, NextDNS)"
+      "notes": "Allow DNS/DoT to trusted resolvers only (NextDNS, Quad9)"
     },
     {
       "action": "deny",
@@ -18,12 +18,22 @@
       "ports": "53, 853",
       "protocol": "udp,tcp",
       "direction": "outgoing",
-      "notes": "Block DNS to all other hosts \u2014 prevents ISP interception, query logging, NXDOMAIN hijacking"
+      "notes": "Block DNS to all other hosts \u2014 prevents ISP interception"
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-addresses": "1.1.1.1, 1.0.0.1, 2606:4700:4700::1111, 2606:4700:4700::1001, 2606:4700::6810:f8f8, 2606:4700::6810:f9f9, 151.101.1.195, 151.101.65.195, 151.101.129.195, 151.101.193.195, 8.8.8.8, 8.8.4.4, 2001:4860:4860::8888, 2001:4860:4860::8844",
+      "ports": "443",
+      "protocol": "tcp",
+      "direction": "outgoing",
+      "notes": "Block hardcoded Cloudflare/Fastly/Google DoH IPs used by Safari and DDG on macOS Tahoe \u2014 forces fallback to system DNS (NextDNS CLI)"
     }
   ],
   "denied-remote-domains": [
     "121media.com",
     "3p-h.doubleclick.net",
+    "8888.google",
     "aax-us-east.amazon-adsystem.com",
     "aax.amazon-adsystem.com",
     "acdn.adnxs.com",
@@ -100,10 +110,12 @@
     "chat.mistral.ai",
     "chat.openai.com",
     "chatgpt.com",
+    "chrome.cloudflare-dns.com",
     "claude.ai",
     "click.redditmail.com",
     "client-api.arkoselabs.com",
     "cloudcode-pa.googleapis.com",
+    "cloudflare-dns.com",
     "cm.everesttech.net",
     "cm.g.doubleclick.net",
     "codeium.com",
@@ -129,13 +141,19 @@
     "dis.criteo.com",
     "dns-upper-redirect.xfinity.com",
     "dns.att.net",
+    "dns.cloudflare.com",
     "dns.frontier.com",
+    "dns.google",
+    "dns.google.com",
     "dns.verizon.net",
     "dnserror.att.net",
     "dnserror.bt.com",
     "dnserror.centurylink.net",
     "dnserror.talktalk.net",
     "dnserror.verizon.net",
+    "doh.dns.apple.com",
+    "doh.fastly.com",
+    "doh.fastlydns.net",
     "doubleclick.net",
     "dplus.comcast.net",
     "dpm.demdex.net",
@@ -186,6 +204,9 @@
     "launchdarkly.com",
     "liveramp.com",
     "makersuite.google.com",
+    "mask-api.icloud.com",
+    "mask-h2.icloud.com",
+    "mask.icloud.com",
     "match.adsrvr.org",
     "media.net",
     "meta.ai",
@@ -194,6 +215,7 @@
     "midjourney.com",
     "mistral.ai",
     "moatads.com",
+    "mozilla.cloudflare-dns.com",
     "nanoclaw.dev",
     "nexac.com",
     "ny1-bid.adsrvr.org",
@@ -202,6 +224,7 @@
     "oaistatic.com",
     "oaiusercontent.com",
     "oas.webwise.net",
+    "one.one.one.one",
     "openai-api.arkoselabs.com",
     "openai.com",
     "openaiapi-site.azureedge.net",
@@ -318,5 +341,5 @@
     "xfinity.com",
     "z.moatads.com"
   ],
-  "denied-remote-notes": "Blocked by Anti-AI + Anti-ISP + Anti-Ads Blocklist \u2014 %REMOTE%"
+  "denied-remote-notes": "Blocked \u2014 %REMOTE%"
 }

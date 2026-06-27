@@ -414,3 +414,51 @@ optimize.google.com
 # PAIR / Google Signals (identity matching for ad targeting across Google properties)
 fundingchoicesmessages.google.com
 g.co
+
+# ── Browser DoH Bypass Blocking ───────────────────────────────────────────
+# Safari and DDG on macOS Tahoe hardcode these DoH endpoints, bypassing
+# system DNS entirely. Blocking them forces browsers to fall back to the
+# system resolver (NextDNS CLI on 127.0.0.1).
+#
+# Cloudflare DoH — used by Safari/DDG on Tahoe
+cloudflare-dns.com
+dns.cloudflare.com
+mozilla.cloudflare-dns.com
+chrome.cloudflare-dns.com
+one.one.one.one
+# Fastly DoH — secondary hardcoded resolver on Tahoe
+doh.fastly.com
+doh.fastlydns.net
+# Google DoH — used by Chrome and some system components
+dns.google
+dns.google.com
+8888.google
+# Apple's own Private Relay DNS (bypasses all local DNS settings)
+doh.dns.apple.com
+mask.icloud.com
+mask-h2.icloud.com
+mask-api.icloud.com
+
+# ── Browser DoH Bypass Blocking ───────────────────────────────────────────
+# Safari and DDG on macOS Tahoe hardcode these DoH endpoints, bypassing
+# system DNS entirely. Blocking them forces browsers to fall back to the
+# system resolver (NextDNS CLI on 127.0.0.1).
+#
+# Cloudflare DoH — used by Safari/DDG on Tahoe
+cloudflare-dns.com
+dns.cloudflare.com
+mozilla.cloudflare-dns.com
+chrome.cloudflare-dns.com
+one.one.one.one
+# Fastly DoH — secondary hardcoded resolver on Tahoe
+doh.fastly.com
+doh.fastlydns.net
+# Google DoH — used by Chrome
+dns.google
+dns.google.com
+8888.google
+# Apple Private Relay DNS — bypasses all local DNS settings
+doh.dns.apple.com
+mask.icloud.com
+mask-h2.icloud.com
+mask-api.icloud.com
