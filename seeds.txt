@@ -337,3 +337,80 @@ dpm.demdex.net
 cm.everesttech.net
 everestads.net
 nexac.com
+
+# ── YouTube Ad Tracking & Telemetry ───────────────────────────────────────
+#
+# SAFE TO BLOCK (tracking/ads only — do not affect video playback):
+#
+# pagead2.googlesyndication.com  — ad request endpoint
+# tpc.googlesyndication.com      — third-party cookies / ad sync
+# adservice.google.com           — ad serving (already in Reddit section above)
+# googleadservices.com           — Google Ads conversion tracking
+# www.googletagservices.com      — Google Tag Manager ad tags
+# partner.googleadservices.com   — advertiser conversion tracking
+# pagead.googlesyndication.com   — display ad serving
+# imasdk.googleapis.com          — IMA SDK (the JavaScript that loads video ads)
+#                                  SAFE: blocks ad loading, not video
+# ad.youtube.com                 — legacy YouTube ad serving
+# static.doubleclick.net         — DoubleClick static assets for ads
+# stats.g.doubleclick.net        — DoubleClick stats collection
+# cm.g.doubleclick.net           — already present above
+# survey.g.doubleclick.net       — Google Consumer Surveys (ads)
+# 3p-h.doubleclick.net           — third-party headers for ad targeting
+# pubads.g.doubleclick.net       — publisher ads (the main programmatic ad server)
+#
+# LEAVE ALONE (breaks YouTube if blocked):
+# youtube.com, youtu.be          — core site
+# googlevideo.com                — video stream delivery (ads AND content share this)
+# ytimg.com                      — thumbnails, UI images
+# yt3.ggpht.com                  — channel avatars, thumbnails
+# googleapis.com                 — core API infrastructure
+# gstatic.com                    — static assets, fonts
+# accounts.google.com            — login
+#
+pagead2.googlesyndication.com
+tpc.googlesyndication.com
+www.googletagservices.com
+partner.googleadservices.com
+pagead.googlesyndication.com
+imasdk.googleapis.com
+ad.youtube.com
+static.doubleclick.net
+stats.g.doubleclick.net
+survey.g.doubleclick.net
+pubads.g.doubleclick.net
+3p-h.doubleclick.net
+
+# YouTube telemetry & behaviour analytics (safe to block — not video delivery)
+# yt-static-cdn.youtube.com     — not safe (static UI assets) — leave alone
+# jnn-pa.googleapis.com         — YouTube "Just Not Now" notification / engagement metrics
+# www.youtube-nocookie.com      — embedded player without tracking (leave alone — benign)
+# youtubei.googleapis.com       — internal YouTube API — DO NOT BLOCK (breaks playback)
+# r1---sn-*.googlevideo.com     — video CDN — DO NOT BLOCK
+#
+# Safe telemetry endpoints:
+jnn-pa.googleapis.com
+play.googleapis.com
+
+# YouTube-adjacent Google surveillance that feeds ad targeting
+# (distinct from core Google services)
+adwords.google.com
+google-analytics.com
+ssl.google-analytics.com
+www.google-analytics.com
+analytics.google.com
+googletagmanager.com
+www.googletagmanager.com
+ssl.googletagmanager.com
+region1.google-analytics.com
+region1.analytics.google.com
+
+# Google Floodlight (advertiser conversion measurement — purely ad attribution)
+fls.doubleclick.net
+ds.iqm.com
+googleoptimize.com
+optimize.google.com
+
+# PAIR / Google Signals (identity matching for ad targeting across Google properties)
+fundingchoicesmessages.google.com
+g.co
