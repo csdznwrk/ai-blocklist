@@ -45,6 +45,61 @@ jobs:
           git commit -m "chore: auto-update blocklist — ${DOMAIN_COUNT} domains [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
 
+      - name: Sync to NextDNS denylist
+        env:
+          NEXTDNS_API_KEY: ${{ secrets.NEXTDNS_API_KEY }}
+          NEXTDNS_PROFILE_ID: "2a7d5a"
+        run: |
+          python - << 'PYEOF'
+          import json, urllib.request, urllib.error, os, time
+          from pathlib import Path
+
+          API_KEY = os.environ["NEXTDNS_API_KEY"]
+          PROFILE_ID = os.environ["NEXTDNS_PROFILE_ID"]
+          BASE_URL = f"https://api.nextdns.io/profiles/{PROFILE_ID}/denylist"
+          HEADERS = {"X-Api-Key": API_KEY, "Content-Type": "application/json"}
+
+          domains = [
+              d.strip() for d in Path("docs/domains.txt").read_text().splitlines()
+              if d.strip() and not d.startswith("#")
+          ]
+          print(f"Syncing {len(domains)} domains to NextDNS denylist...")
+
+          # Fetch existing entries
+          req = urllib.request.Request(BASE_URL, headers=HEADERS)
+          try:
+              with urllib.request.urlopen(req, timeout=15) as r:
+                  existing = {item["id"] for item in json.loads(r.read()).get("data", [])}
+              print(f"  {len(existing)} already in denylist")
+          except Exception as e:
+              print(f"  Could not fetch existing denylist: {e}")
+              existing = set()
+
+          new_domains = [d for d in domains if d not in existing]
+          print(f"  Adding {len(new_domains)} new domains...")
+
+          added = 0
+          errors = 0
+          for domain in new_domains:
+              payload = json.dumps({"id": domain, "active": True}).encode()
+              req = urllib.request.Request(BASE_URL, data=payload, headers=HEADERS, method="POST")
+              try:
+                  with urllib.request.urlopen(req, timeout=10) as r:
+                      added += 1
+              except urllib.error.HTTPError as e:
+                  if e.code == 409:
+                      pass
+                  else:
+                      errors += 1
+                      print(f"  [WARN] Failed {domain}: HTTP {e.code}")
+              except Exception as e:
+                  errors += 1
+                  print(f"  [WARN] Failed {domain}: {e}")
+              time.sleep(0.05)
+
+          print(f"  Done: {added} added, {errors} errors, {len(existing)} already present")
+          PYEOF
+
   # Publish docs/ to GitHub Pages after every successful update
   deploy-pages:
     needs: update
