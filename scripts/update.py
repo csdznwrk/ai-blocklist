@@ -16,6 +16,7 @@ import json
 import re
 import time
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -271,23 +272,31 @@ def main():
     all_domains.update(seeds)
     source_stats["seed"] = len(seeds)
 
-    print("[2/3] Fetching Certificate Transparency logs (AI + ISP)...")
+    print("[2/3] Fetching Certificate Transparency logs (AI + ISP) in parallel...")
     crt_domains: set = set()
 
-    for apex in CRT_WATCH_DOMAINS:
-        found = fetch_crt_subdomains(apex)
-        crt_domains.update(found)
-        time.sleep(0.3)
+    def fetch_ai_apex(apex):
+        return fetch_crt_subdomains(apex)
 
-    for apex in CRT_WATCH_ISP_DOMAINS:
+    def fetch_isp_apex(apex):
         found = fetch_crt_subdomains(apex)
-        # Filter ISP results to tracking-relevant subdomains only
-        filtered = {
+        return {
             d for d in found
             if any(kw in d for kw in ISP_TRACKING_KEYWORDS)
         }
-        crt_domains.update(filtered)
-        time.sleep(0.3)
+
+    # Run all crt.sh queries in parallel (max 8 workers to avoid rate limiting)
+    all_apexes = [(a, "ai") for a in CRT_WATCH_DOMAINS] + [(a, "isp") for a in CRT_WATCH_ISP_DOMAINS]
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = {
+            executor.submit(fetch_ai_apex if kind == "ai" else fetch_isp_apex, apex): apex
+            for apex, kind in all_apexes
+        }
+        for future in as_completed(futures):
+            try:
+                crt_domains.update(future.result())
+            except Exception as e:
+                print(f"  [WARN] crt.sh error for {futures[future]}: {e}")
 
     all_domains.update(crt_domains)
     source_stats["crt_sh"] = len(crt_domains)
