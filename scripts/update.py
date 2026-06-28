@@ -95,14 +95,18 @@ SAFELIST = {
 # Helpers
 # ---------------------------------------------------------------------------
 
-def fetch(url: str, timeout: int = 15) -> str:
+def fetch(url: str, timeout: int = 15, retries: int = 2) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": "anti-ai-blocklist/1.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return r.read().decode("utf-8", errors="replace")
-    except Exception as e:
-        print(f"  [WARN] Failed to fetch {url}: {e}")
-        return ""
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            if attempt < retries:
+                time.sleep(2 ** attempt)  # exponential backoff
+            else:
+                print(f"  [WARN] Failed to fetch {url}: {e}")
+    return ""
 
 
 def is_valid_domain(d: str) -> bool:
@@ -156,7 +160,7 @@ def fetch_crt_subdomains(apex: str) -> set:
     domains = set()
     for rec in records:
         for field in ("name_value", "common_name"):
-            val = rec.get(field, "")
+            val = rec.get(field) or ""
             for line in val.splitlines():
                 line = line.strip().lstrip("*.")
                 if is_valid_domain(line) and line.endswith(apex):
