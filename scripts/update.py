@@ -287,7 +287,7 @@ def main():
 
     # Run all crt.sh queries in parallel (max 8 workers to avoid rate limiting)
     all_apexes = [(a, "ai") for a in CRT_WATCH_DOMAINS] + [(a, "isp") for a in CRT_WATCH_ISP_DOMAINS]
-    with ThreadPoolExecutor(max_workers=8) as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         futures = {
             executor.submit(fetch_ai_apex if kind == "ai" else fetch_isp_apex, apex): apex
             for apex, kind in all_apexes
