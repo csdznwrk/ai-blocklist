@@ -45,12 +45,6 @@ jobs:
           git commit -m "chore: auto-update blocklist — ${DOMAIN_COUNT} domains [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
 
-      - name: Sync to NextDNS denylist
-        env:
-          NEXTDNS_API_KEY: ${{ secrets.NEXTDNS_API_KEY }}
-          NEXTDNS_PROFILE_ID: "2a7d5a"
-        run: python scripts/nextdns_sync.py
-
   # Publish docs/ to GitHub Pages after every successful update
   deploy-pages:
     needs: update
