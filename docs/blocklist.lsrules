@@ -1,6 +1,6 @@
 {
   "name": "Anti-AI + Anti-ISP-Snooping Blocklist",
-  "description": "Auto-updated every 15 min. Blocks AI platform endpoints, ISP tracking/ad-injection domains, telemetry collectors, and training data harvesters. Includes firewall rules that force all DNS through trusted resolvers (Cloudflare/Quad9/Google/NextDNS), blocking ISP DNS interception, NXDOMAIN hijacking, and query logging. Sources: crt.sh CT logs, Hagezi Pro, v2fly, MoralCode antitelemetry, seed list. Updated: 2026-07-16 13:09 UTC | Domains: 295",
+  "description": "Auto-updated every 15 min. Blocks AI platform endpoints, ISP tracking/ad-injection domains, telemetry collectors, and training data harvesters. Includes firewall rules that force all DNS through trusted resolvers (Cloudflare/Quad9/Google/NextDNS), blocking ISP DNS interception, NXDOMAIN hijacking, and query logging. Sources: crt.sh CT logs, Hagezi Pro, v2fly, MoralCode antitelemetry, seed list. Updated: 2026-07-16 17:51 UTC | Domains: 295",
   "rules": [
     {
       "action": "allow",
