@@ -30,6 +30,21 @@ jobs:
       - name: Run updater
         run: python scripts/update.py
 
+      - name: Regenerate telemetry-blocklist.lsrules
+        run: |
+          python3 - << 'PYEOF'
+          import json, urllib.request
+          from datetime import datetime, timezone
+          url = "https://csdznwrk.github.io/telemetry-blocklist-plus/domains.txt"
+          with urllib.request.urlopen(url) as r:
+              domains = [l.strip() for l in r.read().decode().splitlines() if l.strip() and not l.startswith('#')]
+          rules = [{"action": "deny", "process": "any", "remote-domains": d, "notes": "telemetry-blocklist-plus", "disabled": False} for d in domains]
+          lsrules = {"name": "Telemetry + Malware Blocklist", "description": f"{len(domains)} domains. Updated {datetime.now(timezone.utc).strftime('%Y-%m-%d')}.", "rules": rules}
+          with open('docs/telemetry-blocklist.lsrules', 'w') as f:
+              json.dump(lsrules, f, indent=2)
+          print(f"Written {len(rules)} rules")
+          PYEOF
+
       - name: Check for changes
         id: diff
         run: |
