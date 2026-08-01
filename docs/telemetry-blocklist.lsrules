@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15824 domains. Updated 2026-08-01.",
+  "description": "15832 domains. Updated 2026-08-01.",
   "rules": [
     {
       "action": "deny",
@@ -72756,6 +72756,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:12:00,azzzzng71,domain,eliece.vip,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:12:00,azzzzng71,url,http://eliece.vip,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:31:00,scanmalware,domain,urlshort-linkmrrwjc0kdzql.esu2n5lwqi.workers.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75388,6 +75402,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:37:00,masaomi346,domain,am.zzusxwjp018.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:37:00,masaomi346,url,https://am.zzusxwjp018.shop/7zvij1,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "05:03:00,metemcyber,domain,jzbrmq.cfd,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75396,6 +75424,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "05:03:00,metemcyber,url,https://jzbrmq.cfd/grb0qs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:07:00,azzzzng71,domain,eliice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:07:00,azzzzng71,url,http://eliice.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75612,6 +75654,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:00:00,phishunt_io,domain,facebookloginnp.blogspot.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:00:00,phishunt_io,domain,facebooksecurepage.blogspot.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75655,6 +75704,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:00:00,phishunt_io,url,http://dhlexpressline.weebly.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:00,phishunt_io,url,http://facebookloginnp.blogspot.com/?m=1,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
