@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15832 domains. Updated 2026-08-01.",
+  "description": "15838 domains. Updated 2026-08-01.",
   "rules": [
     {
       "action": "deny",
@@ -76718,6 +76718,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:01:00,shadowcatlabs,domain,ransomw.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:01:00,shadowcatlabs,url,http://ransomw.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:04:00,bomccss,url,ftp://ftp.vilimorin.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77614,6 +77628,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:54:00,masaomi346,domain,zhengxin55.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:54:00,masaomi346,url,https://zhengxin55.com/ep-1-us-jp-jp/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:55:00,fact_finder03,ip,174.138.33.139,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78259,6 +78287,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:32:00,malwrhunterteam,url,https://panel.b2brouter-secure.com,,https://x.com/malwrhunterteam/status/2082806454692515863",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:32:00,sicehice,ip,114.104.171.202,,https://x.com/sicehice/status/2083531399491891337",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:32:00,sicehice,url,http://114.104.171.202:48951/mozi.m,,https://x.com/sicehice/status/2083531399491891337",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
