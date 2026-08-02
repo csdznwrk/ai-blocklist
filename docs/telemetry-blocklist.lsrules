@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15331 domains. Updated 2026-08-02.",
+  "description": "15354 domains. Updated 2026-08-02.",
   "rules": [
     {
       "action": "deny",
@@ -52064,6 +52064,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "01:50:00,sometestleper,ip,178.17.61.110,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "01:50:00,sometestleper,ip,91.92.241.160,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "01:50:00,sometestleper,url,http://178.17.61.110,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "01:50:00,sometestleper,url,http://91.92.241.160,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "01:53:00,coolcarlos17,domain,validacaoexpirado.click,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -61333,6 +61361,41 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "02:42:00,skocherhan,md5,99ddd4f40eac2cec7fcdfc74c63a2480,,https://x.com/skocherhan/status/2082658080278339723",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:46:00,kubotaa3,domain,mg-euwqnasnd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:46:00,kubotaa3,ip,192.238.160.133,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:46:00,kubotaa3,url,https://mg-euwqnasnd.com/pc_0010021312/sp_001239u1923/login/loginusername,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:58:00,azzzzng71,domain,lynx-trading.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:58:00,azzzzng71,url,http://lynx-trading.org,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75535,6 +75598,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "06:10:00,danielwils59,domain,eliece.vip,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:10:00,danielwils59,domain,eliice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:10:00,danielwils59,url,http://eliece.vip,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:10:00,danielwils59,url,http://eliice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "06:10:00,metemcyber,domain,czaldeylkrn.top,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75578,6 +75669,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "06:16:00,metemcyber,url,https://mzrtkb.cfd/grb0qs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:17:00,phishstats,domain,email-social.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:17:00,phishstats,ip,64.89.161.147,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:17:00,phishstats,url,https://email-social.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75746,6 +75858,55 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:06:00,masaomi346,url,https://kalorexivakena.net/jp,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:17:00,kostastsale,domain,nfe.boletos-notas.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:17:00,kostastsale,domain,remoto.ddins.click,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:17:00,kostastsale,ip,217.60.195.192,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:17:00,kostastsale,url,http://217.60.195.192,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:17:00,kostastsale,url,http://nfe.boletos-notas.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:17:00,kostastsale,url,http://remoto.ddins.click,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:17:00,kostastsale,url,https://nfe.boletos-notas.com/h/estagio1.php?r=391c7ce85d88,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
