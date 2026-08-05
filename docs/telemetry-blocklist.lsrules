@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14581 domains. Updated 2026-08-05.",
+  "description": "14607 domains. Updated 2026-08-05.",
   "rules": [
     {
       "action": "deny",
@@ -52512,6 +52512,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "01:37:00,bomccss,url,https://drive.usercontent.google.com/download?id=1uqmfitlscbfaw54juwm695id1vobpxrl&export=download,,https://x.com/bomccss/status/2084815956610814418",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "01:37:00,romonlyht,domain,naissess.xjfllxa.cn,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -52604,6 +52611,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "01:50:00,sometestleper,url,http://91.92.241.160,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "01:51:00,scanmalware,domain,inquisitive-teal-omezr4ob.edgeone.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "01:51:00,scanmalware,url,http://inquisitive-teal-omezr4ob.edgeone.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -68059,6 +68080,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "03:00:00,thekn0ck0ut,ip,156.251.16.29,,https://x.com/thekn0ck0ut/status/2084837025266422185",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "03:28:00,masaomi346,domain,ia-beaut.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70817,6 +70845,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:25:00,masaomi346,domain,qkp6.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:25:00,masaomi346,url,https://qkp6.com/list,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:29:00,kesagatame0,domain,ntt-fin.com,,https://x.com/kesagatame0/status/2084132130242908454",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71083,6 +71125,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "06:07:00,userlolxxl,ip,129.2.4.2,,https://x.com/userlolxxl/status/2084883907141325273",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:07:00,userlolxxl,url,http://129.2.4.2,,https://x.com/userlolxxl/status/2084883907141325273",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "06:10:00,danielwils59,domain,eliece.vip,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71105,6 +71161,48 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "06:10:00,danielwils59,url,http://eliice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:13:00,jameswt_wt,domain,dnf.nfexmlfiscal.com.br,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:13:00,jameswt_wt,domain,dokument-pdf.lat,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:13:00,jameswt_wt,domain,xml.nfexmlfiscal.com.br,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:13:00,jameswt_wt,url,https://dnf.nfexmlfiscal.com.br/files/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:13:00,jameswt_wt,url,https://dokument-pdf.lat/files/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:13:00,jameswt_wt,url,https://xml.nfexmlfiscal.com.br/files/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71237,6 +71335,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:00:00,phishunt_io,domain,facebooksetup.blogspot.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:00:00,phishunt_io,domain,meta-facebook-pro.blogspot.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71266,6 +71371,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:00:00,phishunt_io,url,http://facebookloginnp.blogspot.com/?m=1,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:00,phishunt_io,url,http://facebooksetup.blogspot.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71427,6 +71539,76 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:35:00,thantzin_ron,url,https://passmobileapp.com/ftx/fe92zg-1785395387-f69b742ac74c/?redir=6u3dwgxdop6jo6zljo94dl8jvoyswpxmgqgmokmk1ng5slf5w491umrdvr0qr0yc,,https://x.com/thantzin_ron/status/2082731683435188295",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:00,ishivtripathi,domain,logkit-tau.vercel.app,,https://x.com/ishivtripathi/status/2084907438243991883",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:00,ishivtripathi,ip,66.45.225.94,,https://x.com/ishivtripathi/status/2084907438243991883",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:00,ishivtripathi,sha256,ab65cef60fc097c2a9fb03a7855c9c03dfe3ccc874080720f0e631c6ee2c3e51,,https://x.com/ishivtripathi/status/2084907438243991883",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:00,ishivtripathi,url,http://66.45.225.94,,https://x.com/ishivtripathi/status/2084907438243991883",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:00,ishivtripathi,url,http://66.45.225.94:1244/s/aprgip100,,https://x.com/ishivtripathi/status/2084907438243991883",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:00,ishivtripathi,url,http://66.45.225.94:1246/j/aaervr00,,https://x.com/ishivtripathi/status/2084907438243991883",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:00,ishivtripathi,url,http://66.45.225.94:1246/keys,,https://x.com/ishivtripathi/status/2084907438243991883",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:00,ishivtripathi,url,http://66.45.225.94:1246/p,,https://x.com/ishivtripathi/status/2084907438243991883",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:00,ishivtripathi,url,http://logkit-tau.vercel.app,,https://x.com/ishivtripathi/status/2084907438243991883",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:00,ishivtripathi,url,https://logkit-tau.vercel.app/debugcheck,,https://x.com/ishivtripathi/status/2084907438243991883",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
