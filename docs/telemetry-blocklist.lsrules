@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14607 domains. Updated 2026-08-05.",
+  "description": "14645 domains. Updated 2026-08-05.",
   "rules": [
     {
       "action": "deny",
@@ -71062,6 +71062,69 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "05:36:00,ishivtripathi,ip,74.0.48.37,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:36:00,ishivtripathi,ip,89.213.118.38,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:36:00,ishivtripathi,ip,89.213.118.39,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:36:00,ishivtripathi,url,http://74.0.48.37,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:36:00,ishivtripathi,url,http://74.0.48.37:4556/upload,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:36:00,ishivtripathi,url,http://74.0.48.37:4558/upload,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:36:00,ishivtripathi,url,http://89.213.118.38/api/service/makelog,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:36:00,ishivtripathi,url,http://89.213.118.38/api/service/process/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:36:00,ishivtripathi,url,http://89.213.118.39:4553/api/dxw,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "05:36:00,romonlyht,domain,duiwss.mrdxm.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71679,6 +71742,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:05:00,skocherhan,url,http://2.ccew.cc:6666,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:21:00,fact_finder03,ip,107.161.90.180,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75101,6 +75171,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "10:00:00,dixit_404,sha256,67d21c04043be2ce744489a0be64290fcbb172310496ab05e0ad289d10d5dd30,,https://x.com/dixit_404/status/2084942726769045850",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:00:00,dixit_404,sha256,6e6addf3e7287cf160054ef4647f8c67754f3cdc6efbdf21f117cb98c4c95534,,https://x.com/dixit_404/status/2084942726769045850",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "10:03:00,500mk500,domain,alert-bh.com,,https://x.com/500mk500/status/2084581039100321987",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75319,6 +75403,62 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "10:14:00,d3labit,url,http://tomwim.ygto.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:14:00,suyog41,domain,my.thispc.net,,https://x.com/suyog41/status/2084946135236644966",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:14:00,suyog41,domain,us.wind0ws.net,,https://x.com/suyog41/status/2084946135236644966",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:14:00,suyog41,md5,335f941722b7c7b0283e109f94feefd3,,https://x.com/suyog41/status/2084946135236644966",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:14:00,suyog41,md5,350f46d727589bb2f65c8d6777b1c948,,https://x.com/suyog41/status/2084946135236644966",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:14:00,suyog41,md5,d3c03ac43eb46cf430fd9de46292cd8d,,https://x.com/suyog41/status/2084946135236644966",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:14:00,suyog41,md5,e0d1751cc03e266e5c44ca729db16d6e,,https://x.com/suyog41/status/2084946135236644966",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:14:00,suyog41,url,http://my.thispc.net,,https://x.com/suyog41/status/2084946135236644966",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:14:00,suyog41,url,https://us.wind0ws.net/taskmgr.exe,,https://x.com/suyog41/status/2084946135236644966",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75662,6 +75802,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "11:23:00,nuria_imeq,url,http://pago-correos.es,,https://x.com/nuria_imeq/status/2084600999574966765",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:24:00,fact_finder03,ip,185.199.198.71,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:26:00,shadowopcode,domain,healercyber.site,,https://x.com/shadowopcode/status/2084964168591987039",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:26:00,shadowopcode,url,https://healercyber.site/ftx/page.html?lgh={{base64_email,,https://x.com/shadowopcode/status/2084964168591987039",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76123,6 +76284,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:00:00,phishunt_io,domain,allegrolokalnie.alleprodukt58932.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:00:00,phishunt_io,domain,dhlexpress-nl-en-track-trace-sign10.weebly.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76138,6 +76306,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:00:00,phishunt_io,url,http://29831-icloud.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:00,phishunt_io,url,http://allegrolokalnie.alleprodukt58932.sbs/oferta/gogle-vr-meta-quest-3/655691063?fbclid=iwy2xjawtffdtlehrua2flbqixmqbzcn,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76277,6 +76452,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:16:00,suyog41,md5,1211795a3e450f724b971f0cc1e06a21,,https://x.com/suyog41/status/2084976756013043894",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:21:00,teamcymru_s2,ip,1.9.117.13,,https://x.com/teamcymru_s2/status/2083166104537473177",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76376,6 +76558,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:30:00,jameswt_wt,url,https://8.190.205.92.host.secureserver.net,,https://x.com/jameswt_wt/status/2083168480220598569",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:31:00,fact_finder03,ip,51.89.204.24,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76761,6 +76950,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:41:00,byrne_emmy12099,url,https://nid.elementfx.com/indown.php?clicked=[userdomain]&who=[username]&what=xxx,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:41:00,jameswt_wt,url,https://drive.usercontent.google.com/download?id=1npjtggncpoye0qvemximdnq21pqriq9w&export=download&authuser=0,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77243,6 +77439,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:49:00,_bugmaker,domain,lavidawellness.it,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:49:00,_bugmaker,url,http://lavidawellness.it,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:54:00,byrne_emmy12099,domain,jaemoolding25863.elementfx.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77341,6 +77551,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:58:00,james_inthe_box,sha256,1f7ab5418d489fdd2fb392ada3accc77c13586f94f059ee8e5cc83c0974b614b,,https://x.com/james_inthe_box/status/2084987299738317301",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12d60.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77405,6 +77622,55 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:11:00,jameswt_wt,url,https://pdf-bro.lat/files/,,https://x.com/jameswt_wt/status/2083178848531677286",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:13:00,kseproso,domain,blackskydev.org,,https://x.com/kseproso/status/2084984281785389166",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:13:00,kseproso,domain,multidevs.com,,https://x.com/kseproso/status/2084984281785389166",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:13:00,kseproso,url,http://blackskydev.org,,https://x.com/kseproso/status/2084984281785389166",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:13:00,kseproso,url,http://multidevs.com,,https://x.com/kseproso/status/2084984281785389166",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:13:00,nextronresearch,domain,fr.monero.herominers.com,,https://x.com/nextronresearch/status/2084991108006781059",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:13:00,nextronresearch,sha256,b20f39fc00d242e706b6c30367ad811c676e0575050a4ec2f30104b696944b49,,https://x.com/nextronresearch/status/2084991108006781059",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:13:00,nextronresearch,url,http://fr.monero.herominers.com:1111,,https://x.com/nextronresearch/status/2084991108006781059",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
