@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14284 domains. Updated 2026-08-05.",
+  "description": "14581 domains. Updated 2026-08-05.",
   "rules": [
     {
       "action": "deny",
@@ -21362,28 +21362,14 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "00:43:00,masaomi346,domain,cj3cvufe57wm6bl0dv.live,",
+      "remote-domains": "00:41:00,masaomi346,domain,login.raaglpfplzp.top,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "00:43:00,masaomi346,url,https://cj3cvufe57wm6bl0dv.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "00:50:00,scanmalware,domain,whm.whm.7053update.dev.dev.03-120-55-020.plesk.page,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "00:50:00,scanmalware,url,http://whm.whm.7053update.dev.dev.03-120-55-020.plesk.page,",
+      "remote-domains": "00:41:00,masaomi346,url,https://login.raaglpfplzp.top/login,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -52568,34 +52554,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "01:45:00,metemcyber,domain,hair.qqeoa.asia,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01:45:00,metemcyber,ip,43.165.168.4,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01:45:00,metemcyber,url,http://43.165.168.4,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01:45:00,metemcyber,url,https://hair.qqeoa.asia/vrkoaqex/login_index/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "01:46:00,romonlyht,domain,clad.zzyssllh.cn,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70894,34 +70852,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "04:33:00,metemcyber,domain,gecnlxpwzds.top,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "04:33:00,metemcyber,ip,43.155.174.59,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "04:33:00,metemcyber,url,http://43.155.174.59,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "04:33:00,metemcyber,url,https://gecnlxpwzds.top/jp,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "04:37:00,masaomi346,domain,am.zzusxwjp018.shop,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71132,41 +71062,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "05:44:00,harugasumi,domain,thedigitalvibe.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:44:00,harugasumi,domain,uggxposclps.top,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:44:00,harugasumi,ip,43.163.207.119,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:44:00,harugasumi,url,https://thedigitalvibe.com/page/agbqxryteq,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:44:00,harugasumi,url,https://uggxposclps.top/jp,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "05:58:00,opcodeintel,ip,207.174.0.143,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71210,41 +71105,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "06:10:00,danielwils59,url,http://eliice.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:10:00,metemcyber,domain,czaldeylkrn.top,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:10:00,metemcyber,url,https://czaldeylkrn.top/jp,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:11:00,romonlyht,domain,bioevhealthcare.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:11:00,romonlyht,ip,202.69.74.130,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:11:00,romonlyht,url,https://bioevhealthcare.com/x1wjep?uid=aaaa@example.jp,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71391,13 +71251,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "07:00:00,phishunt_io,domain,paypal.myproccesing.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "07:00:00,phishunt_io,ip,74.115.51.8,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71427,27 +71280,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:00:00,phishunt_io,url,http://metamaskwalletxtensioeno.webflow.io,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:00:00,phishunt_io,url,http://paypal.myproccesing.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:01:00,masaomi346,domain,ppz0y9a6grw3veoqwz.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:01:00,masaomi346,url,https://ppz0y9a6grw3veoqwz.live,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71595,20 +71427,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:35:00,thantzin_ron,url,https://passmobileapp.com/ftx/fe92zg-1785395387-f69b742ac74c/?redir=6u3dwgxdop6jo6zljo94dl8jvoyswpxmgqgmokmk1ng5slf5w491umrdvr0qr0yc,,https://x.com/thantzin_ron/status/2082731683435188295",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:36:00,metemcyber,domain,sgximmzqmqi.top,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:36:00,metemcyber,url,https://sgximmzqmqi.top/jp,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71769,13 +71587,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "08:45:00,skocherhan,url,https://sgximmzqmqi.top/jph/t,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "08:50:00,romonlyht,domain,dnftut5849gbfn.fwh.is,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71798,27 +71609,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:50:00,romonlyht,url,https://dnftut5849gbfn.fwh.is/index.php?email=aaaa@example.jp,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "08:54:00,skocherhan,domain,puwrrcufezz.top,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "08:54:00,skocherhan,url,http://puwrrcufezz.top,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "08:54:00,skocherhan,url,http://uggxposclps.top,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74716,20 +74506,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "09:23:00,skocherhan,domain,sandelo-checker.pw,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "09:23:00,skocherhan,url,http://sandelo-checker.pw,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "09:25:00,tdatwja,domain,20260730023139.zip,,https://x.com/tdatwja/status/2082759599690788980",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75367,13 +75143,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "10:19:00,now_on_vt,md5,a751ea8a6607d2922493d25509477157,,https://x.com/now_on_vt/status/2082410791106379840",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "10:19:00,skocherhan,domain,profile-redirect.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75466,34 +75235,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "10:27:00,d1v35hresearch,url,http://railway-ken-temp-stuart.trycloudflare.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:29:00,tdatwja,domain,ftp.vilimorin.com,,https://x.com/tdatwja/status/2082413200398762100",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:29:00,tdatwja,md5,fc76a69330918c7327b4990c7747ea67,,https://x.com/tdatwja/status/2082413200398762100",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:29:00,tdatwja,sha256,3f09145757282e6a59cd69319ac3b9da3265022a1d4f92a1646f8ddbaad89333,,https://x.com/tdatwja/status/2082413200398762100",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:29:00,tdatwja,url,http://ftp.vilimorin.com,,https://x.com/tdatwja/status/2082413200398762100",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75654,13 +75395,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "11:04:00,bomccss,url,ftp://ftp.vilimorin.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "11:11:00,solostalking,ip,146.103.106.67,,https://x.com/solostalking/status/2082786243046527337",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75760,181 +75494,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "11:30:00,smica83,url,https://seven-victor-structured-seller.trycloudflare.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,3cs4cma9t69dy37av8.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,4xm4yfay40zaq598o6.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,9t0ha2lc6soxhtyf67.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,dbrpctvgpqhwz3vkhv.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,e0u84q3hy9ll4xitiz.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,how99p9m7jasb0oh8h.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,jdgsle772icibskap6.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,o3e905btgcww8hydmz.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,put1lvgvo6l0p7cuif.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,qo9mqp84y12sems0k0.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,v8jweqyukgrfewetwv.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,domain,y39ozef6td1yth8850.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://3cs4cma9t69dy37av8.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://4xm4yfay40zaq598o6.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://9t0ha2lc6soxhtyf67.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://cj3cvufe57wm6bl0dv.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://dbrpctvgpqhwz3vkhv.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://e0u84q3hy9ll4xitiz.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://how99p9m7jasb0oh8h.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://jdgsle772icibskap6.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://o3e905btgcww8hydmz.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://put1lvgvo6l0p7cuif.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://qo9mqp84y12sems0k0.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://v8jweqyukgrfewetwv.live,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:31:00,skocherhan,url,http://y39ozef6td1yth8850.live,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76200,20 +75759,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "11:40:00,skocherhan,domain,mailshare.it,,https://x.com/skocherhan/status/2082431012521263605",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:40:00,skocherhan,url,http://mailshare.it,,https://x.com/skocherhan/status/2082431012521263605",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "11:42:00,skocherhan,domain,co777.club,,https://x.com/skocherhan/status/2084243543028015423",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76333,20 +75878,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "11:46:00,skocherhan,domain,api.0tokens.xyz,,https://x.com/skocherhan/status/2082432490279420395",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:46:00,skocherhan,url,http://api.0tokens.xyz,,https://x.com/skocherhan/status/2082432490279420395",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "11:54:00,masaomi346,domain,zhengxin55.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76389,13 +75920,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "11:55:00,fact_finder03,ip,174.138.33.139,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "11:58:00,skocherhan,sha256,501ea082774f29adc752887402af6df0edf49bf7b3816b93f6e52c06a79685bc,,https://x.com/skocherhan/status/2084609934960857194",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76417,21 +75941,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "12:00:00,phishunt_io,domain,cn-steampowered.com.cn,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "12:00:00,phishunt_io,domain,dhlexpress-nl-en-track-trace-sign10.weebly.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12:00:00,phishunt_io,ip,154.201.171.13,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76446,13 +75956,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:00:00,phishunt_io,url,http://29831-icloud.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12:00:00,phishunt_io,url,http://cn-steampowered.com.cn,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77684,20 +77187,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "13:00:00,criminalip_us,domain,msfconfig.icu,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:00:00,criminalip_us,url,http://msfconfig.icu,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "13:10:00,byrne_emmy12099,domain,0wqs9jct2r.sportsontheweb.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77804,13 +77293,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:16:00,webamon_search,url,http://sqllq.com,,https://x.com/webamon_search/status/2083542443299877256",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:17:00,now_on_vt,md5,62c335a4c4ab14bbc85eb1c026db2f8a,,https://x.com/now_on_vt/status/2082455350331007315",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78573,41 +78055,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "13:57:00,nextronresearch,domain,litterbox.catbox.moe,,https://x.com/nextronresearch/status/2082465509560266820",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:57:00,nextronresearch,ip,217.60.77.63,,https://x.com/nextronresearch/status/2082465509560266820",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:57:00,nextronresearch,sha256,4537b1189ce419f1a595cf47216c03f80e9170ce80dad8d9227a1e52f9cb3466,,https://x.com/nextronresearch/status/2082465509560266820",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:57:00,nextronresearch,url,http://217.60.77.63,,https://x.com/nextronresearch/status/2082465509560266820",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:57:00,nextronresearch,url,http://litterbox.catbox.moe,,https://x.com/nextronresearch/status/2082465509560266820",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "14:03:00,skocherhan,ip,178.16.55.171,,https://x.com/skocherhan/status/2083916500298060104",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79182,76 +78629,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "16:14:00,sakaijjang,domain,\ubd84\uc11d-votingonline.co.in,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:14:00,sakaijjang,url,http://\ubd84\uc11d-votingonline.co.in,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:15:00,teamcymru_s2,ip,1.117.77.166,,https://x.com/teamcymru_s2/status/2082500314125451750",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:15:00,teamcymru_s2,ip,1.14.103.5,,https://x.com/teamcymru_s2/status/2082500314125451750",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:15:00,teamcymru_s2,ip,1.14.126.124,,https://x.com/teamcymru_s2/status/2082500314125451750",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:15:00,teamcymru_s2,ip,1.14.43.163,,https://x.com/teamcymru_s2/status/2082500314125451750",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:15:00,teamcymru_s2,ip,1.14.75.122,,https://x.com/teamcymru_s2/status/2082500314125451750",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:15:00,teamcymru_s2,ip,1.94.184.17,,https://x.com/teamcymru_s2/status/2082500314125451750",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:15:00,teamcymru_s2,ip,101.42.239.7,,https://x.com/teamcymru_s2/status/2082500314125451750",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:15:00,teamcymru_s2,ip,101.43.107.222,,https://x.com/teamcymru_s2/status/2082500314125451750",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "16:25:00,volrant136,domain,milllitelecom.netlify.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79288,62 +78665,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "16:30:00,skocherhan,ip,107.163.56.251,,https://x.com/skocherhan/status/2083591312498987518",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:40:00,patialavii,domain,pub-3f4d9b68104a4d67b167a6941fea34bc.r2.dev,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:40:00,patialavii,domain,tridus.vu,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:40:00,patialavii,url,https://pub-3f4d9b68104a4d67b167a6941fea34bc.r2.dev/docusign.zip,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:40:00,patialavii,url,https://tridus.vu/ftx/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:48:00,patialavii,domain,eastcoastwaterblasting.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:48:00,patialavii,domain,valeriediedrich.screenconnect.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:48:00,patialavii,url,https://eastcoastwaterblasting.com/ngx(2)/ngx(2)/ngx(2)/ngx(1)/ngx/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:48:00,patialavii,url,https://valeriediedrich.screenconnect.com/bin/screenconnect.clientsetup.msi,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79455,13 +78776,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "17:00:00,phishunt_io,domain,fedexxl.deliverys.online,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "17:00:00,phishunt_io,domain,mail.support-icloudmyjhhs.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79497,13 +78811,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "17:00:00,phishunt_io,ip,185.158.133.1,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "17:00:00,phishunt_io,ip,46.225.58.80,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79512,13 +78819,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:00:00,phishunt_io,ip,96.125.163.17,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:00:00,phishunt_io,url,http://fedexxl.deliverys.online,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79547,34 +78847,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:00:00,phishunt_io,url,http://santander2026.dothome.co.kr,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:02:00,patialavii,domain,matakwan.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:02:00,patialavii,domain,nath-c.screenconnect.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:02:00,patialavii,url,https://matakwan.com/ngx(2)/ngx(2)/ngx(2)/ngx(1)/ngx/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:02:00,patialavii,url,https://nath-c.screenconnect.com/bin/screenconnect.clientsetup.msi,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79728,27 +79000,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "17:12:00,patialavii,domain,eventomepartae.top,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:12:00,patialavii,url,https://eventomepartae.top,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:12:00,patialavii,url,https://raw.githubusercontent.com/sean1004960/bgf/refs/heads/main/screenconnect.clientsetup.msi,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "17:13:00,webamon_search,domain,bnk-england.com,,https://x.com/webamon_search/status/2083239762882683222",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79771,34 +79022,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:13:00,webamon_search,url,http://login-bankofengland.com,,https://x.com/webamon_search/status/2083239762882683222",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:16:00,patialavii,domain,forumdeenergias.com.br,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:16:00,patialavii,domain,secure-document-review-c3l30u.pagefile.workers.dev,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:16:00,patialavii,url,https://forumdeenergias.com.br/futuremastics/11.php/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:16:00,patialavii,url,https://secure-document-review-c3l30u.pagefile.workers.dev/app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79876,34 +79099,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:20:00,threatinsight,url,https://github.com/newallyson/coldcard/releases/download/5.7/coldcard_diagnostic_tool.bat,,https://x.com/threatinsight/status/2084328573871985018",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,patialavii,domain,pub-7018b3240dea4c67b01648963fcbc60a.r2.dev,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,patialavii,domain,sakamoti.me,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,patialavii,url,https://pub-7018b3240dea4c67b01648963fcbc60a.r2.dev/setup_assigned.msi,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,patialavii,url,https://sakamoti.me/idan/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80030,27 +79225,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:42:00,rst_cloud,ip,46.30.188.99,,https://x.com/rst_cloud/status/2082884622090727524",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:51:00,netresec,domain,v0hkpadr04mbz5lkearqa.com,,https://x.com/netresec/status/2082524480299991451",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:51:00,netresec,ip,85.239.149.178,,https://x.com/netresec/status/2082524480299991451",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:51:00,netresec,url,http://v0hkpadr04mbz5lkearqa.com,,https://x.com/netresec/status/2082524480299991451",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80239,28 +79413,14 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "18:01:00,skocherhan,domain,\u5b9f\u884c\u6642\u306b\u30d7\u30ed\u30bb\u30b9\u540d\u3092libdalvikengine.so,,https://x.com/skocherhan/status/2084701210259382291",
+      "remote-domains": "18:01:00,skocherhan,domain,libdalvikengine.so,,https://x.com/skocherhan/status/2084701210259382291",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "18:01:00,skocherhan,domain,\u72b6\u614b\u3068\u63a5\u7d9a\u6570\u3068\u5e2f\u57df\u3092json\u5f62\u5f0f\u3067login.trees4sale.net,,https://x.com/skocherhan/status/2084701210259382291",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:01:00,skocherhan,url,http://\u5b9f\u884c\u6642\u306b\u30d7\u30ed\u30bb\u30b9\u540d\u3092libdalvikengine.so,,https://x.com/skocherhan/status/2084701210259382291",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:01:00,skocherhan,url,http://\u72b6\u614b\u3068\u63a5\u7d9a\u6570\u3068\u5e2f\u57df\u3092json\u5f62\u5f0f\u3067login.trees4sale.net,,https://x.com/skocherhan/status/2084701210259382291",
+      "remote-domains": "18:01:00,skocherhan,domain,login.trees4sale.net,,https://x.com/skocherhan/status/2084701210259382291",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80401,34 +79561,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:34:00,skocherhan,url,http://wjm1987.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:50:00,malwarehunterr,domain,pdf.adodefile.cam,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:50:00,malwarehunterr,url,https://pdf.adodefile.cam,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:50:00,malwarehunterr,url,https://pdf.adodefile.cam/windows/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:50:00,malwarehunterr,url,https://pdf.adodefile.cam/windows/pop.html,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80652,6 +79784,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "19:04:00,bomccss,sha256,098944076200e38a2c97dd2cde6041e766fa8506d80a6c5ff9fbc90b2cdbf82b,,https://x.com/bomccss/status/2084717134735986912",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:04:00,bomccss,url,http://204.194.50.231/9856.png,,https://x.com/bomccss/status/2084717137046962259",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:04:00,bomccss,url,http://204.194.50.231:449,,https://x.com/bomccss/status/2084717137046962259",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "19:05:00,skocherhan,md5,72a8eb805e026accc0a5805847db978f,,https://x.com/skocherhan/status/2083992688081227987",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80667,27 +79820,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "19:09:00,skocherhan,md5,488d725ba40b140f12a867babd0d3fa6,,https://x.com/skocherhan/status/2083993495526682839",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "19:17:00,malwarehunterr,domain,cleanascanbee.com.au,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "19:17:00,malwarehunterr,url,https://cleanascanbee.com.au/atoincomestatement/complete.php,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "19:17:00,malwarehunterr,url,https://cleanascanbee.com.au/atoincomestatement/download.html,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80737,48 +79869,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "19:29:00,mbrg0,sha256,915ea4f614150d2228d248a1af6086bdb0b40a71c6c8baaa86cdccf0f6f4095e,,https://x.com/mbrg0/status/2083998721755193764",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "19:37:00,malwarehunterr,domain,vira.aidigitalcenter.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "19:37:00,malwarehunterr,ip,159.198.64.83,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "19:37:00,malwarehunterr,url,http://159.198.64.83,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "19:37:00,malwarehunterr,url,http://vira.aidigitalcenter.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "19:46:00,malwarehunterr,ip,79.141.166.211,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "19:46:00,malwarehunterr,url,http://79.141.166.211/windows/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80855,21 +79945,21 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "20:07:00,0x_olympus,domain,grupohenry1.com,",
+      "remote-domains": "20:17:00,now_on_vt,md5,9bdb0c756eb6e4af9a58c0bdbb0099fb,,https://x.com/now_on_vt/status/2084735373738172605",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "20:07:00,0x_olympus,ip,31.40.204.237,",
+      "remote-domains": "20:20:00,skocherhan,ip,77.239.98.97,,https://x.com/skocherhan/status/2084736372783432120",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "20:07:00,0x_olympus,url,http://grupohenry1.com,",
+      "remote-domains": "20:20:00,skocherhan,url,http://77.239.98.97,,https://x.com/skocherhan/status/2084736372783432120",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80897,6 +79987,62 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "20:35:00,leoescobarq,domain,my.tervel-zan.co,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:35:00,leoescobarq,url,https://my.tervel-zan.co/tp/",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:40:00,skocherhan,ip,178.17.61.110,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:40:00,skocherhan,ip,91.92.241.160,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:40:00,skocherhan,url,http://178.17.61.110/md5,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:44:00,kubotaa3,url,https://mu.jpjy-08.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:50:00,skocherhan,domain,mu.jpjy-08.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:50:00,skocherhan,url,https://mu.jpjy-08.shop/ip,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "20:58:00,skocherhan,domain,ms365-live.com,,https://x.com/skocherhan/status/2084383392439664862",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80912,20 +80058,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "20:58:00,skocherhan,url,http://ms365-live.com,,https://x.com/skocherhan/status/2084383392439664862",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:19:00,malwarehunterr,domain,chickplaybox.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:19:00,malwarehunterr,url,http://chickplaybox.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81009,6 +80141,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "21:30:00,kostastsale,sha256,c0654ca707fd45d9563f46dbd51fc03b75f5a05ec0ffc26816bcedcd13520b31,,https://x.com/kostastsale/status/2084753774133027166",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "21:39:00,skocherhan,domain,designwebc.com,,https://x.com/skocherhan/status/2083306614505783584",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81037,6 +80176,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "22:22:00,k3dg3,sha256,6941fbafdf1c7e5ddd12b9050c27501aba8b0ab05e1916afffd21ba30257ebf8,,https://x.com/k3dg3/status/2084767008508518911",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:22:00,k3dg3,sha256,fe8277705549324d8fdb94cc7d9a9083190f3e93e8e5dfec582b5afa5d42c97d,,https://x.com/k3dg3/status/2084767008508518911",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "22:23:00,skocherhan,md5,19bdc0ac73466a30ec0ba39756c4ae52,,https://x.com/skocherhan/status/2083680159081648540",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81058,14 +80211,2891 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "22:31:00,masaomi346,domain,raffinatoabito.com,",
+      "remote-domains": "22:40:00,skocherhan,domain,01490240dd.com,,https://x.com/skocherhan/status/2084771538969002414",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "22:31:00,masaomi346,url,https://raffinatoabito.com/login,",
+      "remote-domains": "22:40:00,skocherhan,domain,01490243ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,01490248a.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,01490251bb.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,01490252ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,01490253ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,01490255ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,01490257ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,01490259dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,01490260bb.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,0149tie.temawangtmw.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,2025tiaozhuan.gabdtz66.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,246-baidu260804.www01490267dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,251224001gwbd-tk.ou53t.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,251224002gwbd-tk.ou53t.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,33cfj-baidu260804q.jinbaobb.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,3sd3g-baidu260804q.bowenaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,49zlz5.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,49zlzbb.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,aahgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,aahgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,agabd-baidu260804q.meirenhh.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,aiz-baidu260804.www226647dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,app.abc.909qp809.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,bbdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,bbhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,bbhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,bsgdop-baidu2026730z.014901490149k.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,bxj-baidu260804.www01490265dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,cbw-baidu260804.www01490254dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ccdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,cchgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,cchgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,cmw-baidu260804.www01490253dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,csw-baidu260804.www01490255dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,cvd2y-baidu260804q.guangjiapo.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ddhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ddhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,dhd3j-baidu260804q.pogangoo.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,dhz-baidu260804.014901490149dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,dlm-baidu260804.www01490240dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,dsb-baidu260804.www01490245dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,dxw-baidu260804.www01490268dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,dyj-baidu260804.www01490257dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,edcxsee-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,edcxsii-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,edcxsqq-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,edcxsrr-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,edcxstt-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,edcxsuu-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,edcxsww-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,edcxsyy-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,eeedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,eehgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,eeudjsb-baidu20260810x.014901490149w.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ffdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ffhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ffhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,fghy-baidu260804q.mahuiuaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gdh-baidu260804.www01490258dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gdopff-baidu2026730z.014901490149g.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gdopgg-baidu2026730z.014901490149g.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gdophh-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gdopoo-baidu2026730z.014901490149f.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gdoppp-baidu2026730z.014901490149f.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gdoprr-baidu2026730z.014901490149f.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gdoptt-baidu2026730z.014901490149f.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gghgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gghgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ghgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gjp-baidu260804.www01490262dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,gxh-baidu260804.www01490242dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,h6gsj-baidu260804q.wangzhongfaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,hdx-baidu260804.www01490264dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,hhdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,hhhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,hhhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,iihgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,iihgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,jbp-baidu260804.www01490251dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,jct-baidu260804.www01490261dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,jdb-baidu260804.www01490248dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,jgf-baidu260804.www01490252dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,jjdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,jjhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,jjhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,jsp-baidu260804.www01490271dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,kjw-baidu260804.www01490270dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,kkdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,kkhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,kkhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,kkjjw888.n3okdfs9.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,lbw-baidu260804.www01490263dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,lldxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,llhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,llhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,lnmi-baidu260804q.shengxiaoaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,mmdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,mmgdop-baidu2026730z.014901490149f.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,mmhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,mmhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,mzg-baidu260804.www01490246dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,nlji-baidu260804q.ziliaoggzz.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,nnhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,nnhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ooedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,oohgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ppedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,pphgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsaa-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsff-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsgg-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwshh-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsii-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsjj-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwskk-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsll-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsoo-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwspp-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsqq-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsrr-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsss-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwstt-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsuu-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsww-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qazwsyy-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qdd-baidu260804.www01490247dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qdlxg-baidu260804q.daxianaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qqedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qqhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qqudjsb-baidu20260810x.014901490149w.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,qwdsk-baidu260802c.aniumowwa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,rredxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,rrhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,rrudjsb-baidu20260810x.014901490149w.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,slyw-baidu26067.4nokb2j1.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ssdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,sshgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,sshgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ssz-baidu260804.www01490243dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,tsp-baidu260804.www01490260dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ttedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,tthgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ujeu-baidu260804q.aktkamfgc.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ujeu-baidu260804q.gongshinn.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,uuedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,uuhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,vvdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,vvhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,vvhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,w1i8j-baidu260804q.kaikaiaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,w43j2-baidu260804q.baijieaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedaa-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedbb-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedcc-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxeddd-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedee-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedhh-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedll-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedmm-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxednn-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedoo-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedqq-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedss-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedtt-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxeduu-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedvv-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedww-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedxx-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedyy-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxedzz-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxqagg-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxqahh-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxqajj-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxqakk-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxqall-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxqamm-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxqavv-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxqaxx-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wsxqazz-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wudk1.www014901490149b.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wwedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wwhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wwhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,www01490243dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,www01490247dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,www01490248c.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,www01490258dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,www01490260dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,www808092cc.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,wzw-baidu260804.www01490269dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,xxdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,xxhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,xxhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,yqs-baidu260804.01490256ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,yyedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,yyhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,zdr-baidu260804.www01490266dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,zgl-baidu260804.www01490241dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ztw-baidu260804.www01490258dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,ztw-baidu260804.www01490259dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,zyh-baidu260804.www01490250dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,zzdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,zzhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,domain,zzhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,ip,43.251.57.99,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,sha256,66d536264919ea04ce402d78c4cc838e4bd1fac14dbdbd4aa713bcdb77b30bc7,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://01490240dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://01490243ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://01490248a.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://01490251bb.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://01490252ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://01490253ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://01490255ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://01490257ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://01490259dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://01490260bb.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://0149tie.temawangtmw.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://2025tiaozhuan.gabdtz66.com:10443,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://246-baidu260804.www01490267dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://251224001gwbd-tk.ou53t.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://251224002gwbd-tk.ou53t.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://33cfj-baidu260804q.jinbaobb.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://3sd3g-baidu260804q.bowenaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://43.251.57.99,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://49zlz5.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://49zlzbb.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://aahgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://aahgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://agabd-baidu260804q.meirenhh.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://aiz-baidu260804.www226647dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://app.abc.909qp809.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://bbdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://bbhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://bbhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://bsgdop-baidu2026730z.014901490149k.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://bxj-baidu260804.www01490265dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://cbw-baidu260804.www01490254dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ccdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://cchgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://cchgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://cmw-baidu260804.www01490253dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://csw-baidu260804.www01490255dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://cvd2y-baidu260804q.guangjiapo.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ddhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ddhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://dhd3j-baidu260804q.pogangoo.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://dhz-baidu260804.014901490149dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://dlm-baidu260804.www01490240dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://dsb-baidu260804.www01490245dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://dxw-baidu260804.www01490268dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://dyj-baidu260804.www01490257dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://edcxsee-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://edcxsii-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://edcxsqq-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://edcxsrr-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://edcxstt-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://edcxsuu-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://edcxsww-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://edcxsyy-baidu2026730z.014901490149j.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://eeedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://eehgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://eeudjsb-baidu20260810x.014901490149w.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ffdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ffhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ffhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://fghy-baidu260804q.mahuiuaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gdh-baidu260804.www01490258dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gdopff-baidu2026730z.014901490149g.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gdopgg-baidu2026730z.014901490149g.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gdophh-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gdopoo-baidu2026730z.014901490149f.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gdoppp-baidu2026730z.014901490149f.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gdoprr-baidu2026730z.014901490149f.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gdoptt-baidu2026730z.014901490149f.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gghgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gghgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ghgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gjp-baidu260804.www01490262dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://gxh-baidu260804.www01490242dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://h6gsj-baidu260804q.wangzhongfaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://hdx-baidu260804.www01490264dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://hhdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://hhhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://hhhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://iihgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://iihgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://jbp-baidu260804.www01490251dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://jct-baidu260804.www01490261dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://jdb-baidu260804.www01490248dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://jgf-baidu260804.www01490252dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://jjdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://jjhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://jjhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://jsp-baidu260804.www01490271dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://kjw-baidu260804.www01490270dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://kkdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://kkhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://kkhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://kkjjw888.n3okdfs9.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://lbw-baidu260804.www01490263dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://lldxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://llhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://llhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://lnmi-baidu260804q.shengxiaoaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://mmdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://mmgdop-baidu2026730z.014901490149f.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://mmhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://mmhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://mzg-baidu260804.www01490246dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://nlji-baidu260804q.ziliaoggzz.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://nnhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://nnhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ooedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://oohgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ppedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://pphgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsaa-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsff-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsgg-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwshh-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsii-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsjj-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwskk-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsll-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsoo-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwspp-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsqq-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsrr-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsss-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwstt-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsuu-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsww-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qazwsyy-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qdd-baidu260804.www01490247dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qdlxg-baidu260804q.daxianaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qqedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qqhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qqudjsb-baidu20260810x.014901490149w.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://qwdsk-baidu260802c.aniumowwa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://rredxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://rrhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://rrudjsb-baidu20260810x.014901490149w.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://slyw-baidu26067.4nokb2j1.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ssdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://sshgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://sshgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ssz-baidu260804.www01490243dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://tsp-baidu260804.www01490260dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ttedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://tthgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ujeu-baidu260804q.aktkamfgc.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ujeu-baidu260804q.gongshinn.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://uuedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://uuhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://vvdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://vvhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://vvhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://w1i8j-baidu260804q.kaikaiaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://w43j2-baidu260804q.baijieaa.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedaa-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedbb-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedcc-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxeddd-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedee-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedhh-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedll-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedmm-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxednn-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedoo-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedqq-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedss-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedtt-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxeduu-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedvv-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedww-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedxx-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedyy-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxedzz-baidu2026730z.014901490149i.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxqagg-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxqahh-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxqajj-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxqakk-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxqall-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxqamm-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxqavv-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxqaxx-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wsxqazz-baidu2026730z.014901490149h.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wudk1.www014901490149b.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wwedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wwhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wwhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://www01490243dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://www01490247dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://www01490248c.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://www01490258dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://www01490260dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://www808092cc.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://wzw-baidu260804.www01490269dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://xxdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://xxhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://xxhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://yqs-baidu260804.01490256ee.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://yyedxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://yyhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://zdr-baidu260804.www01490266dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://zgl-baidu260804.www01490241dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ztw-baidu260804.www01490258dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://ztw-baidu260804.www01490259dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://zyh-baidu260804.www01490250dd.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://zzdxsw-baidu2026730z.014901490149x.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://zzhgdop-baidu2026730z.014901490149y.com,,https://x.com/skocherhan/status/2084771538969002414",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "22:40:00,skocherhan,url,http://zzhgdop-baidu2026730z.014901490149z.com,,https://x.com/skocherhan/status/2084771538969002414",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81086,7 +83116,56 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "23:00:00,kirkderpca,url,https://www.npmjs.com/package/flydev/v/0.0.1,,https://x.com/kirkderpca/status/2082602297302081820",
+      "remote-domains": "23:04:00,skocherhan,ip,156.251.16.29,,https://x.com/skocherhan/status/2084777554628456913",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:04:00,skocherhan,md5,24de5c864e6898a580f1120faf6dbc7d,,https://x.com/skocherhan/status/2084777554628456913",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:04:00,skocherhan,md5,34434744d339149b0a89199c4b2862b0,,https://x.com/skocherhan/status/2084777554628456913",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:04:00,skocherhan,md5,d4621408aca25f48b86bba8af80a94dc,,https://x.com/skocherhan/status/2084777554628456913",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:04:00,skocherhan,url,http://156.251.16.29/789.png,,https://x.com/skocherhan/status/2084777554628456913",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:26:00,skocherhan,domain,prep-phones-aqua-addition.trycloudflare.com,,https://x.com/skocherhan/status/2084783077826371854",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:26:00,skocherhan,md5,13e17f4ee672924c66b5b15eb8f02fb5,,https://x.com/skocherhan/status/2084783077826371854",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:26:00,skocherhan,url,http://prep-phones-aqua-addition.trycloudflare.com,,https://x.com/skocherhan/status/2084783077826371854",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
