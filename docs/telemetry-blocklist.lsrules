@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14713 domains. Updated 2026-08-09.",
+  "description": "14723 domains. Updated 2026-08-09.",
   "rules": [
     {
       "action": "deny",
@@ -70446,6 +70446,62 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:22:50,fatzqatz,domain,chuanqiweb.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:50,fatzqatz,domain,customsduty.cfd,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:50,fatzqatz,ip,199.212.57.95,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:50,fatzqatz,ip,47.76.32.21,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:50,fatzqatz,url,http://199.212.57.95,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:50,fatzqatz,url,http://47.76.32.21,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:50,fatzqatz,url,http://chuanqiweb.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:50,fatzqatz,url,http://customsduty.cfd,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:25:00,masaomi346,domain,qkp6.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70713,6 +70769,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "05:36:00,romonlyht,url,https://hhdhd.com/whfo4vmu/verify,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:56:11,masaomi346,domain,gpppw.top,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:56:11,masaomi346,url,https://gpppw.top/jp/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
