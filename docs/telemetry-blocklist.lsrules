@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15314 domains. Updated 2026-08-11.",
+  "description": "15327 domains. Updated 2026-08-11.",
   "rules": [
     {
       "action": "deny",
@@ -72917,6 +72917,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:54:40,patialavii,domain,office365updater.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:54:40,patialavii,url,https://office365updater.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "05:01:22,etugenio,domain,xyzblue.dpdns.org,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72945,6 +72959,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "05:02:30,patialavii,domain,qwayinternational.in,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:02:30,patialavii,url,https://qwayinternational.in/kkiulj/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:02:30,patialavii,url,https://qwayinternational.in/kkiulj/download.php,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "05:11:00,masaomi346,domain,niuaniu.top,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72953,6 +72988,48 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "05:11:00,masaomi346,url,https://niuaniu.top/login,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:13:16,patialavii,domain,startfestuk.top,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:13:16,patialavii,url,https://raw.githubusercontent.com/hac0185/bcc/refs/heads/main/screenconnect.clientsetup.exe,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:13:16,patialavii,url,https://startfestuk.top/rtm/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:43,patialavii,domain,sunniacademy.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:43,patialavii,url,https://sunniacademy.org/docsign/page.html,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:43,patialavii,url,https://sunniacademy.org/docsign/screenconnect.clientsetup.msi,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73177,6 +73254,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "06:00:16,thantzin_ron,url,https://pub-ecards.top,,https://x.com/thantzin_ron/status/2086331710317502914",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:05:08,etugenio,ip,169.58.82.229,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:05:08,etugenio,url,http://169.58.82.229,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
