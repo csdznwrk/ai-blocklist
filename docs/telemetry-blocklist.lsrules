@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15327 domains. Updated 2026-08-11.",
+  "description": "15343 domains. Updated 2026-08-11.",
   "rules": [
     {
       "action": "deny",
@@ -73799,6 +73799,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:00:46,phishunt_io,domain,icloudfind.live,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:46,phishunt_io,ip,108.167.146.200,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:46,phishunt_io,url,http://icloudfind.live/fl26,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:04:00,uk_daniel_card,ip,26.3.1.7,,https://x.com/uk_daniel_card/status/2085985401441825052",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73841,7 +73862,49 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:25:05,nextronresearch,ip,78.154.103.38,,https://x.com/nextronresearch/status/2087077832228766028",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:25:05,nextronresearch,sha256,b6c5b7cf9255e4198816907079eecf072b8010676cfb3d8559aaa83626e72ed1,,https://x.com/nextronresearch/status/2087077832228766028",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:25:05,nextronresearch,url,http://78.154.103.38:14556/config.json,,https://x.com/nextronresearch/status/2087077832228766028",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:25:05,nextronresearch,url,https://github.com/nsaciagov/g/raw/refs/heads/main/svchost.exe,,https://x.com/nextronresearch/status/2087077832228766028",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:26:00,fact_finder03,ip,31.77.156.5,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:36:04,etugenio,ip,47.109.196.181,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:36:04,etugenio,url,http://47.109.196.181,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75101,6 +75164,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:47:34,fact_finder03,ip,23.94.252.207,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:57:00,abuse_ch,ip,155.2.192.235,,https://x.com/abuse_ch/status/2086059184991113496",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75151,6 +75221,48 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:00:00,phishunt_io,url,http://metamask-login-11.gitbook.io,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:12,ishivtripathi,domain,api.studiotikva.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:12,ishivtripathi,domain,studiotikva.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:12,ishivtripathi,ip,1.0.0.4,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:12,ishivtripathi,url,https://api.studiotikva.com/api/v1/update/check,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:12,ishivtripathi,url,https://studiotikva.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:43,phishunt_io,url,http://office365updater.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
