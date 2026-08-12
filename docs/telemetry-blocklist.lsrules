@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15355 domains. Updated 2026-08-12.",
+  "description": "15406 domains. Updated 2026-08-12.",
   "rules": [
     {
       "action": "deny",
@@ -73771,7 +73771,252 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:17:38,metemcyber,domain,gtttx.top,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:17:38,metemcyber,ip,43.155.174.59,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:17:38,metemcyber,url,http://43.155.174.59,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:17:38,metemcyber,url,https://gtttx.top/jp,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:19:17,skocherhan,domain,afc_security_report_2026.pdf.lnkxyzblue.dpdns.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,11888bet.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,365baji.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,55baji.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,77baji.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,99baji.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,baji11.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,baji188.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,baji22.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,baji33.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,baji55.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,baji99.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,bet365baji.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,bet365ee.cc,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,ch799.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,domain,six6sixes.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,ip,100.48.119.45,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://11888bet.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://365baji.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://55baji.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://77baji.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://99baji.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://baji11.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://baji188.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://baji22.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://baji33.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://baji55.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://baji99.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://bet365baji.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://ch799.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://six6sixes.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:23:43,etugenio,url,http://www.bet365ee.cc,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74429,6 +74674,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "08:59:55,bushidotoken,ip,62.164.130.5,,https://x.com/bushidotoken/status/2087464085185003869",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:59:55,bushidotoken,ip,77.237.240.107,,https://x.com/bushidotoken/status/2087464085185003869",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:59:55,bushidotoken,url,http://62.164.130.5,,https://x.com/bushidotoken/status/2087464085185003869",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:59:55,bushidotoken,url,http://77.237.240.107,,https://x.com/bushidotoken/status/2087464085185003869",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:04:00,fact_finder03,ip,101.32.245.119,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74520,6 +74793,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "09:24:51,now_on_vt,md5,0fcea6b1378980d45be82df3931b80d4,,https://x.com/now_on_vt/status/2087470360765534465",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:33:00,fact_finder03,ip,185.163.204.246,,https://x.com/fact_finder03/status/2086385245012558150",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74528,6 +74808,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:33:00,fact_finder03,sha256,212acf6988a147dc48a67ac51cbd267121791f8f79ae733698c614ab56511fa6,,https://x.com/fact_finder03/status/2086385245012558150",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:40:49,metemcyber,domain,gtvvv.top,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:40:49,metemcyber,url,https://gtvvv.top/jp,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75024,6 +75318,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:00:55,phishunt_io,domain,allegrolokalnie.283101.pl,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:55,phishunt_io,ip,102.220.160.128,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:55,phishunt_io,url,http://allegrolokalnie.283101.pl/guard.js?v=1786440650870,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:04:00,jameswt_wt,domain,applanding.getpixeltap.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75032,6 +75347,48 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:04:00,jameswt_wt,url,http://applanding.getpixeltap.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:04:10,ishivtripathi,sha256,0fb111752cf34a50b16de3ec1fb36c419a621f74e1ed1aee2decca2609dd6ef4,,https://x.com/ishivtripathi/status/2087510452398067809",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:04:10,ishivtripathi,sha256,1dd43de8bc7804fa281da1528532d82daf2092bf9e182f834f173817a6e65916,,https://x.com/ishivtripathi/status/2087510452398067809",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:04:10,ishivtripathi,sha256,1e3ee845fde739fcd3ca9ce62c7f142a7c501d11db4c4fb294d4939f12d0f916,,https://x.com/ishivtripathi/status/2087510452398067809",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:04:10,ishivtripathi,sha256,50128cb7122d3feec78efc922685456704a099e518f614a6ad2c770cf123e832,,https://x.com/ishivtripathi/status/2087510452398067809",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:04:10,ishivtripathi,sha256,6876282208f836d5e203e21f7542358a1739849f293c3158f0937b141f890142,,https://x.com/ishivtripathi/status/2087510452398067809",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:04:10,ishivtripathi,sha256,829abf3c966a79991d4aac903deeca89b5b0dbcbf06832e8fa82c997b108ff07,,https://x.com/ishivtripathi/status/2087510452398067809",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
