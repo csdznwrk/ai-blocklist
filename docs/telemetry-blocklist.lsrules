@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15534 domains. Updated 2026-08-12.",
+  "description": "15342 domains. Updated 2026-08-12.",
   "rules": [
     {
       "action": "deny",
@@ -21320,6 +21320,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00:13:07,masaomi346,domain,w50kzn94.xyz,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:13:07,masaomi346,url,https://w50kzn94.xyz,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00:17:02,skocherhan,domain,feinmotorik.geschenkideen-die-foerdern.de,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -21384,20 +21398,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00:17:50,masaomi346,url,https://tesel.agcuu.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "00:41:00,masaomi346,domain,login.raaglpfplzp.top,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "00:41:00,masaomi346,url,https://login.raaglpfplzp.top/login,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -52085,13 +52085,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "01:37:00,bomccss,url,https://drive.usercontent.google.com/download?id=1uqmfitlscbfaw54juwm695id1vobpxrl&export=download,,https://x.com/bomccss/status/2084815956610814418",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "01:39:07,skocherhan,domain,ahaytwmyqfsd.top,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -53059,20 +53052,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "01:45:39,romonlyht,url,https://367ry4.zzzz-bet958.com/1qnzximw9ypr8bom,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01:51:00,scanmalware,domain,inquisitive-teal-omezr4ob.edgeone.dev,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01:51:00,scanmalware,url,http://inquisitive-teal-omezr4ob.edgeone.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -69991,13 +69970,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "03:00:00,thekn0ck0ut,ip,156.251.16.29,,https://x.com/thekn0ck0ut/status/2084837025266422185",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "03:01:00,masaomi346,domain,sffosjcux.top,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72903,20 +72875,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "04:25:00,masaomi346,domain,qkp6.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "04:25:00,masaomi346,url,https://qkp6.com/list,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "04:54:40,patialavii,domain,office365updater.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73071,69 +73029,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "05:36:00,ishivtripathi,ip,74.0.48.37,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:36:00,ishivtripathi,ip,89.213.118.38,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:36:00,ishivtripathi,ip,89.213.118.39,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:36:00,ishivtripathi,url,http://74.0.48.37,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:36:00,ishivtripathi,url,http://74.0.48.37:4556/upload,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:36:00,ishivtripathi,url,http://74.0.48.37:4558/upload,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:36:00,ishivtripathi,url,http://89.213.118.38/api/service/makelog,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:36:00,ishivtripathi,url,http://89.213.118.38/api/service/process/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "05:36:00,ishivtripathi,url,http://89.213.118.39:4553/api/dxw,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "05:56:11,masaomi346,domain,gpppw.top,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73268,62 +73163,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "06:05:08,etugenio,url,http://169.58.82.229,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:07:00,userlolxxl,ip,129.2.4.2,,https://x.com/userlolxxl/status/2084883907141325273",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:07:00,userlolxxl,url,http://129.2.4.2,,https://x.com/userlolxxl/status/2084883907141325273",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:13:00,jameswt_wt,domain,dnf.nfexmlfiscal.com.br,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:13:00,jameswt_wt,domain,dokument-pdf.lat,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:13:00,jameswt_wt,domain,xml.nfexmlfiscal.com.br,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:13:00,jameswt_wt,url,https://dnf.nfexmlfiscal.com.br/files/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:13:00,jameswt_wt,url,https://dokument-pdf.lat/files/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "06:13:00,jameswt_wt,url,https://xml.nfexmlfiscal.com.br/files/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73722,13 +73561,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "07:00:00,phishunt_io,domain,facebooksetup.blogspot.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "07:00:00,phishunt_io,ip,96.125.163.17,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73744,13 +73576,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:00:00,phishunt_io,url,http://allegrolokalnie.lokalna-ofera293925.lol,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:00:00,phishunt_io,url,http://facebooksetup.blogspot.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73919,76 +73744,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:38:17,solostalking,ip,64.89.160.97,,https://x.com/solostalking/status/2086356374930468925",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:40:00,ishivtripathi,domain,logkit-tau.vercel.app,,https://x.com/ishivtripathi/status/2084907438243991883",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:40:00,ishivtripathi,ip,66.45.225.94,,https://x.com/ishivtripathi/status/2084907438243991883",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:40:00,ishivtripathi,sha256,ab65cef60fc097c2a9fb03a7855c9c03dfe3ccc874080720f0e631c6ee2c3e51,,https://x.com/ishivtripathi/status/2084907438243991883",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:40:00,ishivtripathi,url,http://66.45.225.94,,https://x.com/ishivtripathi/status/2084907438243991883",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:40:00,ishivtripathi,url,http://66.45.225.94:1244/s/aprgip100,,https://x.com/ishivtripathi/status/2084907438243991883",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:40:00,ishivtripathi,url,http://66.45.225.94:1246/j/aaervr00,,https://x.com/ishivtripathi/status/2084907438243991883",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:40:00,ishivtripathi,url,http://66.45.225.94:1246/keys,,https://x.com/ishivtripathi/status/2084907438243991883",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:40:00,ishivtripathi,url,http://66.45.225.94:1246/p,,https://x.com/ishivtripathi/status/2084907438243991883",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:40:00,ishivtripathi,url,http://logkit-tau.vercel.app,,https://x.com/ishivtripathi/status/2084907438243991883",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:40:00,ishivtripathi,url,https://logkit-tau.vercel.app/debugcheck,,https://x.com/ishivtripathi/status/2084907438243991883",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74276,13 +74031,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:20:00,masaomi346,url,https://www.docomo-my.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "08:21:00,fact_finder03,ip,107.161.90.180,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74709,20 +74457,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "10:00:00,dixit_404,sha256,67d21c04043be2ce744489a0be64290fcbb172310496ab05e0ad289d10d5dd30,,https://x.com/dixit_404/status/2084942726769045850",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:00:00,dixit_404,sha256,6e6addf3e7287cf160054ef4647f8c67754f3cdc6efbdf21f117cb98c4c95534,,https://x.com/dixit_404/status/2084942726769045850",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "10:00:00,nextronresearch,sha256,1946315d645d9a8c5114759b350ec4f85dba5f9ee4a63d74437d7a068bff7752,,https://x.com/nextronresearch/status/2085304887345090625",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74787,62 +74521,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "10:02:00,suyog41,url,http://github.com/dm1-21726,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:14:00,suyog41,domain,my.thispc.net,,https://x.com/suyog41/status/2084946135236644966",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:14:00,suyog41,domain,us.wind0ws.net,,https://x.com/suyog41/status/2084946135236644966",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:14:00,suyog41,md5,335f941722b7c7b0283e109f94feefd3,,https://x.com/suyog41/status/2084946135236644966",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:14:00,suyog41,md5,350f46d727589bb2f65c8d6777b1c948,,https://x.com/suyog41/status/2084946135236644966",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:14:00,suyog41,md5,d3c03ac43eb46cf430fd9de46292cd8d,,https://x.com/suyog41/status/2084946135236644966",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:14:00,suyog41,md5,e0d1751cc03e266e5c44ca729db16d6e,,https://x.com/suyog41/status/2084946135236644966",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:14:00,suyog41,url,http://my.thispc.net,,https://x.com/suyog41/status/2084946135236644966",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:14:00,suyog41,url,https://us.wind0ws.net/taskmgr.exe,,https://x.com/suyog41/status/2084946135236644966",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75073,27 +74751,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "11:24:00,fact_finder03,ip,185.199.198.71,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:26:00,shadowopcode,domain,healercyber.site,,https://x.com/shadowopcode/status/2084964168591987039",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:26:00,shadowopcode,url,https://healercyber.site/ftx/page.html?lgh={{base64_email,,https://x.com/shadowopcode/status/2084964168591987039",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "11:33:00,genthreatlabs,sha256,22c9422358273b2c9ce7c6641f925e34ba1197efa7363ce8fc1553e105746df3,,https://x.com/genthreatlabs/status/2085690853280903514",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75220,21 +74877,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "12:00:00,phishunt_io,domain,allegrolokalnie.alleprodukt58932.sbs,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "12:00:00,phishunt_io,domain,metamask-login-11.gitbook.io,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12:00:00,phishunt_io,url,http://allegrolokalnie.alleprodukt58932.sbs/oferta/gogle-vr-meta-quest-3/655691063?fbclid=iwy2xjawtffdtlehrua2flbqixmqbzcn,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75500,13 +75143,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "12:16:00,suyog41,md5,1211795a3e450f724b971f0cc1e06a21,,https://x.com/suyog41/status/2084976756013043894",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "12:20:00,thedfirreport,domain,download-center.online,,https://x.com/thedfirreport/status/2085340125572035013",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75661,13 +75297,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "12:31:00,fact_finder03,ip,51.89.204.24,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "12:33:00,jameswt_wt,domain,pfbofa.com,,https://x.com/jameswt_wt/status/2085343386723082532",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75774,13 +75403,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:37:47,metemcyber,url,https://genarsure.iv2x4u.info/3eckin4,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12:41:00,jameswt_wt,url,https://drive.usercontent.google.com/download?id=1npjtggncpoye0qvemximdnq21pqriq9w&export=download&authuser=0,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76011,20 +75633,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "12:49:00,_bugmaker,domain,lavidawellness.it,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12:49:00,_bugmaker,url,http://lavidawellness.it,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "12:49:25,masaomi346,domain,login.tc-1piaoffice-qr.biz.id,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76075,13 +75683,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:51:00,harugasumi,url,https://yuntianchina.com/page/qqevtkxrsi,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12:58:00,james_inthe_box,sha256,1f7ab5418d489fdd2fb392ada3accc77c13586f94f059ee8e5cc83c0974b614b,,https://x.com/james_inthe_box/status/2084987299738317301",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76298,98 +75899,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "13:10:00,knight0x07,domain,js-mirror.com,,https://x.com/knight0x07/status/2084990509832192129",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:10:00,knight0x07,domain,npm-cache.com,,https://x.com/knight0x07/status/2084990509832192129",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:10:00,knight0x07,domain,pypi-get.com,,https://x.com/knight0x07/status/2084990509832192129",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:10:00,knight0x07,url,http://js-mirror.com,,https://x.com/knight0x07/status/2084990509832192129",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:10:00,knight0x07,url,http://npm-cache.com,,https://x.com/knight0x07/status/2084990509832192129",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:10:00,knight0x07,url,http://pypi-get.com,,https://x.com/knight0x07/status/2084990509832192129",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "13:12:32,opcodeintel,ip,104.236.230.184,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:13:00,kseproso,domain,blackskydev.org,,https://x.com/kseproso/status/2084984281785389166",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:13:00,kseproso,domain,multidevs.com,,https://x.com/kseproso/status/2084984281785389166",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:13:00,kseproso,url,http://blackskydev.org,,https://x.com/kseproso/status/2084984281785389166",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:13:00,kseproso,url,http://multidevs.com,,https://x.com/kseproso/status/2084984281785389166",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:13:00,nextronresearch,domain,fr.monero.herominers.com,,https://x.com/nextronresearch/status/2084991108006781059",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:13:00,nextronresearch,sha256,b20f39fc00d242e706b6c30367ad811c676e0575050a4ec2f30104b696944b49,,https://x.com/nextronresearch/status/2084991108006781059",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:13:00,nextronresearch,url,http://fr.monero.herominers.com:1111,,https://x.com/nextronresearch/status/2084991108006781059",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76446,20 +75956,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:27:00,0xhido,url,http://clientproject.fun/taptap212/takapay/,,https://x.com/0xhido/status/2086081899059888142",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:29:00,fbgwls245,domain,darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:29:00,fbgwls245,url,http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76543,62 +76039,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "13:36:00,webamon_search,domain,0055xing.com,,https://x.com/webamon_search/status/2084996888487469305",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:36:00,webamon_search,domain,01800agregados.com,,https://x.com/webamon_search/status/2084996888487469305",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:36:00,webamon_search,domain,0302onabike.com,,https://x.com/webamon_search/status/2084996888487469305",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:36:00,webamon_search,domain,sqllq.com,,https://x.com/webamon_search/status/2084996888487469305",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:36:00,webamon_search,url,http://0055xing.com,,https://x.com/webamon_search/status/2084996888487469305",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:36:00,webamon_search,url,http://01800agregados.com,,https://x.com/webamon_search/status/2084996888487469305",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:36:00,webamon_search,url,http://0302onabike.com,,https://x.com/webamon_search/status/2084996888487469305",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:36:00,webamon_search,url,http://sqllq.com,,https://x.com/webamon_search/status/2084996888487469305",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "13:42:12,webamon_search,domain,00006060.com,,https://x.com/webamon_search/status/2086447957973291166",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76642,48 +76082,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:50:20,fbgwls245,url,http://ethics67vxjomvlcugjovv4fc3g6ru5tpwotg533d4j3uf2btmnndead.onion,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:56:00,sicehice,ip,117.252.86.216,,https://x.com/sicehice/status/2085002114619572696",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:56:00,sicehice,ip,196.251.121.142,,https://x.com/sicehice/status/2085002114619572696",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:56:00,sicehice,ip,202.141.32.16,,https://x.com/sicehice/status/2085002128553091466",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:56:00,sicehice,md5,bb8f534fbff5ee61a95af9c4740ae043,,https://x.com/sicehice/status/2085002114619572696",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:56:00,sicehice,url,http://196.251.121.142/a3f8d2/dlink.sh,,https://x.com/sicehice/status/2085002114619572696",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:56:00,sicehice,url,http://202.141.32.16:45833/mozi.m,,https://x.com/sicehice/status/2085002128553091466",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76747,90 +76145,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "14:11:00,kubotaa3,url,https://zwinti.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,102.165.14.23,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,103.226.88.135,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,104.223.81.15,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,104.239.66.61,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,120.26.146.96,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,128.1.211.110,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,130.12.181.111,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,147.45.41.218,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,185.187.84.31,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,45.144.54.188,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,86.48.16.94,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "14:14:00,teamcymru_s2,ip,89.42.134.220,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77034,20 +76348,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "14:51:00,harugasumi,url,https://njteger.com/page/ipxcrmamsl,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "15:02:00,masaomi346,domain,ucdroagtion.ki7tsb.info,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "15:02:00,masaomi346,url,https://ucdroagtion.ki7tsb.info/3eckin4,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77439,20 +76739,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "15:53:00,osspreysecurity,ip,166.88.134.62,,https://x.com/osspreysecurity/status/2085028941069259094",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "15:53:00,osspreysecurity,url,http://166.88.134.62,,https://x.com/osspreysecurity/status/2085028941069259094",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "16:02:00,0xhido,ip,193.26.115.17,,https://x.com/0xhido/status/2086118254607475121",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77671,20 +76957,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "16:26:14,malwarehunterr,url,http://spy.mwork801.com/gmail/js/start.js,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:27:48,darkwebinformer,domain,pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:27:48,darkwebinformer,url,http://pnzruro7syvwvefx5mpo2fhzi4jftgquynsqf3vy5x3no57yp2iz4nyd.onion,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77964,7 +77236,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "17:00:00,phishunt_io,domain,proteccion-outlook2026.iceiy.com,",
+      "remote-domains": "16:59:04,devttys0,md5,91a9a3af2218f4ea60ac37d5835eb318,,https://x.com/devttys0/status/2087222276303294778",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77985,13 +77257,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "17:00:00,phishunt_io,ip,185.27.134.116,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "17:00:00,phishunt_io,ip,62.210.172.147,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78000,13 +77265,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:00:00,phishunt_io,ip,64.239.123.65,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:00:00,phishunt_io,url,http://proteccion-outlook2026.iceiy.com/?i=1,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78196,146 +77454,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:25:25,500mk500,url,http://zoom-connect-invite.us,,https://x.com/500mk500/status/2087228907632181642",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,veryseriouseng,domain,package-proxy.cf11oobworker.workers.dev,,https://x.com/veryseriouseng/status/2085055561398145413",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,veryseriouseng,domain,package-proxy.cf5oobworker.workers.dev,,https://x.com/veryseriouseng/status/2085055561398145413",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,veryseriouseng,domain,package-proxy.cf6oobworker.workers.dev,,https://x.com/veryseriouseng/status/2085055561398145413",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,veryseriouseng,domain,package-proxy.cf7oobworker.workers.dev,,https://x.com/veryseriouseng/status/2085055561398145413",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,veryseriouseng,domain,package-proxy.cf8oobworker.workers.dev,,https://x.com/veryseriouseng/status/2085055561398145413",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,veryseriouseng,url,http://package-proxy.cf11oobworker.workers.dev,,https://x.com/veryseriouseng/status/2085055561398145413",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,veryseriouseng,url,http://package-proxy.cf5oobworker.workers.dev,,https://x.com/veryseriouseng/status/2085055561398145413",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,veryseriouseng,url,http://package-proxy.cf6oobworker.workers.dev,,https://x.com/veryseriouseng/status/2085055561398145413",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,veryseriouseng,url,http://package-proxy.cf7oobworker.workers.dev,,https://x.com/veryseriouseng/status/2085055561398145413",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:29:00,veryseriouseng,url,http://package-proxy.cf8oobworker.workers.dev,,https://x.com/veryseriouseng/status/2085055561398145413",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:30:00,bomccss,sha256,47c4077decff58ceefe85ccf98d172456d8b3f9aab7f6bf8ce237ff67c718880,,https://x.com/bomccss/status/2085055822833566010",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:30:00,bomccss,url,http://192.252.180.45:6666,,https://x.com/bomccss/status/2085055824964247648",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:30:00,bomccss,url,http://64.81.30.192:6666,,https://x.com/bomccss/status/2085055824964247648",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:35:00,elasticseclabs,domain,api.probref.com,,https://x.com/elasticseclabs/status/2085057097188639162",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:35:00,elasticseclabs,sha256,5ef6019fb6ee1db1201ee479a68669b47eb0d5d82770dbd30b05f46ccbc68f4f,,https://x.com/elasticseclabs/status/2085057097188639162",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:35:00,elasticseclabs,sha256,b6cb6d5de2c62aa1351b1b240dc223c3d6fa95083cf43b2866d84a8a6c4d0446,,https://x.com/elasticseclabs/status/2085057097188639162",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:35:00,elasticseclabs,url,http://api.probref.com:5188,,https://x.com/elasticseclabs/status/2085057097188639162",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:35:00,elasticseclabs,url,http://storage.googleapis.com/nikeupdat/,,https://x.com/elasticseclabs/status/2085057097188639162",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:37:00,skocherhan,ip,192.252.180.45,,https://x.com/skocherhan/status/2085057534168010778",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:37:00,skocherhan,ip,64.81.30.192,,https://x.com/skocherhan/status/2085057534168010778",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78539,13 +77657,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:46:00,p0x53,url,http://edge.cdn-vitals.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:47:00,skocherhan,domain,westurn.in,,https://x.com/skocherhan/status/2085060237417951595",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79007,35 +78118,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "18:00:00,phatomcandle,domain,sowrtech.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:00:00,phatomcandle,ip,103.30.76.194,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:00:00,phatomcandle,url,http://103.30.76.194,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "18:00:00,phatomcandle,url,http://ntpack.online,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:00:00,phatomcandle,url,http://sowrtech.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79099,13 +78182,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:05:00,skocherhan,domain,ntpsetup.online,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:05:00,skocherhan,domain,package-proxy.cf,,https://x.com/skocherhan/status/2085064665814499711",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79469,6 +78545,132 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "20:16:58,skocherhan,domain,auto-gateway.palm-network.ru,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,domain,panel.flipperproxy.cfd,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,domain,proxy.palm-network.ru,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,domain,room08us.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,domain,tastliver.fun,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,domain,teams.room08us.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,domain,teams.us12room.live,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,domain,us12room.live,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,ip,185.112.59.160,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,url,http://185.112.59.160:9588,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,url,http://auto-gateway.palm-network.ru,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,url,http://panel.flipperproxy.cfd,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,url,http://proxy.palm-network.ru,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,url,http://room08us.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,url,http://tastliver.fun,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,url,http://teams.room08us.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,url,http://teams.us12room.live,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:16:58,skocherhan,url,http://us12room.live,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "20:18:00,james_inthe_box,domain,aerrixon.com,,https://x.com/james_inthe_box/status/2085822978395459781",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79519,20 +78721,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "20:48:00,kubotaa3,url,https://mu.jpjy-09.shop,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:52:00,userlolxxl,domain,xingjushidai.cn,,https://x.com/userlolxxl/status/2085106673748689334",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:52:00,userlolxxl,url,http://xingjushidai.cn,,https://x.com/userlolxxl/status/2085106673748689334",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79652,13 +78840,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "21:04:44,skocherhan,url,http://207.89.18.63,,https://x.com/skocherhan/status/2086921713153871905",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:07:00,kubotaa3,url,https://urbanizab2b.com/jmffvprn/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81156,41 +80337,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "21:19:00,skocherhan,domain,urbanizab2b.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:19:00,skocherhan,domain,vignobles-lorgeril.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:19:00,skocherhan,ip,192.3.140.114,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:19:00,skocherhan,url,https://urbanizab2b.com/jmffvprn/ip,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:19:00,skocherhan,url,https://vignobles-lorgeril.com/jmffvprn/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "21:20:00,skocherhan,domain,docomo-bt.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81261,27 +80407,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "21:21:00,skocherhan,domain,mg-euwqnasnd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:21:00,skocherhan,ip,192.238.160.133,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:21:00,skocherhan,url,https://mg-euwqnasnd.com/pc_0010021312/sp_001239u1923/login/loginusername,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "21:23:00,skocherhan,md5,65dfef87fda30c9614f3738bc737c34a,,https://x.com/skocherhan/status/2085839203011588121",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81324,476 +80449,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,bwaoidsankq.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,hwauynskda.store,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,lpomnsadiqbn.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-iuwanmsd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-iuwansmd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-iwaimsdas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-iwaunsdas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-plasdnwq.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-pokemasod.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-pokqwmdsa.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-uwannsdas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-uwansda.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-uwansmdas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-uwansmdd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-uweansmda.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-wuajsdqasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mg-wuasdadf.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-hninidas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-iundoanoq.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-iwanmdas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-niqwnekads.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-pokensma.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-pokwqeasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-poqwejsda.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-poqwensa.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-posdnqeasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-pqwenoasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-sadqweasc.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-sndoqasdda.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-uasndqwsd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,mu-uioqwjeasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,powaujimd.store,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,domain,uwjdqojmnasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://bwaoidsankq.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://hwauynskda.store,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://lpomnsadiqbn.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-iuwanmsd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-iuwansmd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-iwaimsdas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-iwaunsdas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-plasdnwq.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-pokemasod.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-pokqwmdsa.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-uwannsdas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-uwansda.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-uwansmdas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-uwansmdd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-uweansmda.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-wuajsdqasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mg-wuasdadf.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-hninidas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-iundoanoq.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-iwanmdas.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-niqwnekads.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-pokensma.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-pokwqeasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-poqwejsda.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-poqwensa.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-posdnqeasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-pqwenoasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-sadqweasc.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-sndoqasdda.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-uasndqwsd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://mu-uioqwjeasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://powaujimd.store,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:29:00,skocherhan,url,http://uwjdqojmnasd.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "21:30:00,msftsecintel,sha256,c19ded65e822bb43ad0381c58abf33b7c8890f7bcc7125058a0c849c7e1a6054,,https://x.com/msftsecintel/status/2085841121637229038",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:35:00,skocherhan,md5,3516fb765a25525198d8b304527738d4,,https://x.com/skocherhan/status/2085117574212161628",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
