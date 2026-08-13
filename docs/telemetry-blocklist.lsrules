@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15464 domains. Updated 2026-08-13.",
+  "description": "15480 domains. Updated 2026-08-13.",
   "rules": [
     {
       "action": "deny",
@@ -76123,6 +76123,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:53:56,500mk500,domain,macroteam.com.tr,,https://x.com/500mk500/status/2087885362433515674",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:53:56,500mk500,url,http://macroteam.com.tr,,https://x.com/500mk500/status/2087885362433515674",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:57:09,suyog41,domain,atlantaairporttaxiservice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:57:09,suyog41,url,http://atlantaairporttaxiservice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12d60.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76397,6 +76425,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:12:32,opcodeintel,ip,104.236.230.184,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:15:12,mugu_reporter,domain,rbnkscot.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:15:12,mugu_reporter,url,http://rbnkscot.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76803,6 +76845,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "14:51:00,harugasumi,url,https://njteger.com/page/ipxcrmamsl,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:01:34,threatopsx,domain,mylovemarry.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:01:34,threatopsx,ip,82.22.23.63,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:01:34,threatopsx,url,https://82.22.23.63/login,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:01:34,threatopsx,url,https://mylovemarry.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77531,6 +77601,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "16:43:00,elasticseclabs,url,http://lhr.life,,https://x.com/elasticseclabs/status/2085768843494842403",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:45:05,thedfirreport,domain,frontend148.blob.core.windows.net,,https://x.com/thedfirreport/status/2087943536066925004",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:45:05,thedfirreport,domain,rezbackcup.blob.core.windows.net,,https://x.com/thedfirreport/status/2087943536066925004",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:45:05,thedfirreport,url,http://frontend148.blob.core.windows.net,,https://x.com/thedfirreport/status/2087943536066925004",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:45:05,thedfirreport,url,http://rezbackcup.blob.core.windows.net,,https://x.com/thedfirreport/status/2087943536066925004",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78770,6 +78868,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:23:01,skocherhan,url,http://v43vv2v2vb2.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:25:06,coolcarlos17,domain,paraminasconstrucao.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:25:06,coolcarlos17,url,http://paraminasconstrucao.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
