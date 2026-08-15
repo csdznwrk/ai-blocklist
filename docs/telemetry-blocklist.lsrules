@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15594 domains. Updated 2026-08-15.",
+  "description": "15609 domains. Updated 2026-08-15.",
   "rules": [
     {
       "action": "deny",
@@ -53163,6 +53163,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "01:52:49,scanmalware,domain,opensea-session443.onrender.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "01:52:49,scanmalware,url,http://opensea-session443.onrender.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "01:55:58,patialavii,domain,seriesv-9800ba25e0198cbe.denis-malyshev.workers.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -61375,6 +61389,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "02:33:08,masaomi346,url,https://q3zf8wkrqla0l2szuq.live,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:33:37,scanmalware,domain,lighthearted-zabaione-c450ce.netlify.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:33:37,scanmalware,url,http://lighthearted-zabaione-c450ce.netlify.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73023,6 +73051,83 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "04:22:50,fatzqatz,url,http://customsduty.cfd,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,103.77.240.232,,https://x.com/elementalx2/status/2088481983920034125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,115.190.210.105,,https://x.com/elementalx2/status/2088481983920034125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,176.125.243.101,,https://x.com/elementalx2/status/2088481983920034125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,193.27.90.102,,https://x.com/elementalx2/status/2088481983920034125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,202.141.236.42,,https://x.com/elementalx2/status/2088481983920034125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,43.155.223.139,,https://x.com/elementalx2/status/2088481983920034125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,45.151.91.14,,https://x.com/elementalx2/status/2088481983920034125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,83.97.20.203,,https://x.com/elementalx2/status/2088481983920034125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,87.199.197.84,,https://x.com/elementalx2/status/2088481983920034125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,91.92.43.93,,https://x.com/elementalx2/status/2088481983920034125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:41,elementalx2,ip,95.181.213.21,,https://x.com/elementalx2/status/2088481983920034125",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
