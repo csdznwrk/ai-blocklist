@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15609 domains. Updated 2026-08-15.",
+  "description": "15617 domains. Updated 2026-08-15.",
   "rules": [
     {
       "action": "deny",
@@ -74324,6 +74324,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:00:41,phishunt_io,domain,docusignsetup.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:41,phishunt_io,url,http://docusignsetup.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:00:44,phishunt_io,domain,facebook.affixlink.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74500,6 +74514,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:17:38,metemcyber,url,https://gtttx.top/jp,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:18:30,masaomi346,domain,aspen-92.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:18:30,masaomi346,url,http://aspen-92.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74766,6 +74794,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:25:05,nextronresearch,url,https://github.com/nsaciagov/g/raw/refs/heads/main/svchost.exe,,https://x.com/nextronresearch/status/2087077832228766028",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:29:06,masaomi346,domain,aspencore18.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:29:06,masaomi346,url,http://aspencore18.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75571,6 +75613,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:00:12,ishivtripathi,url,https://studiotikva.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:35,phishunt_io,domain,allegrolokalnie.oferta-247157.cfd,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:35,phishunt_io,url,http://allegrolokalnie.oferta-247157.cfd/oferta/sprzedam-ponton-kolibri-330/22506,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
