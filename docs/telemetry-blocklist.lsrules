@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15059 domains. Updated 2026-08-16.",
+  "description": "15063 domains. Updated 2026-08-16.",
   "rules": [
     {
       "action": "deny",
@@ -52099,6 +52099,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "01:04:58,masaomi346,domain,hndjsy.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "01:04:58,masaomi346,url,https://hndjsy.com/lyfkfsvy/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "01:29:56,sicehice,ip,31.77.227.121,,https://x.com/sicehice/status/2087350841061548280",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -61214,6 +61228,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "02:08:15,skocherhan,url,http://zzdyhq.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:10:04,scanmalware,domain,test1.sougoucloud.workers.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:10:04,scanmalware,url,http://test1.sougoucloud.workers.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
