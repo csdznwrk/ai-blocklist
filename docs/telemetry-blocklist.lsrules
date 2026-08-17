@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14656 domains. Updated 2026-08-17.",
+  "description": "14689 domains. Updated 2026-08-17.",
   "rules": [
     {
       "action": "deny",
@@ -71538,6 +71538,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:00:47,phishunt_io,domain,secure-login-facebook.bolt.host,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:47,phishunt_io,url,http://secure-login-facebook.bolt.host,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:00:54,phishunt_io,domain,bradesco.sistema-seguro.co,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71979,7 +71993,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:48:44,fact_finder03,ip,193.164.4.31,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:59:12,fact_finder03,ip,117.204.121.26,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:20:21,fact_finder03,ip,103.214.68.193,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72273,6 +72301,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "09:48:19,masaomi346,domain,quest-22.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:48:19,masaomi346,url,http://quest-22.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:50:02,ap_zenmashi,domain,fw61i40ks.duckdns.org,,https://x.com/ap_zenmashi/status/2087839085306278232",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72316,6 +72358,90 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:53:27,suyog41,url,http://fencecompanycharleston.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:00:29,masaomi346,domain,shoretapestry.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:00:29,masaomi346,url,http://shoretapestry.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:19,nextronresearch,sha256,197f11a7b0003aa7da58a3302cfa2a96a670de91d39ddebc7a51ac1d9404a7e6,,https://x.com/nextronresearch/status/2089291476328939641",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:19,nextronresearch,sha256,35af2cf5494181920b8624c7b719d39590e2a5ff5eaa1a2fa1ba86b2b5aa9b43,,https://x.com/nextronresearch/status/2089291476328939641",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:19,nextronresearch,sha256,767d95559f7dd0808e6deb69cb107ea4a218a5fef2ff295774d32d876acf9c03,,https://x.com/nextronresearch/status/2089291476328939641",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:19,nextronresearch,sha256,836fa2c799b0b7c2ab683055d880674a2cfe95dc6e47b0650f9f8e0dcb43f858,,https://x.com/nextronresearch/status/2089291476328939641",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:19,nextronresearch,sha256,9e5005fd9dadd8486bbe89318fc840380840314dedfa2bb8ad5db19b9ea300b0,,https://x.com/nextronresearch/status/2089291476328939641",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:19,nextronresearch,sha256,9f119d05403b1e079893fb77f6b8b2a9682d1df7ced31a189e7490924ccfb170,,https://x.com/nextronresearch/status/2089291476328939641",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:19,nextronresearch,sha256,a8b41646405c819e8e023355ef31b5cf76a09173ff553880d1e984db2e88f01b,,https://x.com/nextronresearch/status/2089291476328939641",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:19,nextronresearch,sha256,bc090d75f51c293d916c40d4b21094faaec191a42d97448c92d264875bf1f17b,,https://x.com/nextronresearch/status/2089291476328939641",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:19,nextronresearch,sha256,daeac66441b88ba22806f6617058a2dbf1ea0ddcc6c94f291542ea853ac6f9d3,,https://x.com/nextronresearch/status/2089291476328939641",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:19,nextronresearch,sha256,f34f550147c2792c1ff2a003d15be89e5573f0896c5aa6126068baa4621ef416,,https://x.com/nextronresearch/status/2089291476328939641",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72567,6 +72693,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:53:37,metemcyber,domain,saissodbn202607oint.u0fnd.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:53:37,metemcyber,ip,43.165.196.142,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:53:37,metemcyber,url,http://43.165.196.142,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:53:37,metemcyber,url,https://saissodbn202607oint.u0fnd.info/h80aoo,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:54:45,blinkzsec,ip,176.65.139.211,,https://x.com/blinkzsec/status/2087145693991354787",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72617,6 +72771,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "11:55:14,jameswt_wt,url,https://viewer-pdf-safe.lat,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:57:30,metemcyber,domain,aeon.pvvjkwi.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:57:30,metemcyber,ip,43.165.167.169,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:57:30,metemcyber,url,http://43.165.167.169,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:57:30,metemcyber,url,https://aeon.pvvjkwi.cn/6crfgauf1c,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72757,6 +72939,55 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:00:55,phishunt_io,url,http://netflixcasinocanada.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:02,metemcyber,domain,apple.wgxdijj.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:02,metemcyber,ip,43.165.128.22,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:02,metemcyber,url,http://43.165.128.22,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:02,metemcyber,url,https://apple.wgxdijj.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:10,phishunt_io,domain,faceb00k-br.blogspot.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:10,phishunt_io,ip,192.178.183.132,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:10,phishunt_io,url,http://faceb00k-br.blogspot.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
