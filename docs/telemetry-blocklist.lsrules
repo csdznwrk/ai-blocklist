@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14635 domains. Updated 2026-08-17.",
+  "description": "14656 domains. Updated 2026-08-17.",
   "rules": [
     {
       "action": "deny",
@@ -21342,6 +21342,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00:17:50,masaomi346,url,https://tesel.agcuu.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:20:03,ap_zenmashi,domain,ysk3kmrun.duckdns.org,,https://x.com/ap_zenmashi/status/2089145193761267869",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:20:03,ap_zenmashi,ip,182.161.66.14,,https://x.com/ap_zenmashi/status/2089145193761267869",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:20:03,ap_zenmashi,url,https://ysk3kmrun.duckdns.org,,https://x.com/ap_zenmashi/status/2089145193761267869",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -52043,6 +52064,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "01:29:16,coolcarlos17,domain,pabloclock.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "01:29:56,sicehice,ip,31.77.227.121,,https://x.com/sicehice/status/2087350841061548280",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -58833,6 +58861,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:08:56,romonlyht,domain,keczad.ynfgc.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:08:56,romonlyht,ip,175.135.248.24,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:08:56,romonlyht,url,https://highdpi-ads.com/uid_gm05yf7u/ss307?ticket=eq5ivbuf,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:08:56,romonlyht,url,https://keczad.ynfgc.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02:10:04,scanmalware,domain,test1.sougoucloud.workers.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -58841,6 +58897,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "02:10:04,scanmalware,url,http://test1.sougoucloud.workers.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:10:34,romonlyht,domain,highdpi-ads.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:10:34,romonlyht,ip,20.212.18.225,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:10:34,romonlyht,url,https://highdpi-ads.com/uid_jsmncaeo/dqsbv?ticket=6uevxvm6,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -58875,6 +58952,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:32:33,romonlyht,domain,privacy.choquettes.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:32:33,romonlyht,ip,185.145.13.53,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:32:33,romonlyht,url,https://privacy.choquettes.shop/comunica_zioni21,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:32:33,romonlyht,url,https://tr.ee/xh77da,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02:33:08,masaomi346,domain,q3zf8wkrqla0l2szuq.live,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -58897,6 +59002,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "02:33:37,scanmalware,url,http://lighthearted-zabaione-c450ce.netlify.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:40:52,romonlyht,domain,halsocrest.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:40:52,romonlyht,ip,134.122.194.173,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:40:52,romonlyht,ip,40.115.158.237,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:40:52,romonlyht,url,https://www.halsocrest.shop/domesticescv/shoufu/standardsets/reevglularcidio=pr1002,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70426,6 +70559,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "04:29:46,tdatwja,url,http://mail.elpasohonroso.com,,https://x.com/tdatwja/status/2088120876369866774",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:35:20,masaomi346,domain,fmpqwyp.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:35:20,masaomi346,url,https://www.fmpqwyp.cn/login,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
