@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14897 domains. Updated 2026-08-18.",
+  "description": "14937 domains. Updated 2026-08-18.",
   "rules": [
     {
       "action": "deny",
@@ -73092,6 +73092,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:18,phishunt_io,domain,allegrolokalnie.lokalna-ofeta2435245.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:18,phishunt_io,url,http://allegrolokalnie.lokalna-ofeta2435245.shop/oferta/jacuzzi-ogrodowe-6-osobowe-z-podswietlenirm-led/712187165?fbclid=iwy2xj,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:38,opcodeintel,domain,ptnrmat.xyz,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73156,6 +73170,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:32:22,opcodeintel,url,http://github.com/hxd-tool,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:36:09,masaomi346,domain,neststudio16.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:36:09,masaomi346,domain,parentpreneurx.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:36:09,masaomi346,url,http://neststudio16.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:36:09,masaomi346,url,https://parentpreneurx.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73324,6 +73366,97 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13-5.ru",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,domain,gitgubusercontnet.com,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,domain,zddfgrw.com,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,ip,138.226.237.167,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,sha256,18298f3a16d06ee171f3cc775b1e82c9f746038fa78bcc61793e65d7b113884f,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,sha256,197c01242d4ab04b7cbba6ccb56955a75c1200359d54f579ce285961194eae26,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,sha256,4e5e892fc2c8809ccfb756e9eccb2e2ac9a45abac008284d3b5711631099aa4d,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,sha256,51bc148112dd41973b750315d51fa8365c3d293a32b945a5f927aba9f03b47b6,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,sha256,57392b3ea1a67c639ceafcd0e817939c52a62f8ae699c9d3ff477368f8a8e934,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,sha256,c55f189ffceb4ccd14e7bd4cbe74cbe71b8d9eca32ce38916e1f60b5901690e7,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,url,http://138.226.237.167:21114,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,url,http://gitgubusercontnet.com,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,url,http://github.com/goldexe01/hash-exe/releases/tag/v1,,https://x.com/g0njxa/status/2089698874914947397",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:11,g0njxa,url,http://zddfgrw.com,,https://x.com/g0njxa/status/2089698874914947397",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76487,6 +76620,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "14:35:06,smica83,sha256,5ab7b4677f8c02d57436dc1710e269c547ae54e8e753c6d5fbdfc07804602b8d,,https://x.com/smica83/status/2035099325290738036",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "15:01:34,threatopsx,domain,mylovemarry.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76627,6 +76767,41 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "15:33:13,l0psec,domain,nancyclipboard.com,,https://x.com/l0psec/status/2089737386775265740",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:33:13,l0psec,sha256,c4d8131276e43961e9460e5e6735bc718afd9d9e6eaefeab476cc042c5c38635,,https://x.com/l0psec/status/2089737386775265740",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:33:13,l0psec,url,http://nancyclipboard.com,,https://x.com/l0psec/status/2089737386775265740",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:33:15,l0psec,domain,update-gateway.com,,https://x.com/l0psec/status/2089737394786275724",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:33:15,l0psec,url,http://update-gateway.com/v3,,https://x.com/l0psec/status/2089737394786275724",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "15:41:55,kb4threatlabs,domain,captcha-loading.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76760,6 +76935,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "16:02:15,txhaflaire,sha256,27059247ac89ae48c6edab9beae27914982f85048600ddb8e5311202c12f2b1d,,https://x.com/txhaflaire/status/2089744695354101866",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:07:29,skocherhan,ip,155.212.138.18,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76775,6 +76957,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "16:11:43,tkemmerling,url,http://kiwimercado.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:12:36,scanmalware,domain,sp13ct-zormel-biz-fravvik-lardik.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:12:36,scanmalware,url,http://sp13ct-zormel-biz-fravvik-lardik.pages.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78461,6 +78657,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:01:54,phishunt_io,domain,trezo-homenew.zapier.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:54,phishunt_io,ip,64.239.123.129,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:54,phishunt_io,url,http://trezo-homenew.zapier.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:02:08,volrant136,domain,ntdc.gov.pk.rnicrosort.org,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78629,6 +78846,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:31:05,patialavii,url,http://jokermav.online,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:31:05,patialavii,url,https://03webzoominvite.us/images/zoominstaller.msi,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:31:28,skocherhan,md5,259f0e418a57dd56f93d10fe29142d3a,,https://x.com/skocherhan/status/2089042372935979423",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78644,6 +78875,41 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:32:00,fact_finder03,ip,185.199.199.136,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:33:24,skocherhan,domain,03webzoominvite.us,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:33:24,skocherhan,domain,jokermav.online,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:33:24,skocherhan,url,http://jokermav.online",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:33:24,skocherhan,url,https://03webzoominvite.us/images/zoominstaller.msisha256,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:33:24,skocherhan,url,https://03webzoominvite.us/invite.php,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79043,6 +79309,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:00:03,phatomcandle,url,http://ntpchecksum.online,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:05,phatomcandle,domain,auth-accounts.dynuddns.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:05,phatomcandle,url,http://www.auth-accounts.dynuddns.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
