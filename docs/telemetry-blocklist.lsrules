@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14698 domains. Updated 2026-08-18.",
+  "description": "14897 domains. Updated 2026-08-18.",
   "rules": [
     {
       "action": "deny",
@@ -71559,6 +71559,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "06:32:48,masaomi346,domain,tichbox.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:32:48,masaomi346,url,https://tichbox.com/login,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "06:34:05,skocherhan,url,https://delorestopliff.com/adobesharefile/download,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71567,6 +71581,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "06:34:05,skocherhan,url,https://delorestopliff.com/adobesharefile/download.php",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:42:44,onodera460,ip,1.1.4.2,,https://x.com/onodera460/status/2089603888982708661",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71588,6 +71609,41 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "06:50:02,ap_zenmashi,url,https://www.wqohx4.duckdns.org,,https://x.com/ap_zenmashi/status/2088156175108083874",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:00,nextronresearch,ip,103.170.154.120,,https://x.com/nextronresearch/status/2089608233728053706",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:00,nextronresearch,sha256,bf4f0558b49917ba40c694e8c7e837183aa476ed6354cdb07caa8d59aaafdcde,,https://x.com/nextronresearch/status/2089608233728053706",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:00,nextronresearch,sha256,c5482d8ed604923573624e220b591427e46a9391215b438a1425ab14b508810d,,https://x.com/nextronresearch/status/2089608233728053706",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:00,nextronresearch,sha256,d14d4bc85313b7e06535197bed53c5e8dce7da5922791c9ff36183e2bca0fad7,,https://x.com/nextronresearch/status/2089608233728053706",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:00,nextronresearch,url,http://103.170.154.120:443,,https://x.com/nextronresearch/status/2089608233728053706",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71665,6 +71721,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:00:54,phishunt_io,url,http://bradesco.sistema-seguro.co/inicio.php,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:14,phishunt_io,domain,facebookxlogin.blogspot.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:14,phishunt_io,url,http://facebookxlogin.blogspot.com/?m=1,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72049,7 +72119,49 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:30:14,metemcyber,domain,aeon.pvvjkwi.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:30:14,metemcyber,url,https://aeon.pvvjkwi.cn/6crfgauf1c,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:48:44,fact_finder03,ip,193.164.4.31,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:50:06,sicehice,ip,125.62.195.8,,https://x.com/sicehice/status/2089620840912507174",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:50:06,sicehice,ip,42.233.122.130,,https://x.com/sicehice/status/2089620840912507174",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:50:06,sicehice,md5,a27a52fcf49fda4cd81f6d6fb1701204,,https://x.com/sicehice/status/2089620840912507174",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:50:06,sicehice,url,http://198.144.179.82/1.sh,,https://x.com/sicehice/status/2089620840912507174",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85300,6 +85412,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "77tracking.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "83dd4.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85405,6 +85524,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "aa-metrics.beauty.hotpepper.jp",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "aa-metrics.recruit-card.jp",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "aa-metrics.trip-ai.jp",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "aax-us-east.amazon-adsystem.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85503,6 +85643,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ad.centrum.cz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ad.crwdcntrl.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85524,7 +85671,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "adblockanalytics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "adbrix.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "adetracking.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85545,7 +85706,28 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "adjustnetwork.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "adlooxtracking.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "admin.flexispy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ads-game-187f4.firebaseapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85615,7 +85797,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "adserver.irishwebmasterforum.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "adservice.google.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "adsmartracker.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85672,6 +85868,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "advertising.walmart.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "advertracker.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "affiliatetracking.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "affiliatetracking.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "afftracking.justanswer.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85951,7 +86175,56 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "analytics-fe.digital-cloud-prem.medallia.eu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics-production.hapyak.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.adpost.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.algoepico.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "analytics.amplitude.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.bitrix.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.cloudron.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.ext.go-tellm.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85965,7 +86238,70 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "analytics.htmedia.in",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.inlinemanual.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "analytics.irobot.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.jst.ai",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.justuno.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.lucid.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.mailmunch.co",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.mobile.yandex.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.momentum-institut.at",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.myfinance.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85979,6 +86315,55 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "analytics.ostr.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.phando.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.picsart.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.pinterest.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.pointdrive.linkedin.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.poolshool.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.posttv.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "analytics.ring.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85986,7 +86371,35 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "analytics.santander.co.uk",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "analytics.segment.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.swiggy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.tempy.email",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.tiktok.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86001,6 +86414,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "analytics.wyze.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.xelondigital.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.yahoo.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analyticsapi.happypancake.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86302,6 +86736,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "api.appcues.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "api.appmetrica.yandex.ru",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87344,6 +87785,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "app-analytics-v2.snapchat.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "app-analytics.snapchat.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "app-api.phonedata.me",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87408,6 +87863,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "app.link",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "app.pendo.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87806,6 +88268,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "avazutracking.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "awamisolution.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87911,6 +88380,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "baremetrics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "bark-android-media.s3.amazonaws.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87939,6 +88415,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "beacon.gu-web.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "beacon.krux.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87946,7 +88429,28 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "beacon.netflix.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "beacon.scorecardresearch.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "beacons.gcp.gvt2.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "beacons.gvt2.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88107,6 +88611,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "braze.eu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "brightdata.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88115,6 +88626,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "brilliant-flame-585.firebaseio.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "browser-http-intake.logs.datadoghq.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "browser-http-intake.logs.datadoghq.eu",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88304,6 +88829,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cabs.thomsonreuters.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cakesdrum.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88730,6 +89262,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "clickonometrics.pl",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "client.iesnare.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88766,6 +89305,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "clientconnect.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "clientmetrics-pa.googleapis.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88920,6 +89466,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cocospy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "code.etracker.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89164,6 +89717,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "coremetrics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "corn-cob.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89248,6 +89808,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "crashlytics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "crashlyticsreports-pa.googleapis.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "crashreporter-update.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89298,6 +89872,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "currentware.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cushiondrum.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89794,6 +90375,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "dmtracker.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "dmtracking.alibaba.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "dmtracking2.alibaba.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "dmw.bz",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89816,6 +90418,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "domenpozh.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "dotmetrics.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90165,6 +90774,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "events.hotjar.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "events.launchdarkly.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90215,6 +90831,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "exapi-us-west.rubiconproject.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "extremetracking.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90369,6 +90992,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "firebaseremoteconfig.googleapis.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "fireworkanalytics.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90697,6 +91327,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "google-analytics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "googleanalytics.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90837,6 +91474,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "heap.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "heapanalytics.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90942,6 +91586,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "hs-analytics.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "https://adguardteam.github.io/cname-trackers/data/trackers/lexisnexis-risk-solutions.txt",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -91013,6 +91664,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "hww.cab",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "hypertracker.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -91348,6 +92006,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "incoming-telemetry.thunderbird.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "incoming.telemetry.mozilla.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "info-taxi.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -91405,6 +92077,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ingest.eu0.signalfx.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ingest.in.signoz.cloud",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -91544,6 +92223,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "intercom-clicks.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "intercom.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -91622,6 +92308,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "iri.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "is-tracking-pixel-api-prod.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -91817,6 +92510,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "kissmetrics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "klaviyo.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -91978,6 +92678,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "lever-analytics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "lg.conviva.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -92063,6 +92770,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "log.flurry.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "log.logrocket.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -92308,6 +93022,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "maskingofking.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "matheranalytics.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -92720,7 +93441,84 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "metrics-a.wbx2.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "metrics-logger.spot.im",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "metrics.api.drift.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "metrics.apple.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "metrics.articulate.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "metrics.cnn.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "metrics.foxnews.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "metrics.getrockerbox.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "metrics.gfycat.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "metrics.govexec.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "metrics.icloud.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "metrics.mzstatic.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -92791,6 +93589,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mintrack.vip",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mixpanel.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -92889,6 +93694,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mobile-tracker-free.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mobileanalytics.us-east-1.amazonaws.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -93287,6 +94099,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mybbc-analytics.files.bbci.co.uk",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mycleanpc.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -93309,6 +94128,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mydwnd.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mylead-tracking.tracknow.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -93497,6 +94323,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "nmtracking.netflix.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "node-api.theonespy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -93582,6 +94415,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "npm-security-audit.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "nr-data.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -94443,6 +95283,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "press-f12-continue.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "prmtracking.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -95387,6 +96234,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "pxl-mailtracker.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "q12z.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -95395,6 +96249,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "q95294fs.beget.tech",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "qa-analytics.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -95451,6 +96312,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "r.findmykids.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "r.logrocket.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -95535,6 +96403,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "realtime-spy-mobile.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "realtracker.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -95668,6 +96543,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "repo.mspyonline.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "report-1.appmetrica.webvisor.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "report-2.appmetrica.webvisor.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "report-partners.appmetrica.yandex.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "report.appmetrica.yandex.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -95849,6 +96752,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "rum-http-intake.logs.datadoghq.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "rum-http-intake.logs.datadoghq.eu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "rum-ingest.eu0.observability.splunkcloud.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -95885,6 +96802,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "rum-ingest.us1.signalfx.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "rum.aliyuncs.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -96031,6 +96955,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "sanalytics.disneyplus.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "sandbox97.childsafetytrackerapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -96081,6 +97012,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "sb.scorecardresearch.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "sc-analytics.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -96276,7 +97214,35 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "securemetrics.apple.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "securemetrics.apple.com.cn",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "sedotracker.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "seg.audigent.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "segment-cdn.producthunt.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -96682,6 +97648,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "sextracker.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "shadow-logs.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -96717,7 +97690,28 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "simpleanalytics.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "singular.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "siteimproveanalytics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "siteimproveanalytics.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -96781,6 +97775,55 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "smartlook.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "smetrics.10daily.com.au",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "smetrics.bestbuy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "smetrics.ctv.ca",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "smetrics.fedex.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "smetrics.foxnews.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "smetrics.walgreens.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "smetrics.washingtonpost.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -96914,6 +97957,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "spigot.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "spinbox.techtracker.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "spinbox.versiontracker.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -97242,6 +98299,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "static-tracking.klaviyo.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "static.airbridge.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -97250,6 +98314,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "static.chartbeat.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "static.etracker.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -97361,6 +98432,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "stupendoussleet.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "stupendoussnow.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "suggestqueries.google.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -97390,6 +98475,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "support.phoneparental.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "surveygizmobeacon.s3.amazonaws.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -97746,6 +98838,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "telemetry.dropbox.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "telemetry.ecobee.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -97760,6 +98859,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "telemetry.goodlifefitness.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "telemetry.hubstaff.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -97768,6 +98874,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "telemetry.irobot.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "telemetry.malwarebytes.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -97803,6 +98916,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "telemetry.samsungsmarthome.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "telemetry.v.dropbox.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -97956,6 +99076,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "tls.telemetry.swe.quicinc.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "tmsapi.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -98033,6 +99160,62 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "track.segmetrics.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracker.bannerflow.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracker.cdnbye.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracker.colatv88xb.cc",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracker.icerocket.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracker.mmdlv.it",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracker.optin-lead.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracker.samplicio.us",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "trackier.vip",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -98054,7 +99237,84 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "tracking.adstrategysites.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.casheddy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.cybertips.uk",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.epicgames.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.hyros.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.ibxlink.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "tracking.inmarket.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.intentsify.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.intl.miui.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.jiffyworld.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.markethero.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.miui.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -98075,6 +99335,62 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "tracking.netalerts.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.olx-st.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.orixa-media.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.p-l-m.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking.wetter.at",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking01.walmart.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking101.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tracking22.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "tracking_servers_firstparty.txt)",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -98083,6 +99399,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "trackingsmartphone.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "trackingsoft.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -98517,6 +99840,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "unagi.amazon.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "unidentifiedanalytics.web.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -99013,6 +100343,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "webanalytics.zohodcm.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "webdisk.spymasterpro.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -99055,7 +100392,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "webseoanalytics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "webservicesdb.mobiispy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "webtrackerplus.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -99196,6 +100547,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ww1.1topspy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "www-google-analytics.l.google.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -99587,7 +100945,28 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "xtracker.logimeter.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "yablochnisok.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "yandexmetrica.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ymetrica1.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -99602,6 +100981,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "zabbxsoftware.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "zantracker.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -99623,6 +101009,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "zeotap.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "zion-telemetry.api.cnn.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
