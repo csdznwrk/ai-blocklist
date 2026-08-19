@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14948 domains. Updated 2026-08-19.",
+  "description": "14999 domains. Updated 2026-08-19.",
   "rules": [
     {
       "action": "deny",
@@ -21335,6 +21335,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00:20:03,ap_zenmashi,url,https://ysk3kmrun.duckdns.org,,https://x.com/ap_zenmashi/status/2089145193761267869",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:52:38,msftsecintel,domain,auto.c3pool.org,,https://x.com/msftsecintel/status/2089878169037738202",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:52:38,msftsecintel,sha256,84006055916e267f7c2f9324f1848563e589e4526a296d4e9e9ce8e2112d357c,,https://x.com/msftsecintel/status/2089878169037738202",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:52:38,msftsecintel,url,http://auto.c3pool.org:443,,https://x.com/msftsecintel/status/2089878169037738202",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -67835,6 +67856,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "03:58:50,masaomi346,domain,exg3gtfcc9gtlyv5tu.live,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:58:50,masaomi346,url,https://exg3gtfcc9gtlyv5tu.live,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "03a01d381c69453a.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70565,6 +70600,76 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:00:30,patialavii,domain,file-share-image-2026-8368-736-dropbox.cloud,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:00:30,patialavii,url,http://file-share-image-2026-8368-736-dropbox.cloud,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:13:43,tkemmerling,domain,kwmsteam.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:13:43,tkemmerling,domain,nwvearly.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:13:43,tkemmerling,url,http://kwmsteam.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:13:43,tkemmerling,url,http://nwvearly.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:23:09,tkemmerling,domain,columbuswealthplanning.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:23:09,tkemmerling,domain,robertszutyiart.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:23:09,tkemmerling,url,http://columbuswealthplanning.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:23:09,tkemmerling,url,http://robertszutyiart.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:24:41,elementalx2,ip,103.77.240.232,,https://x.com/elementalx2/status/2088481983920034125",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70670,6 +70775,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:30:51,tkemmerling,domain,meetings.onlinecommunityconsultation.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:30:51,tkemmerling,domain,mmcharty.s3.us-east-1.amazonaws.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:30:51,tkemmerling,url,http://meetings.onlinecommunityconsultation.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:30:51,tkemmerling,url,http://mmcharty.s3.us-east-1.amazonaws.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:35:20,masaomi346,domain,fmpqwyp.cn,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70678,6 +70811,230 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "04:35:20,masaomi346,url,https://www.fmpqwyp.cn/login,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:41:29,tkemmerling,domain,flowers.theflowerflat.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:41:29,tkemmerling,domain,ntiein.s3.us-east-1.amazonaws.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:41:29,tkemmerling,url,http://flowers.theflowerflat.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:41:29,tkemmerling,url,http://ntiein.s3.us-east-1.amazonaws.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:49:52,tkemmerling,domain,hriver.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:49:52,tkemmerling,domain,onxsm.styleompl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:49:52,tkemmerling,url,http://hriver.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:49:52,tkemmerling,url,http://onxsm.styleompl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,3347silver.shoplyo.com.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,acdh4mwy.mvconstruoeincorporaslholtda.vu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,bverster.store,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,cwhe.qualitypresence.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,folders-them9782-safe-empty-files-9w478262.b-cdn.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,mcbspvtlsamtd.vu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,microcontrol-gucpbrefazgue6ad.z02.azurefd.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,powerepq.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,rfq1ox88.wisnetcomlrfnlc.vu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,sharedocufill.exceltecbusinessbwpsolutions.vu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,tdto.prodesignscommunicate.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,domain,wkssa8wo7nzoxmb.libertyirow.com.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://3347silver.shoplyo.com.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://acdh4mwy.mvconstruoeincorporaslholtda.vu/jftmxe,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://bverster.store,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://cwhe.qualitypresence.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://folders-them9782-safe-empty-files-9w478262.b-cdn.net/folders/index,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://mcbspvtlsamtd.vu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://microcontrol-gucpbrefazgue6ad.z02.azurefd.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://powerepq.com/uev5wqa/yc3asrf/index.html,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://rfq1ox88.wisnetcomlrfnlc.vu/ckn3wn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://sharedocufill.exceltecbusinessbwpsolutions.vu/xraqdm,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://tdto.prodesignscommunicate.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:49,kb4threatlabs,url,http://wkssa8wo7nzoxmb.libertyirow.com.de/135unfashionably/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
