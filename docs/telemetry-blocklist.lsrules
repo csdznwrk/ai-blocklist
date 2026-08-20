@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15174 domains. Updated 2026-08-20.",
+  "description": "15181 domains. Updated 2026-08-20.",
   "rules": [
     {
       "action": "deny",
@@ -73582,6 +73582,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:13:26,them3gatr0n,sha256,3f3cc7d9f714d6aaec33ec87e152c1fb86824d65342957a5ac018708ba37520a,,https://x.com/them3gatr0n/status/2090411885925736919",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:13:26,them3gatr0n,url,https://github.com/thompog/d/raw/refs/heads/main/japper.zip,,https://x.com/them3gatr0n/status/2090411885925736919",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:13:26,them3gatr0n,url,https://raw.githubusercontent.com/thompog/d/refs/heads/main/japper.zip,,https://x.com/them3gatr0n/status/2090411885925736919",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:19:14,coolcarlos17,domain,lojacasalima.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73597,6 +73618,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:22:01,coolcarlos17,url,\"https://havan-com-br.site/produto.php?slug=escada-telesc-pica-extensiva-alum-nio-5m-dobr-vel-16-degraus\"\",\",",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:31:13,masaomi346,domain,quartfication.wmsrdj.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:31:13,masaomi346,url,https://quartfication.wmsrdj.cn/ed9490/index,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77230,6 +77265,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "16:19:38,skocherhan,url,http://wereng.duckdns.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:21:03,threatopsx,domain,microsoftdesk.vintagefabrcations.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:21:03,threatopsx,url,http://microsoftdesk.vintagefabrcations.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
