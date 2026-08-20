@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "15051 domains. Updated 2026-08-20.",
+  "description": "15096 domains. Updated 2026-08-20.",
   "rules": [
     {
       "action": "deny",
@@ -21335,6 +21335,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00:20:03,ap_zenmashi,url,https://ysk3kmrun.duckdns.org,,https://x.com/ap_zenmashi/status/2089145193761267869",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:51:55,masaomi346,domain,leap39.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:51:55,masaomi346,url,http://leap39.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70586,6 +70600,160 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:17:29,bomccss,domain,hijndil-ownguen.pages.dev,,https://x.com/bomccss/status/2090292110943764709",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:17:29,bomccss,url,https://hijndil-ownguen.pages.dev,,https://x.com/bomccss/status/2090292110943764709",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:17:29,tdatwja,url,http://hijndil-ownguen.pages.dev,,https://x.com/tdatwja/status/2089986367224963283",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:17:30,bomccss,domain,fshsjlk.cc,,https://x.com/bomccss/status/2090292114236260732",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:17:30,bomccss,ip,121.127.253.206,,https://x.com/bomccss/status/2090292114236260732",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:17:30,bomccss,sha256,ab62b50e50d8148e7c894df644e62f365dbe2bd7f7ec0039b7d1af42c555562e,,https://x.com/bomccss/status/2090292112738963854",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:17:30,bomccss,url,http://121.127.253.206:8856,,https://x.com/bomccss/status/2090292114236260732",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:17:30,bomccss,url,http://121.127.253.206:8868,,https://x.com/bomccss/status/2090292114236260732",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:17:30,bomccss,url,http://fshsjlk.cc,,https://x.com/bomccss/status/2090292114236260732",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:04,bomccss,domain,toyotechnicaljp.pages.dev,,https://x.com/bomccss/status/2090292760750572023",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:04,bomccss,url,https://toyotechnicaljp.pages.dev,,https://x.com/bomccss/status/2090292760750572023",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:04,tdatwja,domain,apm.hexin.cn,,https://x.com/tdatwja/status/2089988933946130695",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:04,tdatwja,domain,du-a2026081702100.zip,,https://x.com/tdatwja/status/2089988933946130695",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:04,tdatwja,ip,58.220.49.156,,https://x.com/tdatwja/status/2089988933946130695",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:04,tdatwja,url,http://58.220.49.156:80,,https://x.com/tdatwja/status/2089988933946130695",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:04,tdatwja,url,http://apm.hexin.cn,,https://x.com/tdatwja/status/2089988933946130695",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:04,tdatwja,url,http://du-a2026081702100.zip,,https://x.com/tdatwja/status/2089988933946130695",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:04,tdatwja,url,http://toyotechnicaljp.pages.dev,,https://x.com/tdatwja/status/2089988933946130695",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:15,tkemmerling,domain,itnessequipmentfor.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:15,tkemmerling,domain,southfloridafitnessbootcamp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:15,tkemmerling,url,http://itnessequipmentfor.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:22:15,tkemmerling,url,http://southfloridafitnessbootcamp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:23:09,tkemmerling,domain,columbuswealthplanning.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70691,6 +70859,104 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:24:42,bomccss,domain,hsacnajklnsdcm8u.pages.dev,,https://x.com/bomccss/status/2090293927584923937",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:42,bomccss,domain,hxn20160817021han.zip,,https://x.com/bomccss/status/2090293927584923937",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:42,bomccss,url,http://hxn20160817021han.zip,,https://x.com/bomccss/status/2090293927584923937",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:42,bomccss,url,https://hsacnajklnsdcm8u.pages.dev,,https://x.com/bomccss/status/2090293927584923937",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:24:43,bomccss,sha256,250e3c82b49eae210a7a622ecbabfef07b7038c84aeb6109adb2d1dc05d44e33,,https://x.com/bomccss/status/2090293929443045680",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:28:27,bomccss,domain,io8rthrtthgfjglklibvfgt.pages.dev,,https://x.com/bomccss/status/2090294868581204201",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:28:27,bomccss,domain,nx_2026073083242.zip,,https://x.com/bomccss/status/2090294868581204201",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:28:27,bomccss,domain,rukeyou.com,,https://x.com/bomccss/status/2090294870426652909",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:28:27,bomccss,ip,134.122.136.84,,https://x.com/bomccss/status/2090294870426652909",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:28:27,bomccss,sha256,e95095a09b0a9fa2a5b67783fe93c2f5679e00d3214c6ca4d94bef209ed4b545,,https://x.com/bomccss/status/2090294870426652909",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:28:27,bomccss,url,https://134.122.136.84:8383,,https://x.com/bomccss/status/2090294870426652909",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:28:27,bomccss,url,https://io8rthrtthgfjglklibvfgt.pages.dev,,https://x.com/bomccss/status/2090294868581204201",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:28:27,bomccss,url,https://rukeyou.com/sys/x2/x2-payload_baolljp.jpg,,https://x.com/bomccss/status/2090294870426652909",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:28:27,bomccss,url,https://rukeyou.com/sys/x2/x2-payload_dfyihao.zip,,https://x.com/bomccss/status/2090294870426652909",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:29:46,tdatwja,domain,mail.elpasohonroso.com,,https://x.com/tdatwja/status/2088120876369866774",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70719,6 +70985,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:29:55,bomccss,ip,207.56.119.83,,https://x.com/bomccss/status/2090295239126954097",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:29:55,bomccss,sha256,c240b8b5400a53cae0401e1c38b5a61fd5796ce6ff74b90724de12c334e50d86,,https://x.com/bomccss/status/2090295237356986836",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:29:55,bomccss,url,http://207.56.119.83:6666,,https://x.com/bomccss/status/2090295239126954097",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:30:51,tkemmerling,domain,meetings.onlinecommunityconsultation.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70741,6 +71028,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "04:30:51,tkemmerling,url,http://mmcharty.s3.us-east-1.amazonaws.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:34:13,tkemmerling,domain,helengarentals.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:34:13,tkemmerling,url,http://helengarentals.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70811,6 +71112,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "04:49:52,tkemmerling,url,http://onxsm.styleompl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:14:59,masaomi346,domain,accoun.bligi.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:14:59,masaomi346,url,https://accoun.bligi.cn/yaw73eoujg,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
