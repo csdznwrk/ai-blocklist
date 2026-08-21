@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14816 domains. Updated 2026-08-21.",
+  "description": "14840 domains. Updated 2026-08-21.",
   "rules": [
     {
       "action": "deny",
@@ -71482,6 +71482,90 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "06:28:31,tkemmerling,domain,edufloat.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:28:31,tkemmerling,url,http://edufloat.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:29:04,tkemmerling,domain,stylishhomegallery.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:29:04,tkemmerling,url,http://stylishhomegallery.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:29:06,tkemmerling,domain,vkvfaith.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:29:06,tkemmerling,domain,wahlimit.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:29:06,tkemmerling,url,http://vkvfaith.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:29:06,tkemmerling,url,http://wahlimit.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:29:07,tkemmerling,domain,indelibleaggravate.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:29:07,tkemmerling,url,http://indelibleaggravate.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:29:11,tkemmerling,domain,columbuswealthplanning.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:29:11,tkemmerling,url,http://columbuswealthplanning.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "06:32:26,bomccss,sha256,5f59572a6371f2b29d9f0c9060e4947f78d0b0cdec5c9ba9f9ca7e2a1f145e29,,https://x.com/bomccss/status/2090326073129255277",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71532,6 +71616,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "06:42:44,onodera460,ip,1.1.4.2,,https://x.com/onodera460/status/2089603888982708661",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:44:19,opcodeintel,domain,panel.xxcqw.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:44:19,opcodeintel,url,http://panel.xxcqw.icu,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71644,6 +71742,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:00:47,phishunt_io,url,http://secure-login-facebook.bolt.host,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:01,phishunt_io,domain,netflx-update.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:01,phishunt_io,ip,167.71.169.239,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:01,phishunt_io,url,http://netflx-update.com/fiscalio/netflixx,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72175,6 +72294,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "09:26:22,masaomi346,domain,gzmingbo.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:26:22,masaomi346,url,https://gzmingbo.com/login,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:30:00,fact_finder03,ip,47.239.123.54,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72260,6 +72393,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:33:00,fact_finder03,ip,67.217.228.244,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:41:50,scanmalware,domain,xyx055.cc,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:41:50,scanmalware,url,http://xyx055.cc,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72525,6 +72672,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:25:10,lizettle_,url,https://lnkd.in/e2mn_cwi,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:28:30,abuse_ch,domain,allremdeskriki.com,,https://x.com/abuse_ch/status/2090038189347987611",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72764,6 +72918,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:01:18,phishunt_io,url,http://allegrolokalnie.lokalna-ofeta2435245.shop/oferta/jacuzzi-ogrodowe-6-osobowe-z-podswietlenirm-led/712187165?fbclid=iwy2xj,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:54,phishunt_io,domain,allegrolokalnie.pl-aibt8.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:54,phishunt_io,url,http://allegrolokalnie.pl-aibt8.sbs/oferta/apple-macbook-air-13-inch-m2-8gb-ram-256gb-f5zh2,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
