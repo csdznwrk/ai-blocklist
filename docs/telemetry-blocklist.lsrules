@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14365 domains. Updated 2026-08-22.",
+  "description": "14364 domains. Updated 2026-08-22.",
   "rules": [
     {
       "action": "deny",
@@ -71909,13 +71909,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "07:07:25,tkemmerling,domain,seen.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "07:07:25,tkemmerling,url,http://bayberryalgebraic.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71924,13 +71917,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:07:25,tkemmerling,url,http://landmailman.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:07:25,tkemmerling,url,http://seen.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73646,6 +73632,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:18:32,fact_finder03,ip,163.245.218.50,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:35:34,fact_finder03,ip,84.247.187.67,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
