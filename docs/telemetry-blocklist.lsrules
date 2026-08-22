@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14306 domains. Updated 2026-08-22.",
+  "description": "14316 domains. Updated 2026-08-22.",
   "rules": [
     {
       "action": "deny",
@@ -58868,6 +58868,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:53:35,scanmalware,domain,cvqgs36nhw-wtrkblpw-3i2d0e-cvq79c.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:53:35,scanmalware,url,http://cvqgs36nhw-wtrkblpw-3i2d0e-cvq79c.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02a169af111011.beer",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -67807,6 +67821,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "03:45:03,patialavii,domain,scr33nc0nn3ctz00m.com,,https://x.com/patialavii/status/2091008723959623721",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:45:03,patialavii,url,http://scr33nc0nn3ctz00m.com,,https://x.com/patialavii/status/2091008723959623721",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "03:50:03,ap_zenmashi,ip,216.126.237.93,,https://x.com/ap_zenmashi/status/2090647592703320179",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70824,6 +70852,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:23:30,patialavii,domain,live-zoorn.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:23:30,patialavii,url,http://live-zoorn.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:24:42,bomccss,domain,hsacnajklnsdcm8u.pages.dev,,https://x.com/bomccss/status/2090293927584923937",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71049,6 +71091,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "04:49:52,tkemmerling,url,http://onxsm.styleompl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:50:02,scanmalware,domain,gfytvd-wiyn-np4qjd-g9ewg7.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:50:02,scanmalware,url,http://gfytvd-wiyn-np4qjd-g9ewg7.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:04:51,masaomi346,domain,macielsoaresimobiliaria.com.br,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:04:51,masaomi346,url,https://macielsoaresimobiliaria.com.br/lolipop/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
