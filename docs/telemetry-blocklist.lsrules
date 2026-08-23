@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14079 domains. Updated 2026-08-23.",
+  "description": "14082 domains. Updated 2026-08-23.",
   "rules": [
     {
       "action": "deny",
@@ -52078,6 +52078,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "01:44:07,skocherhan,url,http://185.139.214.52,,https://x.com/skocherhan/status/2091340678051647907",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "01a-v0-cat33.hostenko.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -58715,6 +58722,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "029yt.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:01:13,scanmalware,domain,uqj3u0wuaqdngwgfkw.vercel.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:01:13,scanmalware,url,http://uqj3u0wuaqdngwgfkw.vercel.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
