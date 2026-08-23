@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14082 domains. Updated 2026-08-23.",
+  "description": "14109 domains. Updated 2026-08-23.",
   "rules": [
     {
       "action": "deny",
@@ -71692,6 +71692,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:00:51,phishunt_io,domain,xfinity101.duckdns.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:51,phishunt_io,ip,162.240.233.171,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:51,phishunt_io,url,http://xfinity101.duckdns.org/verify/payment,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:01:01,phishunt_io,domain,netflx-update.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71944,6 +71965,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:33:44,tkemmerling,domain,itnessequipmentfor.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:33:44,tkemmerling,domain,terracollinge.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:33:44,tkemmerling,url,http://itnessequipmentfor.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:33:44,tkemmerling,url,http://terracollinge.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:34:01,sicehice,ip,31.77.227.102,,https://x.com/sicehice/status/2090341569106681904",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71966,6 +72015,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:34:01,sicehice,url,http://31.77.227.102/dlink.sh,,https://x.com/sicehice/status/2090341569106681904",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:34:04,tkemmerling,domain,banderasbayvacationrentals.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:34:04,tkemmerling,url,http://banderasbayvacationrentals.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72000,6 +72063,76 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:35:14,tkemmerling,domain,birdingincolombia.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:14,tkemmerling,url,http://birdingincolombia.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:38,tkemmerling,domain,styleompl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:38,tkemmerling,domain,wahlimit.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:38,tkemmerling,domain,wonderho.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:38,tkemmerling,domain,wsudden.co.uk,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:38,tkemmerling,url,http://styleompl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:38,tkemmerling,url,http://wahlimit.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:38,tkemmerling,url,http://wonderho.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:38,tkemmerling,url,http://wsudden.co.uk,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:35:56,sicehice,ip,77.239.124.108,,https://x.com/sicehice/status/2090342050973516113",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72015,6 +72148,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:35:56,sicehice,url,http://77.239.124.108/atomic/atomic.sh,,https://x.com/sicehice/status/2090342050973516113",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:57,tkemmerling,domain,allweddingsites.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:35:57,tkemmerling,url,http://allweddingsites.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72141,6 +72288,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:20:21,fact_finder03,ip,103.214.68.193,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:21:57,breachhistorybh,domain,ihs911.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:21:57,breachhistorybh,url,http://ihs911.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72567,6 +72728,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "09:44:38,fact_finder03,ip,188.190.23.236,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:47:08,them3gatr0n,domain,quest-22.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72624,6 +72792,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:52:05,masaomi346,url,http://canvas-35.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:53:06,fact_finder03,ip,187.79.192.24,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72708,6 +72883,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "10:01:19,nextronresearch,sha256,f34f550147c2792c1ff2a003d15be89e5573f0896c5aa6126068baa4621ef416,,https://x.com/nextronresearch/status/2089291476328939641",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:14:02,masaomi346,domain,o3dul.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:14:02,masaomi346,url,https://o3dul.com/eien13aop/register,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
