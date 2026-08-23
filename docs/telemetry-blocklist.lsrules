@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14109 domains. Updated 2026-08-23.",
+  "description": "14183 domains. Updated 2026-08-23.",
   "rules": [
     {
       "action": "deny",
@@ -73043,6 +73043,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:14:08,akaclandestine,ip,185.208.158.27,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:25:10,lizettle_,url,https://lnkd.in/e2mn_cwi,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73526,6 +73533,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:34:55,them3gatr0n,sha256,9c6dbbe1985ffd3ea289153199a46bef92a77bbd030a00292424bc7c631f8258,,https://x.com/them3gatr0n/status/2091504455619412393",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:34:55,them3gatr0n,url,https://discord.gg/freeup,,https://x.com/them3gatr0n/status/2091504455619412393",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:34:55,them3gatr0n,url,https://us.creative.com/p/sound-blaster,,https://x.com/them3gatr0n/status/2091504455619412393",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:36:09,masaomi346,domain,neststudio16.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73771,6 +73799,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "13:47:03,skocherhan,url,https://us.creative.com/p/sound-blastermetadata,,https://x.com/skocherhan/status/2091522610945298772",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "13:49:35,byrne_emmy12099,domain,gyfguyhb.onlinewebshop.net,,https://x.com/byrne_emmy12099/status/2090073695104778625",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73926,6 +73961,440 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "14:14:42,teamcymru_s2,ip,83.229.125.173,,https://x.com/teamcymru_s2/status/2090804790607454681",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:18:59,byrne_emmy12099,domain,tony.stackluma.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:18:59,byrne_emmy12099,url,http://tony.stackluma.sbs/rooms/res/get-command.php?uid=[uid,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,backend.bytecove.cyou,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,backend.cubansyndicate.group,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,bg.bytecove.cyou,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,byfconsultores.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,bytecove.cyou,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,cart.cloudmora.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,checkout.nexovanta.bond,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,cloudmora.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,cubansyndicate.group,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,investment.cloudmora.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,khuh.nexovanta.bond,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,kids.techteeth.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,letitclean.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,mining.bytecove.cyou,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,nid-naver.mainguardsec.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,nid.naver.mainguardsec.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,pas.coolnaruto.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,play.softcube.fr,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,readermarks.xyz,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,safe-document.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,safe.techteeth.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,shop.stackluma.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,softcube.fr,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,talk.narutosasuke.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,triple.techteeth.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,vmi3377634.contaboserver.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,vmi360243.contaboserver.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,vmi399424.contaboserver.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,domain,vpn.mihailgolban.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,ip,62.171.167.73,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://62.171.167.73,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://backend.bytecove.cyou,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://backend.cubansyndicate.group,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://bg.bytecove.cyou,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://byfconsultores.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://bytecove.cyou,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://cart.cloudmora.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://checkout.nexovanta.bond,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://cloudmora.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://cubansyndicate.group,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://investment.cloudmora.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://khuh.nexovanta.bond,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://kids.techteeth.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://letitclean.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://mining.bytecove.cyou,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://nid-naver.mainguardsec.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://nid.naver.mainguardsec.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://pas.coolnaruto.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://play.softcube.fr,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://readermarks.xyz,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://safe-document.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://safe.techteeth.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://shop.stackluma.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://softcube.fr,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://talk.narutosasuke.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://triple.techteeth.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://vmi3377634.contaboserver.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://vmi360243.contaboserver.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://vmi399424.contaboserver.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:24:01,skocherhan,url,http://vpn.mihailgolban.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75843,6 +76312,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:00:54,phishunt_io,domain,tavareslopes.adv.br,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:00:54,phishunt_io,ip,192.185.216.47,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:00:54,phishunt_io,ip,216.126.227.232,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75851,6 +76334,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:00:54,phishunt_io,url,http://hotmail-session-ftmew3sm-2fexofgrs-----bzalpryr2e.kharwadejewellers.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:00:54,phishunt_io,url,http://tavareslopes.adv.br/co/wetransfer/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76019,6 +76509,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:33:24,skocherhan,url,https://03webzoominvite.us/invite.php,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:34:00,skocherhan,ip,217.119.129.122,,https://x.com/skocherhan/status/2091579723012825229",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:34:00,skocherhan,url,http://217.119.129.122,,https://x.com/skocherhan/status/2091579723012825229",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77320,7 +77824,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "18:00:07,phatomcandle,domain,k-cloud.auth-accounts.dynuddns.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "18:00:07,phatomcandle,domain,packetcheck.online,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:07,phatomcandle,url,http://k-cloud.auth-accounts.dynuddns.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
