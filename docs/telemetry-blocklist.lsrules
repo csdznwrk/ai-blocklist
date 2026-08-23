@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "14364 domains. Updated 2026-08-23.",
+  "description": "14079 domains. Updated 2026-08-23.",
   "rules": [
     {
       "action": "deny",
@@ -52071,20 +52071,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "01:04:58,masaomi346,domain,hndjsy.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01:04:58,masaomi346,url,https://hndjsy.com/lyfkfsvy/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "01:29:16,coolcarlos17,domain,pabloclock.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -58757,20 +58743,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "02:08:56,romonlyht,url,https://keczad.ynfgc.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "02:10:04,scanmalware,domain,test1.sougoucloud.workers.dev,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "02:10:04,scanmalware,url,http://test1.sougoucloud.workers.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71685,20 +71657,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "07:00:42,phishunt_io,domain,allegro.823ggg.casa,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "07:00:42,phishunt_io,url,http://allegro.823ggg.casa,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "07:00:47,phishunt_io,domain,secure-login-facebook.bolt.host,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72162,34 +72120,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:20:21,fact_finder03,ip,103.214.68.193,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "08:24:40,blinkzsec,sha256,3fd0447568473c470d7eeaaf7d114e1ae11dcc44171a229b150b4d8b43f7e5d3,,https://x.com/blinkzsec/status/2088904764864037259",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "08:24:40,blinkzsec,sha256,719bac8459f8bee69f160d8545663372ed19cc8ae7376b722b0e1ec38c100641,,https://x.com/blinkzsec/status/2088904764864037259",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "08:24:40,blinkzsec,sha256,7a9f8afbe39560ea52daada8700749371f189345aa7ec213dbdb537387c01d79,,https://x.com/blinkzsec/status/2088904764864037259",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "08:24:40,blinkzsec,sha256,f1ef3f68231edf202df5cfe0936daab505a10ab6ca26cf55655096608390bed3,,https://x.com/blinkzsec/status/2088904764864037259",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72791,20 +72721,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "10:56:56,fact_finder03,ip,143.109.37.227,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10:56:56,fact_finder03,ip,154.36.188.193,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "10:59:34,opcodeintel,domain,usa-legalforms.com,,https://x.com/opcodeintel/status/2090030910423138706",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72911,13 +72827,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "11:07:44,reliaquesttr,url,http://78.128.113.10,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "11:09:43,fact_finder03,ip,172.245.67.199,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73100,27 +73009,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "11:57:30,metemcyber,url,https://aeon.pvvjkwi.cn/6crfgauf1c,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12:00:52,phishunt_io,domain,trustwallet.42web.io,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12:00:52,phishunt_io,ip,185.27.134.171,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12:00:52,phishunt_io,url,http://trustwallet.42web.io,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73456,20 +73344,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "12:43:32,masaomi346,domain,chisel-84.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12:43:32,masaomi346,url,http://chisel-84.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "12:43:59,byrne_emmy12099,domain,zxcvherfgh.scienceontheweb.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73618,20 +73492,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:13:28,byrne_emmy12099,url,http://lkjhgb6yu.mywebcommunity.org/setting.php?banana=[hostname]&apple=[username]&domado=fruit,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:18:32,fact_finder03,ip,104.252.53.151,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "13:18:32,fact_finder03,ip,163.245.218.50,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75689,20 +75549,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "16:30:36,blackorbird,domain,plugandpwn.com,,https://x.com/blackorbird/status/2089027052733424051",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "16:30:36,blackorbird,url,http://plugandpwn.com,,https://x.com/blackorbird/status/2089027052733424051",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "16:35:17,patialavii,domain,gsjwba.shop,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75766,13 +75612,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "16:55:20,skocherhan,md5,917f6cd606d6cdc33de8318a77d5a0f9,,https://x.com/skocherhan/status/2089033277919125825",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "17:00:28,marcandrebeaul1,ip,103.22.175.82,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75781,20 +75620,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:00:28,marcandrebeaul1,ip,104.28.165.147,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:00:44,phishunt_io,domain,docs-ledger-live-feq.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:00:44,phishunt_io,url,http://docs-ledger-live-feq.typedream.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75927,13 +75752,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "17:18:08,fact_finder03,ip,193.221.201.195,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "17:25:39,rebensk,domain,dichcxosghnd-dsvekdc.top,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75948,13 +75766,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "17:30:15,fact_finder03,ip,108.165.179.230,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "17:31:05,patialavii,url,http://jokermav.online,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75963,20 +75774,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:31:05,patialavii,url,https://03webzoominvite.us/images/zoominstaller.msi,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:31:28,skocherhan,md5,259f0e418a57dd56f93d10fe29142d3a,,https://x.com/skocherhan/status/2089042372935979423",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:31:28,skocherhan,md5,8e1389360f391447405f779dfd4f4d18,,https://x.com/skocherhan/status/2089042372935979423",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76012,34 +75809,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:33:24,skocherhan,url,https://03webzoominvite.us/invite.php,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:36:48,tkemmerling,domain,hriver.net,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:36:48,tkemmerling,domain,styleompl.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:36:48,tkemmerling,url,http://hriver.net,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:36:48,tkemmerling,url,http://styleompl.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76082,34 +75851,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:38:04,ex_raritas,url,http://tcpsync.com,,https://x.com/ex_raritas/status/2089768806818168985",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:47:26,tkemmerling,domain,rfastorm.co.uk,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:47:26,tkemmerling,domain,yjeexpress.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:47:26,tkemmerling,url,http://rfastorm.co.uk,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:47:26,tkemmerling,url,http://yjeexpress.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77348,63 +77089,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "17:55:00,tkemmerling,domain,axpclear.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:55:00,tkemmerling,domain,morleyknowledge.org,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:55:00,tkemmerling,url,http://axpclear.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:55:00,tkemmerling,url,http://morleyknowledge.org,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "17:58:38,onodera460,ip,1.1.4.1,,https://x.com/onodera460/status/2090498758140154125",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:59:41,skocherhan,domain,japan-act.ydns.eu,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:59:41,skocherhan,domain,japan-act2.ydns.eu,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:59:41,skocherhan,url,http://japan-act.ydns.eu,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "17:59:41,skocherhan,url,http://japan-act2.ydns.eu,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77433,188 +77118,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:00:07,phatomcandle,url,http://packetcheck.online,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:00:09,phatomcandle,ip,198.23.134.117,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:00:09,phatomcandle,url,http://198.23.134.117,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,20billionn.ddns.net,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,aileen75.ddns.net,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,billionsonlinee.ddns.net,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,dexscreenertrade.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,fiancepsi1.duckdns.org,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,gu-grant-gz.ydns.eu,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,japanaction059.duckdns.org,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,purelog.duckdns.org,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,remcooox.duckdns.org,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,stachi.ydns.eu,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,sucessful.duckdns.org,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,domain,superdomain8765.ddns.net,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://20billionn.ddns.net:62699,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://aileen75.ddns.net:62699,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://billionsonlinee.ddns.net:62699,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://dexscreenertrade.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://fiancepsi1.duckdns.org:62699,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://gu-grant-gz.ydns.eu:62699,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://japanaction059.duckdns.org:62699,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://purelog.duckdns.org:62699,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://remcooox.duckdns.org:62699,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://stachi.ydns.eu:62699,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://sucessful.duckdns.org:62699,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:10:04,skocherhan,url,http://superdomain8765.ddns.net:62699,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77726,28 +77229,14 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "18:20:35,skocherhan,domain,87hermana26laafirmacion.vip,,https://x.com/skocherhan/status/2089054731574341775",
+      "remote-domains": "18:23:47,yusufcancakiir,domain,jb.cjian616.top,,https://x.com/yusufcancakiir/status/2091229864695083075",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "18:20:35,skocherhan,md5,374c7a1815373b88dd4723a405d8c7a3,,https://x.com/skocherhan/status/2089054731574341775",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:20:35,skocherhan,url,http://87hermana26laafirmacion.vip,,https://x.com/skocherhan/status/2089054731574341775",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "18:45:51,skocherhan,md5,004b8e84000e737d0000060700000000,,https://x.com/skocherhan/status/2089061091720462376",
+      "remote-domains": "18:23:47,yusufcancakiir,url,http://jb.cjian616.top,,https://x.com/yusufcancakiir/status/2091229864695083075",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78174,13 +77663,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "19:53:19,skocherhan,url,http://github.com/wgalliebuilder,,https://x.com/skocherhan/status/2089078068539253174",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "19:56:48,expectederr0r,domain,fuoe333.club,,https://x.com/expectederr0r/status/2090011242547261839",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78223,34 +77705,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "20:07:31,tkemmerling,domain,wahlimit.net,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:07:31,tkemmerling,domain,wonderho.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:07:31,tkemmerling,url,http://wahlimit.net,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:07:31,tkemmerling,url,http://wonderho.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "20:10:32,skocherhan,domain,grove-satin.com,,https://x.com/skocherhan/status/2090169563958653315",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78273,27 +77727,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "20:24:23,skocherhan,url,http://atlas-compass.com,,https://x.com/skocherhan/status/2090173049282662577",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:27:38,skocherhan,domain,otalbala.com,,https://x.com/skocherhan/status/2089086706402168854",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:27:38,skocherhan,md5,874d6851049e38e2e439acb6545f3fb3,,https://x.com/skocherhan/status/2089086706402168854",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:27:38,skocherhan,url,http://otalbala.com,,https://x.com/skocherhan/status/2089086706402168854",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78329,27 +77762,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "20:51:04,neiki__,url,http://jlab.threat.rip,,https://x.com/neiki__/status/2090904540690170057",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:59:09,kubotaa3,domain,syhzp.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:59:09,kubotaa3,ip,47.91.10.53,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "20:59:09,kubotaa3,url,https://syhzp.com/ibmwlzeh/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79280,1406 +78692,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,access-divace-bridge.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,app----en-bybit-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,app-live-ledger-wllet.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,begin-faq-trezer-suite-page.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,begin-hardware-trezo.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,begin-ledger-support.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,begin-new-trezrio-strt.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,begin-trezr-start-io.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,bright-secure-blokf-com-authd.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,bybit-login-app.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,cloud-warppe-d-ether-walle-t.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,co-web-ledger-live-login.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,connect-ledgercom-help.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,desktop-ledgercom-live.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,docs--login--ledger-live-desktop-io.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,docs-base-bridge-faq.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,docs-trezr-begin-help.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,en-io-start-help.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,en-t-r-e-z-r-io-login.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,en-treezer-cdn-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,en-treezer-logins-cdns.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,faq-app-trzor-suite.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,faq-bridge-en-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,faq-public-trezro-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,faq-tr-z-r-su-ite-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,faq-trezursuite-auth.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,faq-trzro-io-pro.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,faqs-trezcom-web-doc.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,hardware-trezr-faq-wallets.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,help-base-start-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,help-bridge-desk.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,help-en-ledger.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,help-io-start-treezer.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,help-ledger-eng-start.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,help-trezorr-io-start--sso-docs.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,help-us-public-trezzr-io-com-cdn.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,help-us-public-trezzr-io-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,info-suit-e-treze-er-doc.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,io-hardware-doc.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,io-public-trzors-com.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,keen-viper-0088.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,kucoine-learn-doce.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,learn-bridge-trezeer.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,learn-start-io-trezor-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-com-start-start-us-app.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-download-web-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-eng-begin.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-eng-start.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-legjliewlt.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-live-app-us-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-live-desktop-start-cloud.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-live-download-sso-conect.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-live-login-conect-auth.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-live-wallet-start-conect-us-en.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-login-conect-sso-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-login-ledger-us-en.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-login-start-ledger-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledger-login-web-conect-web-sso-in.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledglive-m-auth.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ledgr-walt-secure-td.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,live-led-ger-sso-auth.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ndax-login-access.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,official-coinbus-help.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,official-metamoskk.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,overview-en-treezor-ed.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,portal-io-start-docs.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,portal-liv-e-ap-p-ledger.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,public-faq-start-helps_-trezr.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,public-suite-app-trez.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,public-trzr-en-bridge.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,publlic-trezor-suite.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,secure----bybit-login.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,secure-c-om-ledg-er-sta-rt.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,secure-extensn-coin-wallet.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,secure-help-eng-ledger-live-login.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,secure-trezor-get-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,start-io-trezr-public-cdn.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,start-live--ledger-app.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,suite--trezror.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,suite-trezzor-com.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,support--legderlive-us--learn.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,support-uphold-auths-secure.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,trezor-app-bridge.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,trezor-io-start-access-us-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,trezor-io-start-public-sso-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,trezor-login-us-auth-start.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,trezor-suite-auth-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,trezr-io-start-cloud-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,trezr-page-start.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,trezrsite-web-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,trezur-start-base-faqs-io.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,ttrezur-en-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,us--start-en-trazor-io-com-cdn--en.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,us-conect-ledger-live-login.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,us-io-tzore-io.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,web-start-trezor-io-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,web-trezor-io-start-app.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,web-us-en-ledger-live-wallet.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,webpages-trzor-suite.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,domain,welcome-begin-trezo-en.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://access-divace-bridge.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://app----en-bybit-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://app-live-ledger-wllet.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://begin-faq-trezer-suite-page.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://begin-hardware-trezo.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://begin-ledger-support.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://begin-new-trezrio-strt.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://begin-trezr-start-io.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://bright-secure-blokf-com-authd.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://bybit-login-app.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://cloud-warppe-d-ether-walle-t.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://co-web-ledger-live-login.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://connect-ledgercom-help.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://desktop-ledgercom-live.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://docs--login--ledger-live-desktop-io.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://docs-base-bridge-faq.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://docs-trezr-begin-help.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://en-io-start-help.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://en-t-r-e-z-r-io-login.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://en-treezer-cdn-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://en-treezer-logins-cdns.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://faq-app-trzor-suite.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://faq-bridge-en-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://faq-public-trezro-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://faq-tr-z-r-su-ite-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://faq-trezursuite-auth.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://faq-trzro-io-pro.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://faqs-trezcom-web-doc.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://hardware-trezr-faq-wallets.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://help-base-start-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://help-bridge-desk.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://help-en-ledger.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://help-io-start-treezer.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://help-ledger-eng-start.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://help-trezorr-io-start--sso-docs.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://help-us-public-trezzr-io-com-cdn.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://help-us-public-trezzr-io-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://info-suit-e-treze-er-doc.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://io-hardware-doc.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://io-public-trzors-com.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://keen-viper-0088.typedream.app/untitled-96e9,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://kucoine-learn-doce.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://learn-bridge-trezeer.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://learn-start-io-trezor-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-com-start-start-us-app.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-download-web-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-eng-begin.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-eng-start.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-legjliewlt.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-live-app-us-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-live-desktop-start-cloud.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-live-download-sso-conect.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-live-login-conect-auth.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-live-wallet-start-conect-us-en.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-login-conect-sso-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-login-ledger-us-en.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-login-start-ledger-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledger-login-web-conect-web-sso-in.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledglive-m-auth.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ledgr-walt-secure-td.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://live-led-ger-sso-auth.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ndax-login-access.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://official-coinbus-help.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://official-metamoskk.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://overview-en-treezor-ed.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://portal-io-start-docs.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://portal-liv-e-ap-p-ledger.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://public-suite-app-trez.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://public-trzr-en-bridge.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://publlic-trezor-suite.typedream.app/en-us,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://secure----bybit-login.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://secure-c-om-ledg-er-sta-rt.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://secure-extensn-coin-wallet.typedream.app/en-us,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://secure-help-eng-ledger-live-login.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://secure-trezor-get-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://start-io-trezr-public-cdn.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://start-live--ledger-app.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://suite--trezror.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://suite-trezzor-com.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://support--legderlive-us--learn.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://support-uphold-auths-secure.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://trezor-app-bridge.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://trezor-io-start-access-us-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://trezor-io-start-public-sso-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://trezor-login-us-auth-start.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://trezor-suite-auth-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://trezr-io-start-cloud-sso.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://trezr-page-start.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://trezrsite-web-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://trezur-start-base-faqs-io.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://ttrezur-en-us.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://us--start-en-trazor-io-com-cdn--en.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://us-conect-ledger-live-login.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://us-io-tzore-io.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://web-start-trezor-io-web.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://web-trezor-io-start-app.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://web-us-en-ledger-live-wallet.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://webpages-trzor-suite.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "21:50:10,skocherhan,url,http://welcome-begin-trezo-en.typedream.app,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "22:06:07,skocherhan,md5,01803f005f87f23b7fa07841b12e2bea,,https://x.com/skocherhan/status/2089111489558774205",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "22:15:57,naouxq7,domain,dossieretudiant.polymlt.ca,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80709,20 +78721,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "22:16:40,byrne_emmy12099,url,https://getgreatgoodies.com/plugins/captcha/reload/refresh.php?tm=0819htxcircjj",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "22:26:17,skocherhan,domain,mhrs-edevletgiris.sbs,,https://x.com/skocherhan/status/2089116565165703285",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "22:26:17,skocherhan,url,http://mhrs-edevletgiris.sbs,,https://x.com/skocherhan/status/2089116565165703285",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80792,14 +78790,35 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "22:56:58,skocherhan,md5,4e9ec018687f6aa55f2009515634284a,,https://x.com/skocherhan/status/2089124284564185319",
+      "remote-domains": "23:02:40,1zrr4h,domain,portal.nuevosidiv.registrociivil.cl,,https://x.com/1zrr4h/status/2091300046964682777",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "22:56:58,skocherhan,md5,e1f2880d12b0e3da19fb94adceed0454,,https://x.com/skocherhan/status/2089124284564185319",
+      "remote-domains": "23:02:40,1zrr4h,domain,registrociivil.cl,,https://x.com/1zrr4h/status/2091300046964682777",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:02:40,1zrr4h,ip,108.174.155.231,,https://x.com/1zrr4h/status/2091300046964682777",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:02:40,1zrr4h,url,http://portal.nuevosidiv.registrociivil.cl,,https://x.com/1zrr4h/status/2091300046964682777",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:02:40,1zrr4h,url,http://registrociivil.cl,,https://x.com/1zrr4h/status/2091300046964682777",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80863,20 +78882,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "23:24:49,masaomi346,url,https://etc.meisai.zywblog.com/login.html/,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "23:25:33,masaomi346,domain,xsmn31.com,",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "23:25:33,masaomi346,url,https://xsmn31.com/juanskl/uuaks/huans",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
