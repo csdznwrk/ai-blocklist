@@ -1,6 +1,6 @@
 {
   "name": "Anti-AI + Anti-ISP-Snooping Blocklist",
-  "description": "Auto-updated every 15 min. Blocks AI platform endpoints, ISP tracking/ad-injection domains, telemetry collectors, and training data harvesters. Includes firewall rules that force all DNS through trusted resolvers (Cloudflare/Quad9/Google/NextDNS), blocking ISP DNS interception, NXDOMAIN hijacking, and query logging. Sources: crt.sh CT logs, Hagezi Pro, v2fly, MoralCode antitelemetry, seed list. Updated: 2026-08-25 05:59 UTC | Domains: 408",
+  "description": "Auto-updated every 15 min. Blocks AI platform endpoints, ISP tracking/ad-injection domains, telemetry collectors, and training data harvesters. Includes firewall rules that force all DNS through trusted resolvers (Cloudflare/Quad9/Google/NextDNS), blocking ISP DNS interception, NXDOMAIN hijacking, and query logging. Sources: crt.sh CT logs, Hagezi Pro, v2fly, MoralCode antitelemetry, seed list. Updated: 2026-08-25 06:38 UTC | Domains: 412",
   "rules": [
     {
       "action": "allow",
@@ -113,6 +113,7 @@
     "casalemedia.com",
     "cdn.adinfuse.com",
     "cdn.indexww.com",
+    "cdn.oaistatic.com",
     "centurylink.net",
     "character.ai",
     "charter-analytics.smithmicro.com",
@@ -267,6 +268,7 @@
     "partnerportal.anthropic.com",
     "paxar.net",
     "perplexity.ai",
+    "persistent.oaistatic.com",
     "phorm.com",
     "pippio.com",
     "pixel.quantserve.com",
@@ -337,6 +339,7 @@
     "stability.ai",
     "stablediffusionweb.com",
     "stackadapt.com",
+    "staging-cdn.oaistatic.com",
     "staging.anthropic.com",
     "staging.tunnel.anthropic.com",
     "static.criteo.net",
@@ -424,6 +427,7 @@
     "www.googletagmanager.com",
     "www.googletagservices.com",
     "www.legal.anthropic.com",
+    "www.oaistatic.com",
     "www.test.anthropic.com",
     "x.ai",
     "x.bidswitch.net",
