@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13764 domains. Updated 2026-08-26.",
+  "description": "13781 domains. Updated 2026-08-26.",
   "rules": [
     {
       "action": "deny",
@@ -72371,6 +72371,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "06:28:00,masaomi346,domain,yonghaodianqi.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:28:00,masaomi346,url,https://www.yonghaodianqi.com/giwkkhvc/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "06:28:06,metemcyber,domain,zfktseu.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72609,6 +72623,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:00:56,phishunt_io,domain,bradesco.maispontos.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:56,phishunt_io,ip,74.179.80.31,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:56,phishunt_io,url,http://bradesco.maispontos.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:00:59,phishunt_io,domain,gk.bnznji.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72827,6 +72862,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:10:20,fact_finder03,ip,188.40.225.137,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:11:32,scanmalware,domain,urlshort-linkmri0w5kc3r96.5go.workers.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:11:32,scanmalware,url,http://urlshort-linkmri0w5kc3r96.5go.workers.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73883,6 +73932,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "09:25:14,etugenio,ip,45.117.83.34,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:25:14,etugenio,url,http://45.117.83.34,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:26:22,masaomi346,domain,gzmingbo.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74241,6 +74304,62 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:56:20,bomccss,url,https://kabereonjp.pages.dev,,https://x.com/bomccss/status/2092189322523091071",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:05:36,metemcyber,domain,iodqqji.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:05:36,metemcyber,domain,tjtnfat.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:05:36,metemcyber,domain,wwufzpm.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:05:36,metemcyber,ip,165.154.241.48,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:05:36,metemcyber,url,http://165.154.241.48,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:05:36,metemcyber,url,https://iodqqji.info/rleidbag/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:05:36,metemcyber,url,https://tjtnfat.cn/rleidbag/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:05:36,metemcyber,url,https://wwufzpm.cn/rleidbag/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
