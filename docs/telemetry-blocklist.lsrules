@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13760 domains. Updated 2026-08-26.",
+  "description": "13764 domains. Updated 2026-08-26.",
   "rules": [
     {
       "action": "deny",
@@ -68122,6 +68122,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "03:59:55,tkemmerling,domain,downloads.msaccesspro.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:59:55,tkemmerling,url,http://downloads.msaccesspro.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "03a01d381c69453a.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70846,6 +70860,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "042f6c54e9e024818.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:00:01,tkemmerling,domain,re.yancha123.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:00:01,tkemmerling,url,http://re.yancha123.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
