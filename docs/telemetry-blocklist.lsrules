@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13781 domains. Updated 2026-08-26.",
+  "description": "13793 domains. Updated 2026-08-26.",
   "rules": [
     {
       "action": "deny",
@@ -74674,6 +74674,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:20:51,masaomi346,domain,leaf68.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:20:51,masaomi346,url,http://leaf68.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:23:16,them3gatr0n,domain,ddmyukztqt.b17da333ec194ec4b767.d.requestbin.net,,https://x.com/them3gatr0n/status/2090776748212576720",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74863,6 +74877,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:35:47,masaomi346,domain,claude-macos-app.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:35:47,masaomi346,domain,opalblueprint10.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:35:47,masaomi346,url,http://opalblueprint10.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:35:47,masaomi346,url,https://claude-macos-app.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:37:30,singhsoodeep,md5,dc6bf7339f6680086a09d5ad905d8786,,https://x.com/singhsoodeep/status/2091867494042538308",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74892,6 +74934,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:51:40,fact_finder03,ip,185.254.99.32,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:53:08,kirkderpca,domain,edgeupstudio.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:53:08,kirkderpca,url,http://edgeupstudio.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76221,6 +76277,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:01:01,phishunt_io,domain,docusign.login.adrpowersystem.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:01,phishunt_io,url,http://docusign.login.adrpowersystem.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:01:20,phishunt_io,domain,allegrolokalnie.ploferta3217832819.sbs,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76278,6 +76348,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:58:38,onodera460,ip,1.1.4.1,,https://x.com/onodera460/status/2090498758140154125",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:04,phatomcandle,domain,k-store.login-accounts.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:04,phatomcandle,url,http://k-store.login-accounts.dynu.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
