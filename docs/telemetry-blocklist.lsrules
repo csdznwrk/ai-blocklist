@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13679 domains. Updated 2026-08-27.",
+  "description": "13704 domains. Updated 2026-08-27.",
   "rules": [
     {
       "action": "deny",
@@ -72224,6 +72224,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "06:28:10,sloirem,domain,baouie2.club,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:28:10,sloirem,ip,118.107.44.153,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:28:10,sloirem,url,http://118.107.44.153,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:28:10,sloirem,url,http://baouie2.club,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "06:28:31,tkemmerling,domain,edufloat.org,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72386,6 +72414,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:00:51,phishunt_io,url,http://xfinity101.duckdns.org/verify/payment,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:54,phishunt_io,domain,reentrega-seur-envio.cloudaccess.host,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:54,phishunt_io,ip,199.116.78.57,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:54,phishunt_io,url,http://reentrega-seur-envio.cloudaccess.host/seur2/msg.php,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73302,6 +73351,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "08:52:16,metemcyber,domain,carlitostowing.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:52:16,metemcyber,ip,198.44.46.105,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:52:16,metemcyber,url,http://198.44.46.105,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:52:16,metemcyber,url,https://carlitostowing.com/lkpuwcdda/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:00:11,skocherhan,domain,unpac.me,,https://x.com/skocherhan/status/2092175193321930835",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73366,6 +73443,48 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:02:02,threatcluster,url,http://xmtrading-global.com,,https://x.com/threatcluster/status/2092175659544023412",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:05:03,metemcyber,domain,uukuz.wanjiangmei.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:05:03,metemcyber,ip,47.245.40.51,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:05:03,metemcyber,url,http://47.245.40.51,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:05:03,metemcyber,url,https://uukuz.wanjiangmei.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:11:17,masaomi346,domain,prizebond.net.pk,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:11:17,masaomi346,url,https://prizebond.net.pk/realansbiglobe/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73953,6 +74072,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:14,phishunt_io,domain,icloud-i-cl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:14,phishunt_io,url,http://icloud-i-cl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:31,phishunt_io,domain,allegro.ploferta3217832819.sbs,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74388,6 +74521,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:06:38,them3gatr0n,url,http://outsourcestock.blob.core.windows.net/outsourced/python-tk-runtime.zip,,https://x.com/them3gatr0n/status/2092237213174214656",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:11:17,scanmalware,domain,potwierdzenie-bezpieczenstwa.vercel.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:11:17,scanmalware,url,http://www.potwierdzenie-bezpieczenstwa.vercel.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75262,6 +75409,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "15:07:36,chwrld24,domain,cartoonblastfun.cfd,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:07:36,chwrld24,url,http://cartoonblastfun.cfd,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:07:36,chwrld24,url,https://cartoonblastfun.cfd/ke1a1wixzsbqo1kied,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "15:30:43,tkemmerling,domain,malfeasantboogie.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75340,6 +75508,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "15:59:10,coolcarlos17,url,\"https://havan.vip/produto.php?slug=escada-articulada-16-degraus-alum-nio-botafogo-altura\"\",",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:15:30,blinkzsec,ip,192.159.99.164,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
