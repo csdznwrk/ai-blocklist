@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13542 domains. Updated 2026-08-28.",
+  "description": "13555 domains. Updated 2026-08-28.",
   "rules": [
     {
       "action": "deny",
@@ -68143,6 +68143,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "03:47:46,masaomi346,domain,sferyds.ceeww.xyz,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "03:50:03,patialavii,domain,us05webosportalzoomworkspacemeeting-live-invitation-m90x76.pages.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72154,6 +72161,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:01:11,phishunt_io,domain,trezor-walletfn.webflow.io,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:11,phishunt_io,url,http://trezor-walletfn.webflow.io,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:01:20,phishunt_io,domain,allegro.1200000498.casa,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73162,6 +73183,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "09:24:21,masaomi346,domain,cli-stack.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:24:21,masaomi346,domain,stride25.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:24:21,masaomi346,url,http://stride25.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:24:21,masaomi346,url,https://cli-stack.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:25:14,etugenio,ip,45.117.83.34,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73638,6 +73687,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:15,phishunt_io,domain,login-yahoo-verify.blogspot.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:15,phishunt_io,url,http://login-yahoo-verify.blogspot.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:31,phishunt_io,domain,allegro.ploferta3217832819.sbs,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73919,6 +73982,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:06:38,them3gatr0n,url,http://outsourcestock.blob.core.windows.net/outsourced/python-tk-runtime.zip,,https://x.com/them3gatr0n/status/2092237213174214656",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:09:02,fbgwls245,domain,i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:09:02,fbgwls245,url,http://i7loab6thvz4lb7jdr3qoeumbvilwhbgnwsctnlfmvsv7g5s3vsiw6yd.onion,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74822,6 +74899,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:00:54,phishunt_io,url,http://tavareslopes.adv.br/co/wetransfer/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:00:55,phishunt_io,domain,support-ledgrcom-start-web.typedream.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:00:55,phishunt_io,url,http://support-ledgrcom-start-web.typedream.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
