@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13546 domains. Updated 2026-08-29.",
+  "description": "13553 domains. Updated 2026-08-29.",
   "rules": [
     {
       "action": "deny",
@@ -73099,6 +73099,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "08:59:24,masaomi346,domain,afterpartycandleco.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:59:24,masaomi346,url,https://afterpartycandleco.com/gbjynqku/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:00:11,skocherhan,domain,unpac.me,,https://x.com/skocherhan/status/2092175193321930835",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73673,6 +73687,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:16,phishunt_io,domain,roblox-canjear.online,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:16,phishunt_io,ip,200.58.111.123,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:16,phishunt_io,url,http://roblox-canjear.online/login.html,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:31,phishunt_io,domain,allegro.ploferta3217832819.sbs,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73681,6 +73716,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:01:31,phishunt_io,url,http://allegro.ploferta3217832819.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:13:54,masaomi346,domain,rpc-mainnet.matic.quiknode.pro,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:13:54,masaomi346,url,http://rpc-mainnet.matic.quiknode.pro,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
