@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13454 domains. Updated 2026-08-30.",
+  "description": "13456 domains. Updated 2026-08-30.",
   "rules": [
     {
       "action": "deny",
@@ -73464,6 +73464,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "11:41:07,kb4threatlabs,url,http://t90141393265.p.clickup-attachments.com/.../screenconnect.clientsetup.msi,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:52,phishunt_io,domain,icloud.trienkhaiweb.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:00:52,phishunt_io,url,http://icloud.trienkhaiweb.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
