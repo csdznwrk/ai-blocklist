@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13452 domains. Updated 2026-08-30.",
+  "description": "13454 domains. Updated 2026-08-30.",
   "rules": [
     {
       "action": "deny",
@@ -72400,6 +72400,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:01:11,phishunt_io,url,http://trezor-walletfn.webflow.io,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:12,phishunt_io,domain,pub-d68525cbc6144dcaaac2fc0354aa17dd.r2.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:12,phishunt_io,url,http://pub-d68525cbc6144dcaaac2fc0354aa17dd.r2.dev/new-docusignredir2.html,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
