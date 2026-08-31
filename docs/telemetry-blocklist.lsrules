@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13267 domains. Updated 2026-08-31.",
+  "description": "13282 domains. Updated 2026-08-31.",
   "rules": [
     {
       "action": "deny",
@@ -72308,6 +72308,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:57:12,masaomi346,domain,pine63.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:57:12,masaomi346,url,http://pine63.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:00:52,phishunt_io,domain,icloud.trienkhaiweb.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72371,6 +72385,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:48,phishunt_io,domain,facebook.securitylog.hu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:48,phishunt_io,ip,193.32.234.161,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:48,phishunt_io,url,http://facebook.securitylog.hu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:13:54,masaomi346,domain,rpc-mainnet.matic.quiknode.pro,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72414,6 +72449,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:34:22,kirkderpca,url,https://www.npmjs.com/package/chai-as-otc/v/1.0.5,,https://x.com/kirkderpca/status/2092229096013004826",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:34:44,j_o_h_d_s,domain,cizitensports.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:34:44,j_o_h_d_s,url,http://cizitensports.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72736,6 +72785,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "15:59:10,coolcarlos17,url,https://havan.vip/produto.php?slug=escada-articulada-16-degraus-alum-nio-botafogo-altura,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:03:22,tkemmerling,domain,itnessequipmentfor.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:03:22,tkemmerling,url,http://itnessequipmentfor.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73078,6 +73141,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:01:03,phishunt_io,domain,mail.icloud-i-cl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:03,phishunt_io,url,http://mail.icloud-i-cl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:01:06,phishunt_io,domain,partnerships.adobecreatives.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73093,6 +73170,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:01:06,phishunt_io,url,http://partnerships.adobecreatives.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:03:05,tkemmerling,domain,stories.myteenagedream.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:03:05,tkemmerling,url,http://stories.myteenagedream.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73121,6 +73212,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:00:04,phatomcandle,url,http://k-store.login-accounts.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:05,phatomcandle,domain,xylevia.today,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:05,phatomcandle,url,http://xylevia.today,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
