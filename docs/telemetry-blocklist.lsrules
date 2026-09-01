@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13115 domains. Updated 2026-09-01.",
+  "description": "13120 domains. Updated 2026-09-01.",
   "rules": [
     {
       "action": "deny",
@@ -71972,7 +71972,28 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:01:03,phishunt_io,domain,cm.instagram-g.com.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:01:03,phishunt_io,domain,mail.icloud-i-cl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:03,phishunt_io,ip,185.216.251.10,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:03,phishunt_io,url,http://cm.instagram-g.com.cn,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72035,6 +72056,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "18:00:04,phatomcandle,domain,kakao-user.login-accounts.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "18:00:04,phatomcandle,url,http://disclousre.cyou,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72043,6 +72071,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:00:04,phatomcandle,url,http://k-store.login-accounts.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:04,phatomcandle,url,http://kakao-user.login-accounts.dynu.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
