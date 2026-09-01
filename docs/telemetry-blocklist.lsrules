@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13092 domains. Updated 2026-09-01.",
+  "description": "13115 domains. Updated 2026-09-01.",
   "rules": [
     {
       "action": "deny",
@@ -71335,6 +71335,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:04:30,phishunt_io,domain,instagram-app.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:04:30,phishunt_io,ip,103.27.178.242,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:04:30,phishunt_io,url,http://instagram-app.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:13:54,masaomi346,domain,rpc-mainnet.matic.quiknode.pro,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71469,6 +71490,146 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:11:17,scanmalware,url,http://www.potwierdzenie-bezpieczenstwa.vercel.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:16:08,coolcarlos17,domain,site-havan.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:16:08,coolcarlos17,url,https://site-havan.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:33:44,tkemmerling,domain,financialmarkets.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:33:44,tkemmerling,domain,jeffersongraphicsllc.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:33:44,tkemmerling,url,http://financialmarkets.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:33:44,tkemmerling,url,http://jeffersongraphicsllc.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:34:08,tkemmerling,domain,nsbpay.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:34:08,tkemmerling,url,http://nsbpay.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:34:42,tkemmerling,domain,jessicaleeinc.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:34:42,tkemmerling,domain,silvaveergygroup.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:34:42,tkemmerling,url,http://jessicaleeinc.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:34:42,tkemmerling,url,http://silvaveergygroup.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:35:06,tkemmerling,domain,cedarpointlabs.blog,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:35:06,tkemmerling,url,http://cedarpointlabs.blog,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:35:31,tkemmerling,domain,casinovirtualexperience.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:35:31,tkemmerling,url,http://casinovirtualexperience.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:47:46,coolcarlos17,domain,casaiutilidade.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:47:46,coolcarlos17,url,https://www.casaiutilidade.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:01:50,masaomi346,domain,acorlns.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:01:50,masaomi346,url,https://acorlns.shop,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
