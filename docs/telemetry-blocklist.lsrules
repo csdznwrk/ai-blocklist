@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13125 domains. Updated 2026-09-02.",
+  "description": "13130 domains. Updated 2026-09-02.",
   "rules": [
     {
       "action": "deny",
@@ -72000,6 +72000,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:01:03,phishunt_io,domain,facebook.meweb.kz,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:01:03,phishunt_io,domain,mail.icloud-i-cl.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72014,7 +72021,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:01:03,phishunt_io,ip,195.210.46.27,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:01:03,phishunt_io,url,http://cm.instagram-g.com.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:03,phishunt_io,url,http://facebook.meweb.kz,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72113,6 +72134,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:00:06,phatomcandle,url,http://k-store.auth-accounts.dynu.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:07,phatomcandle,domain,velocty.cfd,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:07,phatomcandle,url,http://velocty.cfd,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
