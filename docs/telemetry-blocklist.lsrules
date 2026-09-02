@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13095 domains. Updated 2026-09-02.",
+  "description": "13114 domains. Updated 2026-09-02.",
   "rules": [
     {
       "action": "deny",
@@ -58910,6 +58910,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:56:19,tkemmerling,domain,topazbrasshardware.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:56:19,tkemmerling,url,http://topazbrasshardware.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02:56:48,tkemmerling,domain,schoolgirstrikers.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -67779,6 +67793,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "03:00:48,tkemmerling,domain,horizonpeak.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:00:48,tkemmerling,domain,prosperityplanningguide.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:00:48,tkemmerling,url,http://horizonpeak.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:00:48,tkemmerling,url,http://prosperityplanningguide.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "03:02:38,tkemmerling,domain,elegantwindowdoor.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70684,6 +70726,62 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:06:26,tkemmerling,domain,trendyvoguedesigns.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:06:26,tkemmerling,domain,webbottom.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:06:26,tkemmerling,url,http://trendyvoguedesigns.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:06:26,tkemmerling,url,http://webbottom.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:07:27,tkemmerling,domain,jeffersongraphicsllc.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:07:27,tkemmerling,domain,thebitcoincenter.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:07:27,tkemmerling,url,http://jeffersongraphicsllc.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:07:27,tkemmerling,url,http://thebitcoincenter.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:30:03,scanmalware,domain,paypal3.vercel.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70720,6 +70818,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "05:08:09,masaomi346,url,https://rakuten-card.dksclz.com/oak8kv,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:59:29,metemcyber,domain,ukiona.asia,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:59:29,metemcyber,url,https://ukiona.asia/qbgqjrtb/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70943,6 +71055,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:01:31,phishunt_io,domain,ledgerlivewebapp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:31,phishunt_io,url,http://ledgerlivewebapp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:10:17,abodovic1,ip,49.51.230.17,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71014,6 +71140,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:52:16,metemcyber,url,https://carlitostowing.com/lkpuwcdda/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:59:16,phishstats,ip,155.138.208.58,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
