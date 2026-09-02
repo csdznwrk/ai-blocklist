@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13114 domains. Updated 2026-09-02.",
+  "description": "13125 domains. Updated 2026-09-02.",
   "rules": [
     {
       "action": "deny",
@@ -71384,6 +71384,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:29:16,masaomi346,domain,rhigcrimelet.chktxw.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:29:16,masaomi346,url,https://rhigcrimelet.chktxw.info/h80aoo,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:34:44,j_o_h_d_s,domain,cizitensports.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71392,6 +71406,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:34:44,j_o_h_d_s,url,http://cizitensports.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:45:29,abuse_ch,ip,91.193.7.186,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71448,6 +71469,62 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:11:17,scanmalware,url,http://www.potwierdzenie-bezpieczenstwa.vercel.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:05:37,tkemmerling,domain,anadolucuhuriyeti.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:05:37,tkemmerling,url,http://anadolucuhuriyeti.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:06:36,tkemmerling,domain,cartshopdaily.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:06:36,tkemmerling,domain,webologygroup.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:06:36,tkemmerling,url,http://cartshopdaily.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:06:36,tkemmerling,url,http://webologygroup.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:08:46,tkemmerling,domain,jessicaleeinc.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:08:46,tkemmerling,url,http://jessicaleeinc.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
