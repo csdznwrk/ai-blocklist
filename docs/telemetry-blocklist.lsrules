@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13099 domains. Updated 2026-09-03.",
+  "description": "13105 domains. Updated 2026-09-03.",
   "rules": [
     {
       "action": "deny",
@@ -71748,6 +71748,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "16:27:08,tkemmerling,domain,pinebridgedigital.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:27:08,tkemmerling,url,http://pinebridgedigital.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:00:52,phishunt_io,domain,login.authorised-support.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71930,6 +71944,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "18:28:39,tkemmerling,domain,asianmassageporn.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:28:39,tkemmerling,url,http://asianmassageporn.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "19:32:10,g60930953,domain,ncloudtechlab.online,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71938,6 +71966,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "19:32:10,g60930953,url,http://www.ncloudtechlab.online,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:49:21,tkemmerling,domain,budgetweddingplanner.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:49:21,tkemmerling,url,http://budgetweddingplanner.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
