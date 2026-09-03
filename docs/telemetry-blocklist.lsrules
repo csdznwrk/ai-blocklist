@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13080 domains. Updated 2026-09-03.",
+  "description": "13087 domains. Updated 2026-09-03.",
   "rules": [
     {
       "action": "deny",
@@ -58777,6 +58777,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:30:16,lawrencetech504,domain,btc6688.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:30:16,lawrencetech504,url,http://btc6688.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:38:40,masaomi346,domain,bravqhz.cfd,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:38:40,masaomi346,url,https://bravqhz.cfd/dsfd/",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02:56:19,tkemmerling,domain,topazbrasshardware.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70845,7 +70873,28 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:01:31,phishunt_io,domain,grupoimpaktu.ao,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:01:31,phishunt_io,domain,ledgerlivewebapp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:31,phishunt_io,ip,135.181.34.42,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:31,phishunt_io,url,http://grupoimpaktu.ao/quotesss/onedrive-verify-obf.html,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70881,6 +70930,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:31:33,scanmalware,url,http://mkgheye78fdfb.sryoung56.workers.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:33:06,phishstats,domain,mikjv2zuc2ct-pages-dev.translate.goog,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:33:06,phishstats,url,https://mikjv2zuc2ct-pages-dev.translate.goog/support.apple.com.html?_x_tr_sch=&amp;_x_tr_sl=monex&amp;_x_tr_tl=ja,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -91355,21 +91418,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "||trackinglabs.com^$third-party",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "||trackingmyadsas.com^",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "||treconeanalytics.com^",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
