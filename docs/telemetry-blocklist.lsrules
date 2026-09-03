@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13087 domains. Updated 2026-09-03.",
+  "description": "13099 domains. Updated 2026-09-03.",
   "rules": [
     {
       "action": "deny",
@@ -71034,6 +71034,76 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:32:19,orlof_v,domain,rrr.12naga.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:32:19,orlof_v,domain,sha.sm188dvlv.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:32:19,orlof_v,domain,tak.123ful.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:32:19,orlof_v,domain,tak.sm188dvlv.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:32:19,orlof_v,domain,tra.12naga.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:32:19,orlof_v,url,http://rrr.12naga.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:32:19,orlof_v,url,http://sha.sm188dvlv.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:32:19,orlof_v,url,http://tak.123ful.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:32:19,orlof_v,url,http://tak.sm188dvlv.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:32:19,orlof_v,url,http://tra.12naga.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:57:12,masaomi346,domain,pine63.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71147,6 +71217,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:13:54,masaomi346,url,http://rpc-mainnet.matic.quiknode.pro,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:26:15,masaomi346,domain,ana-log.therealmasterwithin.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:26:15,masaomi346,url,https://ana-log.therealmasterwithin.com/login-ana/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
