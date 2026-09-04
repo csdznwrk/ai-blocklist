@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13131 domains. Updated 2026-09-04.",
+  "description": "13138 domains. Updated 2026-09-04.",
   "rules": [
     {
       "action": "deny",
@@ -71636,6 +71636,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "15:32:14,_akatsukilegion,ip,101.42.136.73,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:32:14,_akatsukilegion,url,http://101.42.136.73,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:03:22,tkemmerling,domain,itnessequipmentfor.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71986,6 +72000,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:01:12,phishunt_io,domain,spotify-anniversary30th.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:12,phishunt_io,ip,178.16.54.253,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:12,phishunt_io,url,http://spotify-anniversary30th.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:03:05,tkemmerling,domain,stories.myteenagedream.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72078,6 +72113,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:28:39,tkemmerling,url,http://asianmassageporn.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:53:52,skocherhan,domain,telendszes.work,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:53:52,skocherhan,url,http://telendszes.work,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
