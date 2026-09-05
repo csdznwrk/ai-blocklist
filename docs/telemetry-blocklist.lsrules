@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13101 domains. Updated 2026-09-05.",
+  "description": "13114 domains. Updated 2026-09-05.",
   "rules": [
     {
       "action": "deny",
@@ -71167,6 +71167,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "13:49:51,fbgwls245,domain,ybvjht7qcuhcml4pjcs7fgk57tzysplqtfq4i7yrwc6vjilin2dt2qad.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:49:51,fbgwls245,url,http://ybvjht7qcuhcml4pjcs7fgk57tzysplqtfq4i7yrwc6vjilin2dt2qad.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "14:05:37,tkemmerling,domain,anadolucuhuriyeti.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71231,6 +71245,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "14:16:08,coolcarlos17,url,https://site-havan.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:32:24,masaomi346,domain,paintingth.iqlvebw.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:32:24,masaomi346,url,https://paintingth.iqlvebw.cn/szhusg/potyunde,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71650,6 +71678,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:00:57,phishunt_io,domain,whatsapp.traviyo.in,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:00:57,phishunt_io,ip,103.234.185.7,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:00:57,phishunt_io,url,http://whatsapp.traviyo.in,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:01:03,phishunt_io,domain,cm.instagram-g.com.cn,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71811,6 +71860,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "18:14:57,ucpgoa23,domain,fp2e7a.wpc.2be4.phicdn.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:14:57,ucpgoa23,url,http://fp2e7a.wpc.2be4.phicdn.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "18:28:39,tkemmerling,domain,asianmassageporn.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71819,6 +71882,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:28:39,tkemmerling,url,http://asianmassageporn.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:45:44,muha2xmad,domain,f005.backblazeb2.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:45:44,muha2xmad,domain,submit-form.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:45:44,muha2xmad,url,https://f005.backblazeb2.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:45:44,muha2xmad,url,https://submit-form.com/xfgxjyepw,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
