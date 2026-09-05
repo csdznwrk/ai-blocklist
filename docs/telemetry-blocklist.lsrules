@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13078 domains. Updated 2026-09-05.",
+  "description": "13096 domains. Updated 2026-09-05.",
   "rules": [
     {
       "action": "deny",
@@ -70593,6 +70593,76 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:00:45,masaomi346,domain,etax-olimw.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:45,masaomi346,domain,etax-pliwka.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:45,masaomi346,domain,etax-plwads.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:45,masaomi346,domain,etax-uwaiosd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:45,masaomi346,domain,etax-wusasd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:45,masaomi346,url,https://etax-olimw.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:45,masaomi346,url,https://etax-pliwka.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:45,masaomi346,url,https://etax-plwads.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:45,masaomi346,url,https://etax-uwaiosd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:45,masaomi346,url,https://etax-wusasd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:01:12,phishunt_io,domain,pub-d68525cbc6144dcaaac2fc0354aa17dd.r2.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70754,6 +70824,55 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "08:49:06,skocherhan,sha256,bc48086b5b9d893ad51224fe7425914ed4d76ec14f01d3125b6a7289d774aa6e,,https://x.com/skocherhan/status/2096158669339590946",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:51:25,skocherhan,domain,finance-gov-pk.fetchdrives.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:51:25,skocherhan,domain,pk.fetchdrives.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:51:25,skocherhan,domain,www-finance-gov-pk.fetchdrives.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:51:25,skocherhan,url,http://finance-gov-pk.fetchdrives.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:51:25,skocherhan,url,http://pk.fetchdrives.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:51:25,skocherhan,url,http://www-finance-gov-pk.fetchdrives.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "08:53:54,masaomi346,domain,login.zylvshiw.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70762,6 +70881,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:53:54,masaomi346,url,https://login.zylvshiw.com/login,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:58:50,skocherhan,md5,8a7db4271f1103fe195591ce3e500faa,,https://x.com/skocherhan/status/2096161119836512463",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
