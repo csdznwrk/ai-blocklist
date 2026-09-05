@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13096 domains. Updated 2026-09-05.",
+  "description": "13101 domains. Updated 2026-09-05.",
   "rules": [
     {
       "action": "deny",
@@ -70915,6 +70915,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:07:00,phishunt_io,domain,apk-google.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:07:00,phishunt_io,ip,47.57.138.67,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:07:00,phishunt_io,url,http://apk-google.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:32:19,orlof_v,domain,rrr.12naga.org,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71007,6 +71028,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:00:52,phishunt_io,url,http://icloud.trienkhaiweb.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:21,phishunt_io,domain,bankofamericanonline.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:21,phishunt_io,url,http://bankofamericanonline.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
