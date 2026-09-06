@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13095 domains. Updated 2026-09-06.",
+  "description": "13100 domains. Updated 2026-09-06.",
   "rules": [
     {
       "action": "deny",
@@ -71412,6 +71412,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "15:01:14,skocherhan,domain,microsoft-alpha.vercel.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:01:14,skocherhan,url,http://microsoft-alpha.vercel.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "15:01:50,masaomi346,domain,acorlns.shop,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71420,6 +71434,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "15:01:50,masaomi346,url,https://acorlns.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:03:20,rakeshkrish12,ip,23.137.255.139,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71539,6 +71560,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:01:03,phishunt_io,url,http://mail.icloud-i-cl.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:05,phishunt_io,domain,restoration-google.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:05,phishunt_io,url,http://restoration-google.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
