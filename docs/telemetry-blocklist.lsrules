@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13090 domains. Updated 2026-09-06.",
+  "description": "13095 domains. Updated 2026-09-06.",
   "rules": [
     {
       "action": "deny",
@@ -71048,6 +71048,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:26,phishunt_io,domain,simulador-credito-auto-bbva.ideeo.mx,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:26,phishunt_io,ip,200.76.161.229,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:26,phishunt_io,url,http://simulador-credito-auto-bbva.ideeo.mx,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:48,phishunt_io,domain,facebook.securitylog.hu,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71161,6 +71182,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13-5.ru",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:48:03,masaomi346,domain,mfawke.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:48:03,masaomi346,url,http://mfawke.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
