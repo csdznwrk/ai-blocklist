@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13086 domains. Updated 2026-09-06.",
+  "description": "13090 domains. Updated 2026-09-06.",
   "rules": [
     {
       "action": "deny",
@@ -70761,6 +70761,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:40:03,scanmalware,domain,kxlrq279nhw-fghzdfyn-3y0x1g-wp833a.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:40:03,scanmalware,url,http://kxlrq279nhw-fghzdfyn-3y0x1g-wp833a.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "08:31:33,scanmalware,domain,mkgheye78fdfb.sryoung56.workers.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70783,6 +70797,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:33:06,phishstats,url,https://mikjv2zuc2ct-pages-dev.translate.goog/support.apple.com.html?_x_tr_sch=&amp;_x_tr_sl=monex&amp;_x_tr_tl=ja,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:35:09,phishstats,domain,mybroadbandservice.plutio.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:35:09,phishstats,url,https://mybroadbandservice.plutio.com/p/form/ittjkqd9fngbzrhnb,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },

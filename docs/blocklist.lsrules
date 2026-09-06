@@ -1,6 +1,6 @@
 {
   "name": "Anti-AI + Anti-ISP-Snooping Blocklist",
-  "description": "Auto-updated every 15 min. Blocks AI platform endpoints, ISP tracking/ad-injection domains, telemetry collectors, and training data harvesters. Includes firewall rules that force all DNS through trusted resolvers (Cloudflare/Quad9/Google/NextDNS), blocking ISP DNS interception, NXDOMAIN hijacking, and query logging. Sources: crt.sh CT logs, Hagezi Pro, v2fly, MoralCode antitelemetry, seed list. Updated: 2026-09-06 05:58 UTC | Domains: 766",
+  "description": "Auto-updated every 15 min. Blocks AI platform endpoints, ISP tracking/ad-injection domains, telemetry collectors, and training data harvesters. Includes firewall rules that force all DNS through trusted resolvers (Cloudflare/Quad9/Google/NextDNS), blocking ISP DNS interception, NXDOMAIN hijacking, and query logging. Sources: crt.sh CT logs, Hagezi Pro, v2fly, MoralCode antitelemetry, seed list. Updated: 2026-09-06 10:04 UTC | Domains: 762",
   "rules": [
     {
       "action": "allow",
@@ -138,7 +138,6 @@
     "casalemedia.com",
     "cdn.adinfuse.com",
     "cdn.indexww.com",
-    "cdn.oaistatic.com",
     "cdn.openai.com",
     "cdn.production.openai.com",
     "cdn.staging.openai.com",
@@ -528,7 +527,6 @@
     "paxar.net",
     "pay.openai.com",
     "perplexity.ai",
-    "persistent.oaistatic.com",
     "phorm.com",
     "pippio.com",
     "pixel.quantserve.com",
@@ -679,7 +677,6 @@
     "stability.ai",
     "stablediffusionweb.com",
     "stackadapt.com",
-    "staging-cdn.oaistatic.com",
     "staging.chat.openai.com",
     "staging.chatgpt.com",
     "staging.generations.openai.com",
@@ -779,7 +776,6 @@
     "www.google-analytics.com",
     "www.googletagmanager.com",
     "www.googletagservices.com",
-    "www.oaistatic.com",
     "www.openai.com",
     "www.slack.openai.com",
     "www2.openai.com",
