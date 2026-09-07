@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13128 domains. Updated 2026-09-07.",
+  "description": "13137 domains. Updated 2026-09-07.",
   "rules": [
     {
       "action": "deny",
@@ -71090,6 +71090,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:08,phishunt_io,domain,watco.microsoft-notifcation.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:08,phishunt_io,ip,3.145.232.22,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:08,phishunt_io,url,http://watco.microsoft-notifcation.com/wa4d1737192/78b65c00e4993df97452c88c/index.php?id=60f29657ebf9c47f483976bd43ae,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:21,phishunt_io,domain,bankofamericanonline.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71140,6 +71161,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:04:30,phishunt_io,url,http://instagram-app.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:21:24,_akatsukilegion,ip,124.223.221.83,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:21:24,_akatsukilegion,url,http://124.223.221.83:9999,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71203,6 +71238,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13-5.ru",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:18,klawlikula,domain,yylfoli.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:18,klawlikula,ip,31.210.61.15,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:18,klawlikula,url,http://31.210.61.15,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:18,klawlikula,url,https://yylfoli.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
