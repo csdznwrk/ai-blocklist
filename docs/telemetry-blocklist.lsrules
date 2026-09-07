@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13137 domains. Updated 2026-09-07.",
+  "description": "13153 domains. Updated 2026-09-07.",
   "rules": [
     {
       "action": "deny",
@@ -70628,6 +70628,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "06:07:42,tdatwja,ip,202.146.222.95,,https://x.com/tdatwja/status/2096842830446838090",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:07:42,tdatwja,url,http://202.146.222.95:443,,https://x.com/tdatwja/status/2096842830446838090",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "06:19:32,masaomi346,domain,xwmgm.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70811,6 +70825,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:01:31,phishunt_io,url,http://ledgerlivewebapp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:36:54,bomccss,sha256,bf1d4b7e256454bfadfc2ed1931110fd6ee41294b70df70e0b5deb573ae802fc,,https://x.com/bomccss/status/2096865276533080401",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:38:23,bomccss,domain,e4211926_01_s461.zip,,https://x.com/bomccss/status/2096865650732142704",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:38:23,bomccss,sha256,d97dae8f8aafa75dd7c13e3b3018cbb3667bb8d990bd4fac1aee54ad492a51e6,,https://x.com/bomccss/status/2096865650732142704",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71090,6 +71125,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:35:14,suyog41,md5,54f26190e57f196c26b8cb3b6168424e,,https://x.com/suyog41/status/2096925256661295607",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:08,phishunt_io,domain,watco.microsoft-notifcation.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71209,6 +71251,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:36:19,nextronresearch,sha256,3063285af5c7586ad04178c52b55da2bc1970cb7ae4fadba2195ad4a3fb8ac50,,https://x.com/nextronresearch/status/2066497577206325421",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:36:19,nextronresearch,sha256,853ed3a26188e4cd89db50ebf50dd0c7b9392c056f637ba3af042c0156877a65,,https://x.com/nextronresearch/status/2066497577206325421",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:36:19,nextronresearch,sha256,abfac8026d1974220871568caf9344cbffed19a184ff098c0912ffbb4f1e42d5,,https://x.com/nextronresearch/status/2066497577206325421",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:36:19,nextronresearch,sha256,befcffc4494e71f0efa03db4b3cfb71f72eab2ee9b406e867569062f238d4c3b,,https://x.com/nextronresearch/status/2066497577206325421",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:45:29,abuse_ch,ip,91.193.7.186,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71294,6 +71364,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:49:51,fbgwls245,url,http://ybvjht7qcuhcml4pjcs7fgk57tzysplqtfq4i7yrwc6vjilin2dt2qad.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:51:04,500mk500,domain,omeglebang.lol,,https://x.com/500mk500/status/2096959437965582356",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:51:04,500mk500,url,http://omeglebang.lol,,https://x.com/500mk500/status/2096959437965582356",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71651,6 +71735,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:01:12,phishunt_io,url,http://spotify-anniversary30th.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:24,phishunt_io,domain,robloxr.com.es,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:24,phishunt_io,ip,203.175.9.165,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:24,phishunt_io,url,http://robloxr.com.es/login?returlurl=1179291790,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:02:48,hunters_ledger,url,http://193.233.202.17,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
