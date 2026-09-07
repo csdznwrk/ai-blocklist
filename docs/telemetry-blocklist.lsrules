@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13104 domains. Updated 2026-09-07.",
+  "description": "13128 domains. Updated 2026-09-07.",
   "rules": [
     {
       "action": "deny",
@@ -67618,6 +67618,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "03:25:26,npj8448,domain,medela.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:25:26,npj8448,url,http://medela.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:57:58,mugu_reporter,domain,quantum-forgex.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:57:58,mugu_reporter,url,http://quantum-forgex.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "03a01d381c69453a.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70488,6 +70516,104 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "05:17:53,metemcyber,domain,cam-ana-jp.smpoodle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:53,metemcyber,ip,107.149.105.29,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:53,metemcyber,url,http://107.149.105.29,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:17:53,metemcyber,url,https://cam-ana-jp.smpoodle.com/security/ap/loginlogout/login/creditlimit/inquirycreditlimit/d10203840,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:42:51,metemcyber,domain,rnwm.fpewppc.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:42:51,metemcyber,ip,43.165.128.22,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:42:51,metemcyber,url,http://43.165.128.22,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:42:51,metemcyber,url,https://rnwm.fpewppc.cn/ap/signin,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:47:09,metemcyber,domain,stupfication.5s7htk.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:47:09,metemcyber,ip,43.165.167.152,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:47:09,metemcyber,url,http://43.165.167.152,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:47:09,metemcyber,url,https://stupfication.5s7htk.info/g3earg/jp,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:56:39,metemcyber,ip,43.165.196.142,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:56:39,metemcyber,url,http://43.165.196.142,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "05:59:29,metemcyber,domain,ukiona.asia,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70496,6 +70622,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "05:59:29,metemcyber,url,https://ukiona.asia/qbgqjrtb/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:19:32,masaomi346,domain,xwmgm.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:19:32,masaomi346,url,https://xwmgm.com/login,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70580,6 +70720,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:00:45,masaomi346,url,https://etax-wusasd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:19,phishunt_io,domain,https-wwwv-roblox.co,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:19,phishunt_io,url,http://https-wwwv-roblox.co/login?returnurl=288280197,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70825,6 +70979,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:28:05,masaomi346,url,https://point-raka.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:00:05,phatomcandle,domain,lucidware.click,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:00:05,phatomcandle,url,http://lucidware.click,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
