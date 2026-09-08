@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13185 domains. Updated 2026-09-08.",
+  "description": "13187 domains. Updated 2026-09-08.",
   "rules": [
     {
       "action": "deny",
@@ -71714,6 +71714,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:00:57,phishunt_io,url,http://whatsapp.traviyo.in,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:00:58,phishunt_io,domain,whatsapp.viewclass.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:00:58,phishunt_io,url,http://whatsapp.viewclass.com/login,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
