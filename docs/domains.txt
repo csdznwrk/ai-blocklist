@@ -60,6 +60,8 @@ api-backend-frontend.n.anthropic.com
 api-backend.anthropic.com
 api-backend1.openai.com
 api-cloudflare.openai.com
+api-docs.deepseek.com
+api-openai-us1.deepseek.com
 api-production.product-internal.anthropic.com
 api-release-candidate-2.anthropic.com
 api-release-candidate.anthropic.com
@@ -68,10 +70,12 @@ api-staging.anthropic.com
 api-staging.openai.com
 api-staging.product-internal.anthropic.com
 api-test.anthropic.com
+api-test.deepseek.com
 api.anthropic.com
 api.apps.openai.com
 api.chatgpt.com
 api.claude.ai
+api.cocopilot.deepseek.com
 api.cohere.ai
 api.cohere.com
 api.console.anthropic.com
@@ -96,6 +100,7 @@ api.unified-9.api.openai.com
 api.x.ai
 api2.openai.com
 applemetrics.att.net
+applink.deepseek.com
 appmetrics.att.com
 apps.openai.com
 arena.openai.com
@@ -110,6 +115,7 @@ atlantis.c.anthropic.com
 atlas.anthropic.com
 att-services.net
 att.net
+attack.deepseek.com
 auth.console-staging.anthropic.com
 auth.console.anthropic.com
 auth.openai.com
@@ -121,9 +127,12 @@ barefruit.com
 batchapi.unified-0.api.openai.com
 beacon.krxd.net
 beacon.rubiconproject.com
+bench.deepseek.com
 beta.api.openai.com
 beta.character.ai
 beta.openai.com
+beta20240807.chat-test.deepseek.com
+beta20240807.chat.deepseek.com
 beta42.api.openai.com
 beta42.openai.com
 bidder.criteo.com
@@ -146,6 +155,7 @@ c.anthropic.com
 casalemedia.com
 cdn.adinfuse.com
 cdn.indexww.com
+cdn.oaistatic.com
 cdn.openai.com
 cdn.production.openai.com
 cdn.staging.openai.com
@@ -155,6 +165,7 @@ challenge.openai.com
 character.ai
 charter-analytics.smithmicro.com
 charter.com
+chat-dev.deepseek.com
 chat-internal.apps.openai.com
 chat-internal.g1.services.openai.com
 chat-internal.g2.services.openai.com
@@ -166,6 +177,8 @@ chat-onramp.unified-7.api.openai.com
 chat-onramp.unified-8.api.openai.com
 chat-onramp.unified-9.api.openai.com
 chat-sonic.apps.openai.com
+chat-test-cf.deepseek.com
+chat-test.deepseek.com
 chat.apps.openai.com
 chat.deepseek.com
 chat.mistral.ai
@@ -233,6 +246,7 @@ cloudflare-dns.com
 cm.everesttech.net
 cm.g.doubleclick.net
 codeium.com
+coder.deepseek.com
 cohere.ai
 cohere.com
 community.openai.com
@@ -241,6 +255,7 @@ console.anthropic.com
 console.mistral.ai
 contest.openai.com
 cookbook.openai.com
+copilot-telemetry-service.cocopilot.deepseek.com
 cox.net
 coxdns.cox.net
 criteo.com
@@ -283,6 +298,8 @@ docs.anthropic.com
 doh.fastly.com
 doh.fastlydns.net
 doubleclick.net
+download-test.deepseek.com
+download.deepseek.com
 downloads.claude.ai
 downloads.preview.claude.ai
 dplus.comcast.net
@@ -293,7 +310,10 @@ economic-research.anthropic.com
 edge.chatgpt.com
 edunewsletter.openai.com
 elevenlabs.io
+en.deepseek.com
+eu-al.deepseek.com
 eu.api.openai.com
+eu.deepseek.com
 eus.rubiconproject.com
 evals.anthropic.com
 events.anthropic.com
@@ -312,7 +332,9 @@ feather.openai.com
 feather2.openai.com
 featureassets.org
 featuregates.org
+feedback-test.deepseek.com
 feedback.anthropic.com
+feedback.deepseek.com
 fileapi.prod-primary-aks-scentralus-api-b.api.openai.com
 fileapi.unified-0.api.openai.com
 fileapi.unified-1.api.openai.com
@@ -370,6 +392,7 @@ gdrive-browsing-plugin.apps.openai.com
 gdrive-plugin.apps.openai.com
 generations.openai.com
 generativeai.google
+gitlab.deepseek.com
 global-routing.api.openai.com
 glow.openai.com
 go.anthropic.com
@@ -521,11 +544,15 @@ nanoclaw.dev
 new.chat.openai.com
 nexac.com
 notebook.anthropic.com
+nrjcdfbfcn5ehj5-dev.deepseek.com
+nrjcdfbfcn5ehj5-test.deepseek.com
+nrjcdfbfcn5ehj5.deepseek.com
 ny1-bid.adsrvr.org
 oaistatic.com
 oaiusercontent.com
 oas.webwise.net
 oauth.openai.com
+oauth2callback.deepseek.com
 ogimg.chatgpt.com
 onboard.api.openai.com
 onboard.openai.com
@@ -567,6 +594,7 @@ p8.ace.openai.com
 p9.ace.openai.com
 pagead.googlesyndication.com
 pagead2.googlesyndication.com
+pages.deepseek.com
 papers.openai.com
 partner-sso.anthropic.com
 partner.googleadservices.com
@@ -575,6 +603,7 @@ partnerportal.anthropic.com
 paxar.net
 pay.openai.com
 perplexity.ai
+persistent.oaistatic.com
 phorm.com
 pippio.com
 pivot.claude.ai
@@ -583,6 +612,8 @@ pixel.redd.it
 pixel.reddit.com
 pixel.tapad.com
 platform-cloudflare.openai.com
+platform-dev.deepseek.com
+platform-test.deepseek.com
 platform.anthropic.com
 platform.api.openai.com
 platform.deepseek.com
@@ -634,6 +665,7 @@ pubads.g.doubleclick.net
 pubmatic.com
 qdrant.api.openai.com
 quantserve.com
+rayqs1tb.deepseek.com
 rdt.li
 read.ai
 realtime.chatgpt.com
@@ -725,6 +757,7 @@ sk.chatgpt.com
 slack.openai.com
 slackbot.anthropic.com
 smaato.net
+smallpond.pages.deepseek.com
 snc-int.apps.openai.com
 snc-onramp.apps.openai.com
 snc-onramp.g1.services.openai.com
@@ -751,6 +784,7 @@ ssum-sec.casalemedia.com
 stability.ai
 stablediffusionweb.com
 stackadapt.com
+staging-cdn.oaistatic.com
 staging-files-eu.oaiusercontent.com
 staging-files.oaiusercontent.com
 staging-files01.oaiusercontent.com
@@ -773,6 +807,7 @@ statsig.anthropic.com
 statsig.com
 statsigapi.net
 status.anthropic.com
+status.deepseek.com
 status.openai.com
 stt-flux-a100.titanium-staging.api.anthropic.com
 stt-flux-a100.titanium.api.anthropic.com
@@ -807,6 +842,8 @@ stt-nova3.titanium.api.anthropic.com
 stt.titanium-staging.api.anthropic.com
 stt.titanium.api.anthropic.com
 student-forum.forum.openai.com
+studio-hg.yinghuo.deepseek.com
+studio.yinghuo.deepseek.com
 suno.ai
 superpages.com
 supply.openai.com
@@ -816,17 +853,21 @@ sync.adsrvr.org
 tactiq.io
 tags.srv.stackadapt.com
 tai.anthropic.com
+talent-test.deepseek.com
+talent.deepseek.com
 talktalk.net
 tapad.com
 tcr9i.chat.openai.com
 tcr9i.openai.com
 test.anthropic.com
+test.deepseek.com
 test000000000.anthropic.com
 tidewater.claude.ai
 tidewater.preview.claude.ai
 tpc.googlesyndication.com
 tracker.verizon.com
 tracking.charter.com
+tracking.infobip.mail.deepseek.com
 tracking.redd.it
 trust.anthropic.com
 trust.openai.com
@@ -899,6 +940,7 @@ www-cdn.anthropic.com
 www-files.anthropic.com
 www-images.anthropic.com
 www-staging.anthropic.com
+www-test.deepseek.com
 www.anthropic.com
 www.atlas.anthropic.com
 www.challenge.openai.com
@@ -916,6 +958,7 @@ www.google-analytics.com
 www.googletagmanager.com
 www.googletagservices.com
 www.legal.anthropic.com
+www.oaistatic.com
 www.openai.com
 www.slack.openai.com
 www.test.anthropic.com
@@ -924,4 +967,5 @@ x.ai
 x.bidswitch.net
 xfinity-analytics.comcast.net
 xfinity.com
+yinghuo.deepseek.com
 z.moatads.com
