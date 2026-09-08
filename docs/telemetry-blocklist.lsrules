@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13169 domains. Updated 2026-09-08.",
+  "description": "13185 domains. Updated 2026-09-08.",
   "rules": [
     {
       "action": "deny",
@@ -71139,6 +71139,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "10:07:40,nextronresearch,md5,924c410a520e6dc9aa1118474d9eb354,,https://x.com/nextronresearch/status/2097265605183234075",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:07:40,nextronresearch,md5,a26abe238cc339da81f4853ab16e1a6a,,https://x.com/nextronresearch/status/2097265605183234075",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:07:00,phishunt_io,domain,apk-google.cn,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71154,6 +71168,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "11:07:00,phishunt_io,url,http://apk-google.cn,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:26:51,coolcarlos17,domain,site-maga-zine-luiza.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:26:51,coolcarlos17,url,https://site-maga-zine-luiza.com/produto/escada-articulada-de-aluminio-12-degraus-350-metros-de-altura,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71293,6 +71321,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:57,phishunt_io,domain,trezorzlatovna.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:57,phishunt_io,ip,158.94.210.119,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:57,phishunt_io,url,http://trezorzlatovna.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:21:24,_akatsukilegion,ip,124.223.221.83,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71329,6 +71378,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:29:16,masaomi346,url,https://rhigcrimelet.chktxw.info/h80aoo,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:31:22,masaomi346,domain,aexshorthoaod.05cy1a.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:31:22,masaomi346,url,https://aexshorthoaod.05cy1a.info/2ymmlo/hepe,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:33:01,webamon_search,domain,sqllq.com,,https://x.com/webamon_search/status/2097302183872024687",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:33:01,webamon_search,url,http://sqllq.com,,https://x.com/webamon_search/status/2097302183872024687",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71420,6 +71497,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:01:18,klawlikula,url,https://yylfoli.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:02:12,klawlikula,domain,jsmyvlm.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:02:12,klawlikula,ip,103.136.41.20,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:02:12,klawlikula,url,http://103.136.41.20,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:02:12,klawlikula,url,https://jsmyvlm.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71518,6 +71623,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "14:08:46,tkemmerling,url,http://jessicaleeinc.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:25:01,masaomi346,domain,pesgsa.zoyrd.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
