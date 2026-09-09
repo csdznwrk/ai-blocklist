@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13245 domains. Updated 2026-09-09.",
+  "description": "13259 domains. Updated 2026-09-09.",
   "rules": [
     {
       "action": "deny",
@@ -71538,7 +71538,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "10:00:03,phatomcandle,domain,k-cloud.login-accounts.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "10:00:03,phatomcandle,url,http://for8service.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:00:03,phatomcandle,url,http://k-cloud.login-accounts.dynu.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71790,6 +71804,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:28:09,masaomi346,domain,poiwamsd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:28:09,masaomi346,domain,wuyouwaosd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:28:09,masaomi346,url,https://poiwamsd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:28:09,masaomi346,url,https://wuyouwaosd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:31:22,masaomi346,domain,aexshorthoaod.05cy1a.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71840,6 +71882,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:36:19,nextronresearch,sha256,befcffc4494e71f0efa03db4b3cfb71f72eab2ee9b406e867569062f238d4c3b,,https://x.com/nextronresearch/status/2066497577206325421",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:49:16,suyog41,md5,06c28847ae844a6766e435e99185c052,,https://x.com/suyog41/status/2097668662450675730",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:49:16,suyog41,url,http://github.com/xwrex327-coder,,https://x.com/suyog41/status/2097668662450675730",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71902,6 +71958,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "13:01:40,klawlikula,domain,luflzkx.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:40,klawlikula,ip,103.136.41.20,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:40,klawlikula,url,http://103.136.41.20,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:40,klawlikula,url,https://luflzkx.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "13:02:12,klawlikula,domain,jsmyvlm.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71924,6 +72008,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:02:12,klawlikula,url,https://jsmyvlm.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:19:53,suyog41,domain,lewokodwqko.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:19:53,suyog41,url,http://lewokodwqko.icu,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
