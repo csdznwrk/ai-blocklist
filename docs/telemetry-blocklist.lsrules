@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13345 domains. Updated 2026-09-10.",
+  "description": "13355 domains. Updated 2026-09-10.",
   "rules": [
     {
       "action": "deny",
@@ -72609,6 +72609,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "15:17:21,etugenio,domain,anekuan.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:17:21,etugenio,ip,62.146.232.72,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:17:21,etugenio,url,https://anekuan.org/anekuanshell.txt,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "15:32:14,_akatsukilegion,ip,101.42.136.73,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72617,6 +72638,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "15:32:14,_akatsukilegion,url,http://101.42.136.73,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:44:46,spamradarcol,ip,35.200.112.216,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72749,6 +72777,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:01:31,phishunt_io,domain,https-wvvw-roblox.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:31,phishunt_io,url,http://https-wvvw-roblox.com/login?returnurl=1505481875,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:02:48,hunters_ledger,url,http://193.233.202.17,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72862,6 +72904,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:53:52,skocherhan,url,http://telendszes.work,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:22:11,muha2xmad,domain,dev-connetpoint.pantheonsite.io,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:22:11,muha2xmad,domain,servermailprotection-1sfinfomembers.s3.eu-west-1.amazonaws.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:22:11,muha2xmad,url,https://dev-connetpoint.pantheonsite.io/sparkiopanel/mo/pan/index.php,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:22:11,muha2xmad,url,https://servermailprotection-1sfinfomembers.s3.eu-west-1.amazonaws.com/log.html",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
