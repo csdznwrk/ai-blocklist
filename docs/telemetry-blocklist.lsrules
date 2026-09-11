@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13358 domains. Updated 2026-09-11.",
+  "description": "13366 domains. Updated 2026-09-11.",
   "rules": [
     {
       "action": "deny",
@@ -72344,6 +72344,62 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:01:18,klawlikula,url,https://yylfoli.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:31,klawlikula,domain,jlfnqhz.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:31,klawlikula,ip,161.38.202.170,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:31,klawlikula,ip,199.59.150.93,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:31,klawlikula,ip,85.122.121.192,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:31,klawlikula,url,http://161.38.202.170,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:31,klawlikula,url,http://199.59.150.93,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:31,klawlikula,url,http://85.122.121.192,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:01:31,klawlikula,url,https://jlfnqhz.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
