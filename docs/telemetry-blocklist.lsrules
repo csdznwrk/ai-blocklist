@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13339 domains. Updated 2026-09-11.",
+  "description": "13358 domains. Updated 2026-09-11.",
   "rules": [
     {
       "action": "deny",
@@ -59092,6 +59092,55 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:39:20,eqv_sec,domain,jihfrs.burswel.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:39:20,eqv_sec,domain,tyuik.zelldqo.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:39:20,eqv_sec,ip,154.6.234.129,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:39:20,eqv_sec,ip,223.29.138.236,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:39:20,eqv_sec,ip,45.131.15.21,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:39:20,eqv_sec,url,http://jihfrs.burswel.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:39:20,eqv_sec,url,http://tyuik.zelldqo.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02:46:16,tkemmerling,domain,moneycedarvale.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71027,6 +71076,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "06:28:59,suyog41,domain,a2.cdnresolver.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:28:59,suyog41,domain,e1.cdnresolver.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:28:59,suyog41,url,http://a2.cdnresolver.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:28:59,suyog41,url,http://e1.cdnresolver.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "06:45:48,tkemmerling,domain,truenorthworks.fun,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71174,6 +71251,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:01:43,phishunt_io,domain,usps.avaturefed.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:43,phishunt_io,ip,18.214.131.173,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:43,phishunt_io,url,http://usps.avaturefed.net/fieldhrevent/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:15:27,tkemmerling,domain,harborstonegroup.shop,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71301,6 +71399,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:28:58,phishstats,url,http://allegro.92381928h75.rest,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:30:41,phishstats,domain,nl.finanzen.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:30:41,phishstats,ip,213.239.243.107,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:30:41,phishstats,url,https://nl.finanzen.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71546,6 +71665,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:15:43,tdatwja,url,http://jp.thkiind.com,,https://x.com/tdatwja/status/2097614922490454494",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:20:01,masaomi346,domain,cyazggwbt.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:20:01,masaomi346,url,https://cyazggwbt.icu/jeremytemple/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
