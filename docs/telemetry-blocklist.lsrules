@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13366 domains. Updated 2026-09-11.",
+  "description": "13367 domains. Updated 2026-09-11.",
   "rules": [
     {
       "action": "deny",
@@ -83649,6 +83649,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "otelcol.honeycomb.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "otheve.beacon.qq.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
