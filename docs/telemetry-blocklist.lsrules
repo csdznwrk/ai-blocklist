@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13359 domains. Updated 2026-09-12.",
+  "description": "13362 domains. Updated 2026-09-12.",
   "rules": [
     {
       "action": "deny",
@@ -72287,6 +72287,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:37:42,ghostyak,ip,118.194.249.91,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:49:16,suyog41,md5,06c28847ae844a6766e435e99185c052,,https://x.com/suyog41/status/2097668662450675730",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72491,6 +72498,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:19:53,suyog41,url,http://lewokodwqko.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:21:41,scanmalware,domain,mavzura-mpt-felvuni-p6d9ka41.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:21:41,scanmalware,url,http://mavzura-mpt-felvuni-p6d9ka41.pages.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
