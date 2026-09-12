@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13337 domains. Updated 2026-09-12.",
+  "description": "13359 domains. Updated 2026-09-12.",
   "rules": [
     {
       "action": "deny",
@@ -59050,6 +59050,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:20:45,scanmalware,domain,awsforensicl3ns-west1apprunner-dprd03feve9j.edgeone.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:20:45,scanmalware,url,http://awsforensicl3ns-west1apprunner-dprd03feve9j.edgeone.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02:22:56,tkemmerling,domain,kivokeyline.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -67856,6 +67870,48 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "03:20:33,masaomi346,domain,daqian-point.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:20:33,masaomi346,domain,huibao-point.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:20:33,masaomi346,domain,qdxinr-point.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:20:33,masaomi346,url,https://daqian-point.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:20:33,masaomi346,url,https://huibao-point.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:20:33,masaomi346,url,https://qdxinr-point.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "03:25:26,npj8448,domain,medela.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -67906,6 +67962,48 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "03:38:43,masaomi346,url,https://www.prime.madjizz.com/primes/login/singin/app/servers/openid/return_to=3a2f,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:50:32,masaomi346,domain,pontihdunedinconjuncture-rakunde.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:50:32,masaomi346,domain,pontiheadphhawthorn-rakunde.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:50:32,masaomi346,domain,pontihearthhedgehogn-rakunde.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:50:32,masaomi346,url,https://pontihdunedinconjuncture-rakunde.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:50:32,masaomi346,url,https://pontiheadphhawthorn-rakunde.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:50:32,masaomi346,url,https://pontihearthhedgehogn-rakunde.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70824,6 +70922,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "05:12:59,scanmalware,domain,sp12ct-prandor-biz-fravik-lazsel.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:12:59,scanmalware,url,http://sp12ct-prandor-biz-fravik-lazsel.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "05:15:44,tkemmerling,domain,post.xero.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71230,6 +71342,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:01:45,phishunt_io,domain,facebookbonus.emmanueldegreatltd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:45,phishunt_io,ip,147.124.219.81,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:45,phishunt_io,url,http://facebookbonus.emmanueldegreatltd.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:15:27,tkemmerling,domain,harborstonegroup.shop,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71392,6 +71525,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "08:31:10,tkemmerling,url,http://foolthor.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:32:05,phishstats,domain,canjearapuntos.click,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:32:05,phishstats,ip,43.172.77.148,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:32:05,phishstats,url,https://canjearapuntos.click/pa/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
