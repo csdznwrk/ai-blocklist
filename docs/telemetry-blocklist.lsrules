@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13362 domains. Updated 2026-09-12.",
+  "description": "13371 domains. Updated 2026-09-12.",
   "rules": [
     {
       "action": "deny",
@@ -72707,6 +72707,62 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "15:50:01,masaomi346,domain,app.datinglive-jp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:50:01,masaomi346,domain,datinglive-jp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:50:01,masaomi346,url,https://app.datinglive-jp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:50:01,masaomi346,url,https://datinglive-jp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:02:43,masaomi346,domain,secret-loves.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:02:43,masaomi346,url,https://secret-loves.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:07:03,fact_finder03,ip,5.175.221.206,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:38:00,fact_finder03,ip,178.128.173.9,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:51:19,harugasumi,domain,aexshorthoo26d.w287qb.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72806,6 +72862,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:02:48,hunters_ledger,url,http://193.233.202.17,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:16:00,fact_finder03,ip,43.157.198.190,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
