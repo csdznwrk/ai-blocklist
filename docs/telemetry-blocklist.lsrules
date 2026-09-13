@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13326 domains. Updated 2026-09-13.",
+  "description": "13348 domains. Updated 2026-09-13.",
   "rules": [
     {
       "action": "deny",
@@ -59050,6 +59050,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:10:58,scanmalware,domain,rainbow-kataifi-98620f.netlify.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:10:58,scanmalware,url,http://rainbow-kataifi-98620f.netlify.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02:20:45,scanmalware,domain,awsforensicl3ns-west1apprunner-dprd03feve9j.edgeone.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -59177,6 +59191,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "02:39:20,eqv_sec,url,http://tyuik.zelldqo.sbs,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:40:22,masaomi346,domain,roszo.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:40:22,masaomi346,url,http://roszo.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70824,6 +70852,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:30:00,fact_finder03,ip,95.181.213.21,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:30:31,tkemmerling,domain,policysshieldpro.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70972,6 +71007,104 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "05:17:53,metemcyber,url,https://cam-ana-jp.smpoodle.com/security/ap/loginlogout/login/creditlimit/inquirycreditlimit/d10203840,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,domain,qaxtbrl.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,domain,qhswrb.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,domain,tmqulsyl.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,domain,xieolrrb.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,domain,xlgaee.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,domain,ydijgw.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,ip,152.32.138.81,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,url,http://152.32.138.81,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,url,http://qaxtbrl.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,url,http://qhswrb.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,url,http://tmqulsyl.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,url,http://xieolrrb.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,url,http://xlgaee.ntinvoicepload.dynu.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:22:06,curious_drac0,url,http://ydijgw.ntinvoicepload.dynu.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71315,6 +71448,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:01:19,phishunt_io,url,http://https-wwwv-roblox.co/login?returnurl=288280197,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:30,phishunt_io,domain,wellsfargoverify.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:30,phishunt_io,ip,185.199.109.153,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:30,phishunt_io,url,http://wellsfargoverify.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
