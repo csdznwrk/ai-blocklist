@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13348 domains. Updated 2026-09-13.",
+  "description": "13354 domains. Updated 2026-09-13.",
   "rules": [
     {
       "action": "deny",
@@ -72210,6 +72210,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:25,phishunt_io,domain,kucoins-signin.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:25,phishunt_io,url,http://kucoins-signin.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:57,phishunt_io,domain,trezorzlatovna.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72694,6 +72708,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:30:14,bomccss,url,http://xyghs.cyou,,https://x.com/bomccss/status/2098023653619507705",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:37:27,muha2xmad,domain,swiftblooms.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:37:27,muha2xmad,domain,vinocab.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:37:27,muha2xmad,url,http://swiftblooms.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:37:27,muha2xmad,url,http://vinocab.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
