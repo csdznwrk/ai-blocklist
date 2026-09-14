@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13282 domains. Updated 2026-09-14.",
+  "description": "13303 domains. Updated 2026-09-14.",
   "rules": [
     {
       "action": "deny",
@@ -59106,6 +59106,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:29:27,skocherhan,domain,gasystemautomacao.com.br,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:29:27,skocherhan,url,http://gasystemautomacao.com.br/ay/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02:34:00,masaomi346,domain,dslld.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70845,6 +70859,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:33:25,phishstats,domain,allegro.pry84327h45.help,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:33:25,phishstats,url,http://allegro.pry84327h45.help,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:38:00,tkemmerling,domain,ongannanzhuang.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70951,6 +70979,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "05:15:44,tkemmerling,url,http://post.xero.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:20:03,scanmalware,domain,sp12ct-zomdel-biz-pranik-lorsik.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:20:03,scanmalware,url,http://sp12ct-zomdel-biz-pranik-lorsik.pages.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71083,6 +71125,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "05:33:24,scanmalware,domain,americandreamlost.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:33:24,scanmalware,url,http://americandreamlost.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "05:45:44,tkemmerling,domain,cyraecraft.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71105,6 +71161,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "06:00:28,tkemmerling,url,http://flatpackcabiinfos.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:10:00,tkemmerling,domain,sb.anaridelight.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:10:00,tkemmerling,url,http://sb.anaridelight.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71237,6 +71307,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "06:46:32,tkemmerling,domain,se.norahadraivnig.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:46:32,tkemmerling,url,http://se.norahadraivnig.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:00:28,tkemmerling,domain,pinebridgedigital.shop,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71349,6 +71433,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:01:53,phishunt_io,domain,whatsapp.wooflers.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:53,phishunt_io,ip,68.178.238.223,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:53,phishunt_io,url,http://whatsapp.wooflers.com/livewire-742499fa,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:15:27,tkemmerling,domain,harborstonegroup.shop,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71357,6 +71462,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:15:27,tkemmerling,url,http://harborstonegroup.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:18:45,tkemmerling,domain,sa.oskatrace.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:18:45,tkemmerling,url,http://sa.oskatrace.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71385,6 +71504,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:45:32,tkemmerling,url,http://illeseahwarrant.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:51:04,tkemmerling,domain,vb.wholenura.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:51:04,tkemmerling,url,http://vb.wholenura.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71833,6 +71966,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:57:03,tkemmerling,url,http://pinebridgedigital.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:57:15,masaomi346,domain,vnatf.gmy59.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:57:15,masaomi346,url,https://vnatf.gmy59.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
