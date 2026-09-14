@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13334 domains. Updated 2026-09-14.",
+  "description": "13340 domains. Updated 2026-09-14.",
   "rules": [
     {
       "action": "deny",
@@ -73043,6 +73043,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:13:32,tkemmerling,domain,goodsecomfinder.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:13:32,tkemmerling,url,http://goodsecomfinder.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:16:00,fact_finder03,ip,43.157.198.190,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73058,6 +73072,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:39:36,tkemmerling,url,http://nextgenshoppingcardeals.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:49:06,tkemmerling,domain,truenorthworks.fun,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:49:06,tkemmerling,url,http://truenorthworks.fun,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73086,6 +73114,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:05:55,bomccss,url,https://jp.thkiind.com,,https://x.com/bomccss/status/2097748351429247386",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:21:35,tkemmerling,domain,financeoakmont.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:21:35,tkemmerling,url,http://financeoakmont.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
