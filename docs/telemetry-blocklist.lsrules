@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13411 domains. Updated 2026-09-15.",
+  "description": "13420 domains. Updated 2026-09-15.",
   "rules": [
     {
       "action": "deny",
@@ -73533,6 +73533,48 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "16:09:58,patialavii,domain,roya-dev.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:09:58,patialavii,url,https://roya-dev.com/mreger/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:23:21,patialavii,domain,innosoft.ro,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:23:21,patialavii,domain,multistore-lb.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:23:21,patialavii,url,https://innosoft.ro/ftx,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:23:21,patialavii,url,https://multistore-lb.com/docsign/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:38:00,fact_finder03,ip,178.128.173.9,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73569,6 +73611,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "16:56:53,tkemmerling,url,http://goodsecomfinder.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:20,phishunt_io,domain,zfkmasinac.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:20,phishunt_io,ip,208.91.199.49,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:20,phishunt_io,url,http://zfkmasinac.com/pe/alibaba/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
