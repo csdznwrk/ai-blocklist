@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13381 domains. Updated 2026-09-15.",
+  "description": "13411 domains. Updated 2026-09-15.",
   "rules": [
     {
       "action": "deny",
@@ -72623,6 +72623,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:23,phishunt_io,domain,apple-icloud.azurewebsites.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:23,phishunt_io,ip,52.173.36.83,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:23,phishunt_io,url,http://apple-icloud.azurewebsites.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:25,phishunt_io,domain,kucoins-signin.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72931,6 +72952,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "13:11:03,patialavii,domain,kohenalexander.screenconnect.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:11:03,patialavii,domain,rinitiative.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:11:03,patialavii,url,https://kohenalexander.screenconnect.com/bin/screenconnect.clientsetup.msi,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:11:03,patialavii,url,https://rinitiative.org/ftx,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "13:15:10,jameswt_wt,domain,iampe-agenziaentrate-gov.store,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72981,6 +73030,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:21:41,scanmalware,url,http://mavzura-mpt-felvuni-p6d9ka41.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:22:44,skocherhan,domain,lewokodwqko.icu,,https://x.com/skocherhan/status/2099851412645593438",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:22:44,skocherhan,md5,e0189e82b8308b1241c6985480182524,,https://x.com/skocherhan/status/2099851412645593438",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:22:44,skocherhan,url,http://lewokodwqko.icu,,https://x.com/skocherhan/status/2099851412645593438",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73058,6 +73128,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:30:14,bomccss,url,http://xyghs.cyou,,https://x.com/bomccss/status/2098023653619507705",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:34:45,patialavii,domain,alphamedglobal.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:34:45,patialavii,domain,beyondfitness.com.br,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:34:45,patialavii,url,http://alphamedglobal.com/home.php,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:34:45,patialavii,url,https://beyondfitness.com.br/wp-includes/zlc/zoom-installer-silent.vbs,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73142,6 +73240,118 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "14:23:30,tkemmerling,url,http://medicinalhealthca.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:59:18,masaomi346,domain,daqianzib-smbice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:59:18,masaomi346,domain,huibaoshe-smbice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:59:18,masaomi346,domain,qdxinruiya-smbice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:59:18,masaomi346,url,https://daqianzib-smbice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:59:18,masaomi346,url,https://huibaoshe-smbice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:59:18,masaomi346,url,https://qdxinruiya-smbice.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:02:20,ransomonitor,domain,pnzr4delgur5dlhtqcy7qqm6m7dkivxwh742enezpks5kswfpx7qrsid.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:02:20,ransomonitor,url,http://pnzr4delgur5dlhtqcy7qqm6m7dkivxwh742enezpks5kswfpx7qrsid.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:03:46,masaomi346,domain,ditankaofan-jprakutansui.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:03:46,masaomi346,domain,shenzhenm-jprakutansui.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:03:46,masaomi346,domain,vitrincebin-jprakutansui.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:03:46,masaomi346,domain,zhangyexin-jprakutansui.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:03:46,masaomi346,url,https://ditankaofan-jprakutansui.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:03:46,masaomi346,url,https://shenzhenm-jprakutansui.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:03:46,masaomi346,url,https://vitrincebin-jprakutansui.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:03:46,masaomi346,url,https://zhangyexin-jprakutansui.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
