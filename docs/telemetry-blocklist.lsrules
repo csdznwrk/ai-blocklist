@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13462 domains. Updated 2026-09-17.",
+  "description": "13496 domains. Updated 2026-09-17.",
   "rules": [
     {
       "action": "deny",
@@ -67954,6 +67954,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "03:41:33,patialavii,domain,dhofareng.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:41:33,patialavii,url,https://dhofareng.com/docusign/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "03:48:52,tkemmerling,domain,sb.zeyoluxe.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70740,6 +70754,41 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:00:55,patialavii,domain,zzoom.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:00:55,patialavii,url,https://docsend.com/v/g44y3/uszoom3invite,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:00:55,patialavii,url,https://zzoom.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:05:38,patialavii,domain,zoomeventlive.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:05:38,patialavii,url,https://zoomeventlive.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:11:49,tkemmerling,domain,rd.helioszyra.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70748,6 +70797,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "04:11:49,tkemmerling,url,http://rd.helioszyra.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:12:24,patialavii,domain,invitezoommeeting.xyz,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:12:24,patialavii,url,https://invitezoommeeting.xyz/win23/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:39,patialavii,domain,z00minvite1.pages.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:20:39,patialavii,url,https://z00minvite1.pages.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70782,7 +70859,63 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:25:08,patialavii,domain,coxcommunication.screenconnect.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:25:08,patialavii,domain,heavenrock.pk,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:25:08,patialavii,url,https://coxcommunication.screenconnect.com/bin/screenconnect.clientsetup.exe,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:25:08,patialavii,url,https://heavenrock.pk/file/installer.html,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:30:00,fact_finder03,ip,95.181.213.21,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:30:31,patialavii,domain,kh3a.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:30:31,patialavii,domain,s-31niukey.s3.us-east-2.amazonaws.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:30:31,patialavii,url,https://kh3a.de/internationalmicro/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:30:31,patialavii,url,https://s-31niukey.s3.us-east-2.amazonaws.com/mineminenow.msi,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70811,6 +70944,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "04:34:41,tkemmerling,url,http://se.kivokeyline.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:40:29,masaomi346,domain,miaohuaqb.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:40:29,masaomi346,url,https://miaohuaqb.com/kxodtsjh/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71377,6 +71524,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:01:24,phishunt_io,domain,robloxc.com.es,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:24,phishunt_io,url,http://robloxc.com.es/login?returlurl=1445876836,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:01:30,phishunt_io,domain,wellsfargoverify.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71455,6 +71616,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:01:53,phishunt_io,url,http://whatsapp.wooflers.com/livewire-742499fa,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:06:38,coolcarlos17,domain,blockmania.com.br,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:06:38,coolcarlos17,domain,blockmanialoja.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:06:38,coolcarlos17,url,http://blockmania.com.br,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:06:38,coolcarlos17,url,https://blockmanialoja.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72812,6 +73001,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "09:11:30,scanmalware,domain,5958heh59585958.theloopblog.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:11:30,scanmalware,url,http://5958heh59585958.theloopblog.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:14:12,masaomi346,domain,shultectise.xa5ttg.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72820,6 +73023,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:14:12,masaomi346,url,https://shultectise.xa5ttg.info/aztipuif/indx/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:16:22,fact_finder03,ip,89.167.72.221,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72883,6 +73093,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "10:00:00,phatomcandle,url,http://requires1.dynuddns.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:29,fact_finder03,ip,154.86.19.127,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:29,fact_finder03,ip,154.86.19.3,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:01:29,fact_finder03,ip,154.86.19.41,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:09:00,fact_finder03,ip,160.119.71.8,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -92062,6 +92300,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "||browser-intake-datadoghq.eu^",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "||burstbeacon.com^$third-party",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -92840,13 +93085,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "||logr-ingest.com^",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "||logs.browser-intake-datadoghq.eu^",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
