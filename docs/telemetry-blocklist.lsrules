@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13496 domains. Updated 2026-09-17.",
+  "description": "13508 domains. Updated 2026-09-17.",
   "rules": [
     {
       "action": "deny",
@@ -73141,6 +73141,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "10:54:20,fact_finder03,domain,5oyninql4mekvjepei7yc3jnakfxi5bt5yky53cgqqrfwvfj4yvlpdad.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:54:20,fact_finder03,ip,87.106.6.79,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:54:20,fact_finder03,url,http://5oyninql4mekvjepei7yc3jnakfxi5bt5yky53cgqqrfwvfj4yvlpdad.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:29:01,nextronresearch,domain,api.npoint.io,,https://x.com/nextronresearch/status/2100185180220629166",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73253,6 +73274,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:00:03,fact_finder03,ip,167.71.213.136,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:23,phishunt_io,domain,apple-icloud.azurewebsites.net,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73302,6 +73330,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:07:00,fact_finder03,ip,31.57.38.94,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:07:00,fact_finder03,ip,51.79.128.217,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:07:00,masaomi346,domain,claude-tools.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73310,6 +73352,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:07:00,masaomi346,url,https://claude-tools.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:13:22,masaomi346,domain,misty-arc-rook-sleoor.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:13:22,masaomi346,url,http://misty-arc-rook-sleoor.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73338,6 +73394,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12:20:45,masaomi346,url,https://codex-desk.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:36:52,masaomi346,domain,oricvn.zmbc3c.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:36:52,masaomi346,url,https://oricvn.zmbc3c.info/iricyygen/,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73380,6 +73450,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13-5.ru",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:03,scanmalware,domain,trust-wallet-bnb.vercel.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:00:03,scanmalware,url,http://www.trust-wallet-bnb.vercel.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
