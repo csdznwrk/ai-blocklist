@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13508 domains. Updated 2026-09-17.",
+  "description": "13537 domains. Updated 2026-09-17.",
   "rules": [
     {
       "action": "deny",
@@ -74093,6 +74093,76 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "16:25:02,copy_and_paster,domain,pythoncomunity.wasmer.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:25:02,copy_and_paster,domain,pythons.mywebcommunity.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:25:02,copy_and_paster,url,http://github.com/checkey04,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:25:02,copy_and_paster,url,http://github.com/decryptionkey1,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:25:02,copy_and_paster,url,http://github.com/hazama-khan,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:25:02,copy_and_paster,url,http://github.com/reyanshera,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:25:02,copy_and_paster,url,http://github.com/xufengwangsui,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:25:02,copy_and_paster,url,http://github.com/yaosiyaosi26,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:25:02,copy_and_paster,url,http://pythoncomunity.wasmer.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:25:02,copy_and_paster,url,http://pythons.mywebcommunity.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:29:50,tkemmerling,domain,se.norahadraivnig.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74114,6 +74184,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "16:41:41,phishstats,domain,teamliftss.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:41:41,phishstats,ip,108.167.183.47,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:41:41,phishstats,url,https://teamliftss.com/zz/index.html,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:52:32,tkemmerling,domain,hbphotographystudios.nl,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74122,6 +74213,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "16:52:32,tkemmerling,url,http://hbphotographystudios.nl,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:56:25,coolcarlos17,domain,casasbah.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:56:25,coolcarlos17,url,https://casasbah.com/produto.php?slug=mag-849-escada-articulada-16-degraus-aluminio-botafogo-altura,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74143,6 +74248,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:01:20,phishunt_io,url,http://zfkmasinac.com/pe/alibaba/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:23,phishunt_io,domain,intermezzoconsultoria.com.br,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:23,phishunt_io,ip,18.229.174.63,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:23,phishunt_io,url,http://intermezzoconsultoria.com.br/docs042/onedrive-verify-obf.html,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74233,6 +74359,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:22:49,coolcarlos17,domain,magaz-ine-lu-iza.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:22:49,coolcarlos17,url,http://magaz-ine-lu-iza.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:32:35,phishstats,domain,kolaybet.guncelgirisadresleri.icu,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74241,6 +74381,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:32:35,phishstats,url,https://kolaybet.guncelgirisadresleri.icu,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:35:50,coolcarlos17,domain,userieza.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:35:50,coolcarlos17,url,https://userieza.com/products/escada-telescopica,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74283,6 +74437,41 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:21:35,tkemmerling,url,http://financeoakmont.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:03:31,_akatsukilegion,ip,188.63.231.182,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:03:31,_akatsukilegion,url,http://188.63.231.182,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:28:44,0xb1lal,ip,216.126.236.22,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:28:44,0xb1lal,ip,38.110.228.33,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:28:44,0xb1lal,ip,8.138.137.232,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74577,6 +74766,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "1topspy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:09:40,skocherhan,domain,yscf988.club,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:09:40,skocherhan,url,http://yscf988.club,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
