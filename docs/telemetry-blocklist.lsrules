@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13548 domains. Updated 2026-09-18.",
+  "description": "13561 domains. Updated 2026-09-18.",
   "rules": [
     {
       "action": "deny",
@@ -73204,6 +73204,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "10:36:00,suyog41,md5,cfaa9eead8f27ecc01803a5eb9fc463c,,https://x.com/suyog41/status/2100896616832000092",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "10:54:20,fact_finder03,domain,5oyninql4mekvjepei7yc3jnakfxi5bt5yky53cgqqrfwvfj4yvlpdad.onion,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73219,6 +73226,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "10:54:20,fact_finder03,url,http://5oyninql4mekvjepei7yc3jnakfxi5bt5yky53cgqqrfwvfj4yvlpdad.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:55:42,suyog41,md5,08893a34162293cf77c045ff030e4748,,https://x.com/suyog41/status/2100901574088282392",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74142,6 +74156,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "16:04:29,mugu_reporter,domain,get-verification.to,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:04:29,mugu_reporter,url,http://get-verification.to,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:04:56,phishstats,ip,64.202.189.173,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74310,6 +74338,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "16:30:52,tkemmerling,domain,harborstonegroup.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:30:52,tkemmerling,url,http://harborstonegroup.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:38:00,fact_finder03,ip,178.128.173.9,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74402,6 +74444,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:01:23,phishunt_io,url,http://intermezzoconsultoria.com.br/docs042/onedrive-verify-obf.html,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:36,phishunt_io,domain,icloudxtzsopoe.click,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:36,phishunt_io,ip,217.60.103.74,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:01:36,phishunt_io,url,http://icloudxtzsopoe.click/isignesp.php,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74562,6 +74625,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "18:20:04,coolcarlos17,domain,loja1-havan.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:20:04,coolcarlos17,url,https://loja1-havan.com/produto/32812,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "18:21:35,tkemmerling,domain,financeoakmont.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74570,6 +74647,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:21:35,tkemmerling,url,http://financeoakmont.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:25:18,coolcarlos17,domain,magablack.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:25:18,coolcarlos17,url,https://magablack.com/produto.php?slug=escada-articulada-16-degraus-aluminio-botafogo-altura,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
