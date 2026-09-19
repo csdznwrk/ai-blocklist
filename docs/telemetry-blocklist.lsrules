@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13591 domains. Updated 2026-09-19.",
+  "description": "13597 domains. Updated 2026-09-19.",
   "rules": [
     {
       "action": "deny",
@@ -73687,6 +73687,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:01:29,phishunt_io,domain,xfinity-updateform.square.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:29,phishunt_io,ip,74.115.51.5,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12:01:29,phishunt_io,url,http://xfinity-updateform.square.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:01:35,phishunt_io,domain,metapay.facebook-secure.shop,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73918,6 +73939,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "13:11:10,byrne_emmy12099,domain,afc-security-report.duckdns.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:11:10,byrne_emmy12099,url,http://afc-security-report.duckdns.org,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "13:11:55,tkemmerling,domain,re.myloisle.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74115,6 +74150,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "14:30:09,fbgwls245,url,http://nongzecboljwv3yfndkggsybsglfrkffw7bvk2zemuteoxe6etpusnad.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:31:27,skocherhan,md5,15ee29ea4f475fb13fba61e185e4fac5,,https://x.com/skocherhan/status/2101318257311383698",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
