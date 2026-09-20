@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13670 domains. Updated 2026-09-20.",
+  "description": "13677 domains. Updated 2026-09-20.",
   "rules": [
     {
       "action": "deny",
@@ -74520,6 +74520,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "15:32:34,skocherhan,domain,steamupdate.ydns.eu,,https://x.com/skocherhan/status/2101696026377613675",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:32:34,skocherhan,url,http://steamupdate.ydns.eu,,https://x.com/skocherhan/status/2101696026377613675",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "15:35:29,copy_and_paster,domain,argeninese.dothome.co.kr,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74577,6 +74591,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "15:35:29,copy_and_paster,url,http://wanver.dothome.co.kr,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:38:34,muha2xmad,domain,v6-nq.global.ssl.fastly.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:38:34,muha2xmad,url,https://api.telegram.org/bot8804559396:aaebtnnqlsgaq8km0ipeduajakwprvusvws/sendmessage,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:38:34,muha2xmad,url,https://v6-nq.global.ssl.fastly.net/pep1/30/veri.html?e=temo@microsoft.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75137,6 +75172,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "19:03:31,_akatsukilegion,url,http://188.63.231.182,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:13:52,breachhistorybh,domain,expresspros.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:13:52,breachhistorybh,url,http://expresspros.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
