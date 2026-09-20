@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13662 domains. Updated 2026-09-20.",
+  "description": "13670 domains. Updated 2026-09-20.",
   "rules": [
     {
       "action": "deny",
@@ -73631,6 +73631,48 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "10:40:51,ethanaleja5m3,domain,dsjex.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:40:51,ethanaleja5m3,url,http://dsjex.net,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:41:17,ethanaleja5m3,domain,m.comex3.online,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:41:17,ethanaleja5m3,url,http://m.comex3.online,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:44:33,ethanaleja5m3,domain,phtmviso.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:44:33,ethanaleja5m3,url,http://phtmviso.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "10:54:20,fact_finder03,domain,5oyninql4mekvjepei7yc3jnakfxi5bt5yky53cgqqrfwvfj4yvlpdad.onion,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74136,6 +74178,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:22:44,skocherhan,url,http://lewokodwqko.icu,,https://x.com/skocherhan/status/2099851412645593438",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:27:10,gesturepul_,domain,bitcoinset.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:27:10,gesturepul_,url,http://bitcoinset.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
