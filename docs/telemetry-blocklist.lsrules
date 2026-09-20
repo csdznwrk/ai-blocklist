@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13634 domains. Updated 2026-09-20.",
+  "description": "13662 domains. Updated 2026-09-20.",
   "rules": [
     {
       "action": "deny",
@@ -21559,6 +21559,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00:35:07,g60930953,url,http://185.235.137.35:9000,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:45:31,skocherhan,domain,upwebbmaster.com,,https://x.com/skocherhan/status/2101472791585308970",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:45:31,skocherhan,md5,6776d89b4b33d48cae6eb2b6165deef1,,https://x.com/skocherhan/status/2101472791585308970",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00:45:31,skocherhan,url,http://www.upwebbmaster.com/gj785pl/2mnfpwlh/,,https://x.com/skocherhan/status/2101472791585308970",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -59295,6 +59316,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:45:29,tkemmerling,domain,healthspringway.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:45:29,tkemmerling,domain,investcreditlane.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:45:29,tkemmerling,url,http://healthspringway.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:45:29,tkemmerling,url,http://investcreditlane.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02a169af111011.beer",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -68024,6 +68073,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "03:21:02,tkemmerling,domain,havokindle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:21:02,tkemmerling,url,http://havokindle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "03:27:08,tkemmerling,domain,se.norahadraivnig.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -68074,6 +68137,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "03:48:52,tkemmerling,url,http://sb.zeyoluxe.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:56:12,tkemmerling,domain,financeoakmont.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:56:12,tkemmerling,domain,financespringboard.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:56:12,tkemmerling,url,http://financeoakmont.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "03:56:12,tkemmerling,url,http://financespringboard.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71013,6 +71104,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:32:51,tkemmerling,domain,viraoasis.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:32:51,tkemmerling,url,http://viraoasis.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:33:25,phishstats,domain,allegro.pry84327h45.help,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71062,6 +71167,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:42:02,scanmalware,domain,security-server-landing-page--spencer-hunt1.replit.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:42:02,scanmalware,url,http://security-server-landing-page--spencer-hunt1.replit.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:43:07,patialavii,domain,ony.srb.temporary.site,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71090,6 +71209,62 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:46:00,masaomi346,domain,cnplacen-jprakutanziu.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:46:00,masaomi346,domain,jkvapesto-jprakutanziu.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:46:00,masaomi346,domain,loushiha-jprakutanziu.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:46:00,masaomi346,domain,wuhuanlo-jprakutanziu.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:46:00,masaomi346,url,https://cnplacen-jprakutanziu.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:46:00,masaomi346,url,https://jkvapesto-jprakutanziu.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:46:00,masaomi346,url,https://loushiha-jprakutanziu.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:46:00,masaomi346,url,https://wuhuanlo-jprakutanziu.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:47:37,patialavii,domain,taslimaenterprise.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71112,6 +71287,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "04:47:37,patialavii,url,https://www.taslimaenterprise.com/adobe/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:48:43,tkemmerling,domain,troll8.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:48:43,tkemmerling,url,http://troll8.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76782,6 +76971,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "analytics.nest.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "analytics.org.coveo.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
