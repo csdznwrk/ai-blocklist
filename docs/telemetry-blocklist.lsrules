@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13707 domains. Updated 2026-09-21.",
+  "description": "13714 domains. Updated 2026-09-21.",
   "rules": [
     {
       "action": "deny",
@@ -75192,6 +75192,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:20:29,tkemmerling,domain,stylishhomegallery.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:20:29,tkemmerling,url,http://stylishhomegallery.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:22:49,coolcarlos17,domain,magaz-ine-lu-iza.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75270,6 +75284,41 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:25:18,coolcarlos17,url,https://magablack.com/produto.php?slug=escada-articulada-16-degraus-aluminio-botafogo-altura,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:27:59,phishstats,domain,wuweizhe.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:27:59,phishstats,ip,172.247.42.180,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:27:59,phishstats,url,https://wuweizhe.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:35:53,coolcarlos17,domain,showdepromos.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:35:53,coolcarlos17,url,http://showdepromos.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
