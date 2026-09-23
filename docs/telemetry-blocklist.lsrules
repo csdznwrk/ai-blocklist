@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13441 domains. Updated 2026-09-23.",
+  "description": "13446 domains. Updated 2026-09-23.",
   "rules": [
     {
       "action": "deny",
@@ -72273,6 +72273,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "10:42:14,phishstats,domain,allegrolokalnie.oferta65487.click,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:42:14,phishstats,url,http://allegrolokalnie.oferta65487.click/oferta/brak-nazwy,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "10:44:21,tkemmerling,domain,greenerpasturetrading.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72827,6 +72841,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:13:17,opcodeintel,url,http://net121.site,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:22:54,suyog41,md5,1dc0f32bf189fecc040be8e85ca9a3d3,,https://x.com/suyog41/status/2102750558268301739",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:26:41,masaomi346,domain,ashen-trace-zephyr-draeix.life,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:26:41,masaomi346,url,http://ashen-trace-zephyr-draeix.life,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
