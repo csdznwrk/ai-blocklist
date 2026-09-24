@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13616 domains. Updated 2026-09-24.",
+  "description": "13645 domains. Updated 2026-09-24.",
   "rules": [
     {
       "action": "deny",
@@ -74156,6 +74156,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "13:22:37,malwrhunterteam,domain,data-service.online,,https://x.com/malwrhunterteam/status/2103112873308455162",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:22:37,malwrhunterteam,url,http://data-service.online,,https://x.com/malwrhunterteam/status/2103112873308455162",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "13:22:54,suyog41,md5,1dc0f32bf189fecc040be8e85ca9a3d3,,https://x.com/suyog41/status/2102750558268301739",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74548,6 +74562,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "15:54:07,tkemmerling,domain,products.trafobaule.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "15:54:07,tkemmerling,url,http://products.trafobaule.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:04:29,mugu_reporter,domain,get-verification.to,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74556,6 +74584,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "16:04:29,mugu_reporter,url,http://get-verification.to,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:07:54,james_inthe_box,domain,interactions-according-reports-syndication.trycloudflare.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:07:54,james_inthe_box,domain,periods-genetic-stones-government.trycloudflare.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:07:54,james_inthe_box,url,https://interactions-according-reports-syndication.trycloudflare.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:07:54,james_inthe_box,url,https://periods-genetic-stones-government.trycloudflare.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74598,6 +74654,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "16:20:42,skocherhan,url,http://basednewsarticle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:21:26,smica83,sha256,afcc9ef22dce6325cbb04fcc582018814025af6889e2bfc0278f28d176155c91,,https://x.com/smica83/status/2103157874377597339",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74695,6 +74758,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:06:14,phishstats,domain,dongwana.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:06:14,phishstats,url,https://www.dongwana.com/amex_tgmail202609/turnstile-check,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:20:29,tkemmerling,domain,stylishhomegallery.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74744,6 +74821,55 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:40:16,it4int,url,http://third-party.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:55:11,tkemmerling,domain,preventhealthsupport.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:55:11,tkemmerling,domain,wellnesscarenutri.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:55:11,tkemmerling,url,http://preventhealthsupport.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:55:11,tkemmerling,url,http://wellnesscarenutri.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:57:34,malwrhunterteam,ip,103.180.163.204,,https://x.com/malwrhunterteam/status/2103182067240485358",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:57:34,malwrhunterteam,url,http://103.180.163.204,,https://x.com/malwrhunterteam/status/2103182067240485358",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "18:20:04,coolcarlos17,domain,loja1-havan.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74752,6 +74878,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:20:04,coolcarlos17,url,https://loja1-havan.com/produto/32812,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:24:58,tkemmerling,domain,altiora.fun,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:24:58,tkemmerling,domain,financerelaypoint.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:24:58,tkemmerling,url,http://altiora.fun,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:24:58,tkemmerling,url,http://financerelaypoint.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74815,6 +74969,48 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "18:41:05,skocherhan,url,http://promptkernelrun.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:56:40,malwrhunterteam,domain,goodnfortunes.com,,https://x.com/malwrhunterteam/status/2103196939827433973",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:56:40,malwrhunterteam,url,http://goodnfortunes.com,,https://x.com/malwrhunterteam/status/2103196939827433973",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:59:36,tkemmerling,domain,activehealthzone.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:59:36,tkemmerling,domain,help.financesolutiontips.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:59:36,tkemmerling,url,http://activehealthzone.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:59:36,tkemmerling,url,http://help.financesolutiontips.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75004,6 +75200,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "1topspy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:05:12,smica83,sha256,c71e3a48ae93fba3a407d04430cf13234c843a10caa7b64081115c7b5aec89f4,,https://x.com/smica83/status/2103214186339934256",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
