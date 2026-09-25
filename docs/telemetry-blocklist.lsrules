@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13596 domains. Updated 2026-09-25.",
+  "description": "13650 domains. Updated 2026-09-25.",
   "rules": [
     {
       "action": "deny",
@@ -59106,6 +59106,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "02:20:23,tkemmerling,domain,everyonesamentor.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:20:23,tkemmerling,domain,vermontsolidsurface.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:20:23,tkemmerling,url,http://everyonesamentor.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:20:23,tkemmerling,url,http://vermontsolidsurface.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "02:45:29,tkemmerling,domain,healthspringway.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -59128,6 +59156,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "02:45:29,tkemmerling,url,http://investcreditlane.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:50:27,tkemmerling,domain,immersionhousing.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:50:27,tkemmerling,domain,missvalledeladrome.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:50:27,tkemmerling,url,http://immersionhousing.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "02:50:27,tkemmerling,url,http://missvalledeladrome.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70866,6 +70922,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "04:36:49,phishstats,domain,help.financesolutiontips.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:36:49,phishstats,ip,88.223.87.162,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "04:36:49,phishstats,url,https://help.financesolutiontips.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "04:42:02,scanmalware,domain,security-server-landing-page--spencer-hunt1.replit.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71118,6 +71195,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "05:14:48,patialavii,domain,mauihost.qpon,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:14:48,patialavii,domain,optonline22.screenconnect.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:14:48,patialavii,url,https://mauihost.qpon/adobeinstaller.html,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:14:48,patialavii,url,https://optonline22.screenconnect.com/bin/screenconnect.clientsetup.msi,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "05:16:15,threatresq,domain,third-party.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71132,7 +71237,49 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "05:20:42,patialavii,domain,pdfinstalls-2.vercel.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:20:42,patialavii,domain,pub-6c532f29d3c34c6a910620ee29dd906a.r2.dev,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:20:42,patialavii,url,https://pdfinstalls-2.vercel.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:20:42,patialavii,url,https://pub-6c532f29d3c34c6a910620ee29dd906a.r2.dev/install-t7pbrn6ycawj9p4p2licum.exe,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:27:48,fact_finder03,ip,87.58.154.153,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "05:32:47,fact_finder03,ip,195.20.239.207,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "05:51:00,fact_finder03,ip,5.181.158.54,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71196,6 +71343,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "06:30:00,fact_finder03,ip,120.25.213.232,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "06:30:00,fact_finder03,ip,176.125.242.162,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71398,6 +71552,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:00:03,scanmalware,domain,authmail.edgeone.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:00:03,scanmalware,url,http://authmail.edgeone.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:01:15,phishunt_io,domain,eu-assets.contentstack.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71518,6 +71686,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:02:24,ransomonitor,url,http://endzonezgz3sqzmtqg4acp4z7ao7xc6vunfhezjsnfqrm2ksudsredyd.onion,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:04:07,smica83,sha256,10111b02ef35a94c8e8c1d42cf7870f20a59aeed1ddcc94eb592dd59c97bec5d,,https://x.com/smica83/status/2103380009830224069",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71678,6 +71853,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:21:46,malwrhunterteam,ip,178.16.53.67,,https://x.com/malwrhunterteam/status/2103384450927047026",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:21:46,malwrhunterteam,url,http://178.16.53.67:8899/veilt/,,https://x.com/malwrhunterteam/status/2103384450927047026",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:30:28,fact_finder03,ip,37.60.232.250,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71769,6 +71958,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "08:10:42,tlp_r3d,domain,ssosettings.com,,https://x.com/tlp_r3d/status/2103396765684965662",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:10:42,tlp_r3d,url,http://ssosettings.com,,https://x.com/tlp_r3d/status/2103396765684965662",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "08:11:33,curious_drac0,ip,74.204.158.81,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71839,6 +72042,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "08:39:07,smica83,domain,image.becreativefest.com,,https://x.com/smica83/status/2103403916973015132",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:39:07,smica83,sha256,9d5dae158e928f5c8c49d92a462d932a7e39f7c76510ab11b666e4e2d5783ca0,,https://x.com/smica83/status/2103403916973015132",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:39:07,smica83,url,http://image.becreativefest.com/images/dgfdgagad,,https://x.com/smica83/status/2103403916973015132",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "08:40:02,scanmalware,domain,sp12ct-zavmor-biz-pransik-holdek.pages.dev,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71895,6 +72119,97 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,domain,chimefusion.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,domain,elxxvvx.xyz,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,domain,kayoanime.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,domain,rhodesquality.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,domain,third-party.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,ip,158.94.209.188,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,url,http://158.94.209.188:3333,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,url,http://chimefusion.com/u/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,url,http://elxxvvx.xyz/i/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,url,http://third-party.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,url,https://kayoanime.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,url,https://rhodesquality.com/about-rhodes/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:10:58,anyrun_app,url,https://third-party.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:20:03,scanmalware,domain,coinbaseverify.vercel.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71917,6 +72232,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:34:14,smica83,url,https://fever-recommendations-martha-durable.trycloudflare.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:39:21,malwrhunterteam,domain,surround-tough-method-zinc.trycloudflare.com,,https://x.com/malwrhunterteam/status/2103419074231583044",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:39:21,malwrhunterteam,url,http://surround-tough-method-zinc.trycloudflare.com,,https://x.com/malwrhunterteam/status/2103419074231583044",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72015,6 +72344,55 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "10:12:17,tkemmerling,url,http://securedeliverfast.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:20:57,smica83,domain,ik.imagekit.io,,https://x.com/smica83/status/2103429542509424706",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:20:57,smica83,ip,51.255.9.163,,https://x.com/smica83/status/2103429542509424706",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:20:57,smica83,sha256,939a602b569d795a1bebace69b1f41843a5deb49f67fecb8b3a55dfea69524f4,,https://x.com/smica83/status/2103429542509424706",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:20:57,smica83,url,http://51.255.9.163/images/2.jpg,,https://x.com/smica83/status/2103429542509424706",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:20:57,smica83,url,https://ik.imagekit.io/xpml3eydq/kkdaikm.txt,,https://x.com/smica83/status/2103429542509424706",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:21:22,malwrhunterteam,domain,corecloudwave.online,,https://x.com/malwrhunterteam/status/2103429649749680556",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10:21:22,malwrhunterteam,url,http://corecloudwave.online:7843/documents_more_authority_services/,,https://x.com/malwrhunterteam/status/2103429649749680556",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
