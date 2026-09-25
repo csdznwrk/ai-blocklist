@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13749 domains. Updated 2026-09-25.",
+  "description": "13768 domains. Updated 2026-09-25.",
   "rules": [
     {
       "action": "deny",
@@ -75367,6 +75367,55 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "16:45:18,them3gatr0n,domain,accounts-auth.com,,https://x.com/them3gatr0n/status/2103526269455671473",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:45:18,them3gatr0n,domain,passkey-settings.com,,https://x.com/them3gatr0n/status/2103526269455671473",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:45:18,them3gatr0n,url,http://accounts-auth.com,,https://x.com/them3gatr0n/status/2103526269455671473",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:45:18,them3gatr0n,url,http://passkey-settings.com,,https://x.com/them3gatr0n/status/2103526269455671473",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:48:00,phishstats,domain,checkoutv2.inflowpay.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:48:00,phishstats,ip,216.24.57.18,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:48:00,phishstats,url,https://checkoutv2.inflowpay.com/pay/sess_fsnhleobxbntqbjrgawxp,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:54:04,phishstats,domain,am-prime-sonnerie.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75444,6 +75493,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "17:21:30,them3gatr0n,domain,account-passkey.com,,https://x.com/them3gatr0n/status/2103535378162720830",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:21:30,them3gatr0n,url,http://account-passkey.com,,https://x.com/them3gatr0n/status/2103535378162720830",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:26:59,muha2xmad,domain,get-verification.to,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75473,6 +75536,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:26:59,muha2xmad,url,https://imacos.cc/captcha/faa4bf0505d1a824,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:32:31,opcodeintel,domain,llamafile.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:32:31,opcodeintel,url,http://llamafile.info,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75522,6 +75599,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:57:34,malwrhunterteam,url,http://103.180.163.204,,https://x.com/malwrhunterteam/status/2103182067240485358",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:00:46,skocherhan,md5,ac52c45a93d452c8864a408e01ca74b3,,https://x.com/skocherhan/status/2103545259221557418",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:14:06,malwrhunterteam,domain,mparivahan-gov.org,,https://x.com/malwrhunterteam/status/2103548616866722123",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:14:06,malwrhunterteam,url,https://mparivahan-gov.org/3/,,https://x.com/malwrhunterteam/status/2103548616866722123",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75844,6 +75942,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "20:08:06,phishstats,ip,165.140.71.100,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:14:52,0xb1lal,ip,189.49.3.54,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76558,6 +76663,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "23:35:02,masaomi346,url,https://se.kuashouban.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:40:04,muha2xmad,domain,jinong.shop,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:40:04,muha2xmad,domain,lemon-1789655480294.staticrun.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:40:04,muha2xmad,url,https://jinong.shop/iykk2/iykk2.php,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "23:40:04,muha2xmad,url,https://lemon-1789655480294.staticrun.app/index.htm",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
