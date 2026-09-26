@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13699 domains. Updated 2026-09-26.",
+  "description": "13710 domains. Updated 2026-09-26.",
   "rules": [
     {
       "action": "deny",
@@ -72399,6 +72399,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "11:24:49,farghlymal,sha256,125525a38abc45e855f848d499582a8100f1428938d4bd3d3eba957072e64e7a,,https://x.com/farghlymal/status/2103808005296857408",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:24:49,farghlymal,sha256,40529ac470591b84adabe7cebdea8f67d8303d52c3cb4502590bae1e746cd360,,https://x.com/farghlymal/status/2103808005296857408",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "11:24:49,farghlymal,sha256,a47279e4ee703092263e7030c43c61533146c00689e7cb8f2080f18e57d5cf7f,,https://x.com/farghlymal/status/2103808005296857408",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "11:50:26,tkemmerling,domain,harborstonegroup.shop,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73988,6 +74009,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "12:34:28,phishstats,url,https://vodafone-staging-alt.voltsystems.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12:36:20,q8cyberti,domain,thenewsn-news.com,,https://x.com/q8cyberti/status/2103463614283649166",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74219,6 +74247,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "13:43:21,malwrhunterteam,ip,20.102.117.176,,https://x.com/malwrhunterteam/status/2103842866573484177",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:43:21,malwrhunterteam,url,http://20.102.117.176:8080/login,,https://x.com/malwrhunterteam/status/2103842866573484177",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:44:56,fact_finder03,ip,103.101.178.218,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "13:51:29,skocherhan,domain,bigbigvol.qd.je,,https://x.com/skocherhan/status/2103120137691750822",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74227,6 +74276,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "13:51:29,skocherhan,url,http://bigbigvol.qd.je,,https://x.com/skocherhan/status/2103120137691750822",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:51:55,scanmalware,domain,netflix-71f05.firebaseapp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "13:51:55,scanmalware,url,http://netflix-71f05.firebaseapp.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74388,6 +74451,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "14:19:56,akaclandestine,ip,87.106.5.5,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:20:57,byrne_emmy12099,domain,youwillneverstopus.top,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "14:20:57,byrne_emmy12099,url,http://youwillneverstopus.top/mart/res/bb.php,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
