@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13710 domains. Updated 2026-09-26.",
+  "description": "13765 domains. Updated 2026-09-26.",
   "rules": [
     {
       "action": "deny",
@@ -75178,6 +75178,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "16:53:58,fact_finder03,ip,213.252.232.182,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "16:54:04,phishstats,domain,am-prime-sonnerie.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75423,6 +75430,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "18:37:16,skocherhan,domain,tenayant.jp.net,,https://x.com/skocherhan/status/2103916833359491329",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "18:37:16,skocherhan,url,http://tenayant.jp.net,,https://x.com/skocherhan/status/2103916833359491329",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "18:56:40,malwrhunterteam,domain,goodnfortunes.com,,https://x.com/malwrhunterteam/status/2103196939827433973",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75640,6 +75661,363 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,analytics-secure.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,assets-bundle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,captchatimestamp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,doubleclickpro.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,feedback-bundle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,feedback-hotjar.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,feedbackbundle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,jquery-bootstrap.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,lurkershield.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,safepayguard.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,static-secure.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,webcache-cache.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,domain,webcachecache.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://analytics-secure.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://assets-bundle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://captchatimestamp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://doubleclickpro.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://feedback-bundle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://feedback-hotjar.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://feedbackbundle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://jquery-bootstrap.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://lurkershield.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://safepayguard.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://static-secure.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://webcache-cache.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,500mk500,url,http://webcachecache.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,domain,assetsbundle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,domain,doubleclickcache.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,domain,explorerbrowser.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,domain,gtmtimestamp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,domain,review-cdn.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,domain,safeprocessmaster.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,domain,safeprocessor.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,domain,solutionjquery.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,domain,specterguardian.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,domain,websitewebcache.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,url,http://assetsbundle.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,url,http://doubleclickcache.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,url,http://explorerbrowser.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,url,http://gtmtimestamp.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,url,http://review-cdn.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,url,http://safeprocessmaster.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,url,http://safeprocessor.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,url,http://solutionjquery.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,url,http://specterguardian.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:47:37,reporturi,url,http://websitewebcache.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:48:43,skocherhan,domain,anunds.com,,https://x.com/skocherhan/status/2103934814671745035",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:48:43,skocherhan,url,http://anunds.com,,https://x.com/skocherhan/status/2103934814671745035",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:54:58,midnight_comms,domain,jadxgui.com,,https://x.com/midnight_comms/status/2103936387083022546",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:54:58,midnight_comms,url,http://jadxgui.com,,https://x.com/midnight_comms/status/2103936387083022546",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:55:39,smica83,sha256,82b6f8b1671bfcebe13007d11ba79e06554b260b3d610b4a2a721d12f7ec3f96,,https://x.com/smica83/status/2103936559628345718",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "1ca43.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75648,6 +76026,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "1topspy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:01:20,smica83,sha256,1ec7d1c20c93f562405cb4833d12e06357b66865eb13eaf8e43aeb4e71ebe718,,https://x.com/smica83/status/2103937990351290873",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
