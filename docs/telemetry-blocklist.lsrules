@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13684 domains. Updated 2026-09-26.",
+  "description": "13699 domains. Updated 2026-09-26.",
   "rules": [
     {
       "action": "deny",
@@ -71398,6 +71398,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:01:04,phishunt_io,domain,vodafone-staging-alt.voltsystems.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:04,phishunt_io,ip,85.13.166.85,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:01:04,phishunt_io,url,http://vodafone-staging-alt.voltsystems.de,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:01:15,phishunt_io,domain,eu-assets.contentstack.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71615,6 +71636,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "07:48:37,masaomi346,domain,uwaiskdas.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:48:37,masaomi346,url,https://uwaiskdas.com/cash/downloadopwad,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "07:50:54,tkemmerling,domain,hometransformideas.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71651,6 +71686,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "07:56:00,fact_finder03,ip,209.99.186.221,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:57:15,masaomi346,domain,benditongoto.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "07:57:15,masaomi346,url,https://benditongoto.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71790,6 +71839,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "08:43:43,smica83,ip,91.210.146.50,,https://x.com/smica83/status/2103767459090088116",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:43:43,smica83,sha256,2e770af3d707c8c1b3bf157ab6d540c1d7e1044ddb0175bde03c35d1b955558b,,https://x.com/smica83/status/2103767459090088116",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "08:43:43,smica83,url,http://91.210.146.50,,https://x.com/smica83/status/2103767459090088116",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "08:59:35,suyog41,md5,97b7b06fc46806775d2ba0f97985269b,,https://x.com/suyog41/status/2101959514333327375",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71909,6 +71979,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "09:14:42,wilmichels,domain,canabit.ai,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:14:42,wilmichels,domain,canabit.ca,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:14:42,wilmichels,url,http://canabit.ai,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:14:42,wilmichels,url,http://canabit.ca,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "09:20:03,scanmalware,domain,coinbaseverify.vercel.app,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71917,6 +72015,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "09:20:03,scanmalware,url,http://coinbaseverify.vercel.app,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "09:30:39,skocherhan,md5,ba0ec19a36d0e08979ae38a2c8977a9c,,https://x.com/skocherhan/status/2103779270833365038",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
