@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13927 domains. Updated 2026-09-27.",
+  "description": "13938 domains. Updated 2026-09-27.",
   "rules": [
     {
       "action": "deny",
@@ -75045,6 +75045,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "16:59:54,skocherhan,domain,sc88qt.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "16:59:54,skocherhan,url,http://sc88qt.com,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "17:06:14,phishstats,domain,dongwana.com,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75130,6 +75144,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "17:32:31,opcodeintel,url,http://llamafile.info,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:36:32,redrabytes,ip,176.65.139.250,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "17:36:32,redrabytes,url,http://176.65.139.250,",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75494,6 +75522,41 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "19:27:18,_akatsukilegion,url,http://auth-msftpage.com,,https://x.com/_akatsukilegion/status/2102182327572963650",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:39:39,phishstats,domain,i0tjgjgm.xyz,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:39:39,phishstats,ip,43.167.235.101,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:39:39,phishstats,url,https://i0tjgjgm.xyz/knaebynf/,",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:41:21,tlp_r3d,domain,slaughterandmay.ssosettings.com,,https://x.com/tlp_r3d/status/2104295349120819626",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "19:41:21,tlp_r3d,url,http://slaughterandmay.ssosettings.com,,https://x.com/tlp_r3d/status/2104295349120819626",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75872,6 +75935,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "20:01:20,smica83,sha256,1ec7d1c20c93f562405cb4833d12e06357b66865eb13eaf8e43aeb4e71ebe718,,https://x.com/smica83/status/2103937990351290873",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:01:59,tlp_r3d,domain,ssosettings.com,,https://x.com/tlp_r3d/status/2104300538376651256",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "20:01:59,tlp_r3d,url,http://ssosettings.com,,https://x.com/tlp_r3d/status/2104300538376651256",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
