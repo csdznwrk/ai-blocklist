@@ -73,8 +73,8 @@ TRUSTED_DNS_RESOLVERS = [
     "9.9.9.9", "149.112.112.112",
     # Google
     "8.8.8.8", "8.8.4.4",
-    # NextDNS
-    "45.90.28.0", "45.90.30.0",
+    # NextDNS — full anycast ranges (previous single IPs .0 never matched real servers)
+    "45.90.28.0/24", "45.90.30.0/24", "2a07:a8c0::/32", "2a07:a8c1::/32",
 ]
 
 # Domains too broad to block (would break non-AI/non-ISP services)
