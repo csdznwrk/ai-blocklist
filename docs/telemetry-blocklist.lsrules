@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12803 domains. Updated 2026-09-28.",
+  "description": "12808 domains. Updated 2026-09-29.",
   "rules": [
     {
       "action": "deny",
@@ -77831,6 +77831,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "httpworkbench.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "hubstaff.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78790,6 +78797,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "jcanskjihdajio.cyou",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "jeedefort.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79589,6 +79603,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "lsnsdns.beer",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "luckyprint52.ru",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81234,6 +81255,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "nielseniq.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "nildex.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83383,6 +83411,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "psd.markets",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "pso-ngd.ru",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
