@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12813 domains. Updated 2026-09-29.",
+  "description": "12816 domains. Updated 2026-09-29.",
   "rules": [
     {
       "action": "deny",
@@ -70859,6 +70859,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "alexis17capit.cc",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "alhotel-pau-etzax.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76733,6 +76740,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "f.appjiagu.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "fa.windows32.men",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82620,6 +82634,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "proalamir.dz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "proceso-personal-inf2026ac.hstn.me",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
