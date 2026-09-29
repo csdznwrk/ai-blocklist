@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12796 domains. Updated 2026-09-29.",
+  "description": "12813 domains. Updated 2026-09-29.",
   "rules": [
     {
       "action": "deny",
@@ -74548,6 +74548,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ciksecrets.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cinematicjazzorchestra.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "circana.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75374,6 +75388,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "curehealthway.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "currentware.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75781,6 +75802,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "deals.homeitemsonline.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "debtriversideledger.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76488,6 +76516,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "equifax.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "equitygrandview.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77355,6 +77390,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "globalco44t2yl6ltgj74cwthr6b6olggl3srg7engqfhx72f6ni3cyd.onion",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "glossmagazine.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77587,6 +77629,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "haqerra.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "harborstonegroup.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78503,6 +78552,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "insigniafinancial.ssosettings.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "inssighog.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79078,6 +79134,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "l.servidor.in",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "labinuri.z23.web.core.windows.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80960,6 +81023,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "myonlinemarkets.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mywebsearch.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81010,6 +81080,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "narrative.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "nationalcollaborationinitiative.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81157,6 +81234,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "nexsnield.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "nexus-mods.biz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "nexus-mods.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85272,6 +85363,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "shopmagnetism.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "shopsmartlog.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87624,7 +87722,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "treasurywisechoice.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "treboarkez.lol",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "treeservicekingstonil.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88640,6 +88752,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "wasm.web.mine.tf",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "watermarkatgatewayplace.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
