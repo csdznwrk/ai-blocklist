@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12849 domains. Updated 2026-09-30.",
+  "description": "12851 domains. Updated 2026-09-30.",
   "rules": [
     {
       "action": "deny",
@@ -77579,6 +77579,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "greenerpasturetrading.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "gricatpert.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86442,6 +86449,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ssosettings.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ssossossosss.duckdns.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
