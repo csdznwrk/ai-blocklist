@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12836 domains. Updated 2026-09-30.",
+  "description": "12849 domains. Updated 2026-09-30.",
   "rules": [
     {
       "action": "deny",
@@ -73687,6 +73687,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "bleodw.wisp.uno",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "blockc2.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74464,6 +74471,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "cgongseq.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "chain-resolve.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75200,6 +75214,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cp.mspyonline.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cp.preparationguru.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77719,6 +77740,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "hdhdandan.duckdns.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "healingmybrai-etaxrefund.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77923,6 +77951,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "hs-analytics.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "https-roblox.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79483,6 +79518,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "lnsygjswxx.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "loancraftmarket.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79757,6 +79799,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "lvl99.store",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "lysxcyy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81919,6 +81968,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "optservicenote.myallvalue.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "originalpizza.eu",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82535,6 +82591,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "poiwaksuwa.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "poiwaldsas.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82711,6 +82774,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "predictivenomics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "preparationguru.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85097,6 +85167,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "send.smnambijabajo.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "senior-safety-189010.firebaseio.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86603,6 +86680,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "sumologic.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "sunyotech.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89704,6 +89788,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "xtracker.logimeter.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "xv57j3d.scienceontheweb.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
