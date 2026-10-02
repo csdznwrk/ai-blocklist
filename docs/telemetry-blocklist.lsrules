@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12808 domains. Updated 2026-10-02.",
+  "description": "12814 domains. Updated 2026-10-02.",
   "rules": [
     {
       "action": "deny",
@@ -73484,6 +73484,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "barnstormfarmfermentory.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "bbrp.co",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77236,6 +77243,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "fusionshoppingworks.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "fxxma.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77747,6 +77761,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "healthy.smarthealthhabit.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "heap.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77832,6 +77853,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "home.productforhome.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "homeadvicezone.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78910,6 +78938,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "jeedefort.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "jfkjetblue.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87989,6 +88024,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ul.evaspy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ultradealsbuy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
