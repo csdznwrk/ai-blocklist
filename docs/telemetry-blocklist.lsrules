@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12767 domains. Updated 2026-10-02.",
+  "description": "12784 domains. Updated 2026-10-02.",
   "rules": [
     {
       "action": "deny",
@@ -73638,6 +73638,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "boxercourier.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "branch.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74024,6 +74031,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "carboniferous.top",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "careers-openai.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74577,6 +74591,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cloud.antibotv3.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cloud.repeatcarrental.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75871,6 +75892,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "dmuchawa-do-lisci-pl.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "dmw.bz",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76508,6 +76536,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "expirience.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "explorerbrowser.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76621,6 +76656,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "fastlane.rubiconproject.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "fdp122.nyc3.digitaloceanspaces.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77481,6 +77523,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "hanvior.cfd",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "haoniuzibe-jp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77601,6 +77650,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "hitorerrid.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "hl-ltd.screenconnect.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79470,6 +79526,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "lurkershield.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "luxfab.luxe",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81443,6 +81506,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "onixone.com.co",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "online-metrix.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81471,6 +81541,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "openaaii.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "openai-bonus.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "openai-credit.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "openai-credits.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "opencamping.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81479,6 +81577,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "opencandy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "openeii.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84880,6 +84985,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "settingsportal.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "setup.nemospy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86750,6 +86862,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "tfk7r22klf8vtd8g90jq8qno1tpqhmpe.apps.googleusercontent.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "thalassaix.cfd",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
