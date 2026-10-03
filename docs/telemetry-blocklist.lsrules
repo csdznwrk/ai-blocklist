@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12715 domains. Updated 2026-10-03.",
+  "description": "12718 domains. Updated 2026-10-03.",
   "rules": [
     {
       "action": "deny",
@@ -80918,6 +80918,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "nationaladvertagency.space",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "nationalcollaborationinitiative.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85944,6 +85951,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "suckmydick.implantsity.pro",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "suggestqueries.google.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87597,6 +87611,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "update-service-7e59f.firebaseio.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "update-ssl.netlify.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
