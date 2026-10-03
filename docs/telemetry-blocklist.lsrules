@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12710 domains. Updated 2026-10-03.",
+  "description": "12715 domains. Updated 2026-10-03.",
   "rules": [
     {
       "action": "deny",
@@ -75185,6 +75185,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "cp.spystealth.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "cp.thewispy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77104,6 +77111,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ftp.info-taxi.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "fullpowerproperties.uk",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85720,6 +85734,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "stage.spystealth.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "staging-all-tracker.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87064,6 +87085,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "tradingengineers.in",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "traffic.iproyal.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87198,6 +87226,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "trustsystemguard.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tt.spystealth.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
