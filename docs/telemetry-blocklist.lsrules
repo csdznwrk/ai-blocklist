@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12699 domains. Updated 2026-10-03.",
+  "description": "12710 domains. Updated 2026-10-03.",
   "rules": [
     {
       "action": "deny",
@@ -71055,6 +71055,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "amber-ridge-bruixsioi.pro",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "aminacompliance.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73513,6 +73520,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "bestbuy.narrative.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bestdiscountzone.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76655,6 +76669,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "facebook.hosweb.online",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "facebook.sioll.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77362,6 +77383,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "grabthedeals.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "gracenote.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77580,6 +77608,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "health.vitalhealthportal.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "healthbalancegrow.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79161,6 +79196,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "lifewithmyfriend.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "link-flux.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79176,6 +79218,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "links.iterable.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "linksdocumentation001.blob.core.windows.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80953,6 +81002,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "nettcasters.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "new.androidlost.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80968,6 +81024,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "newrelic.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "news.healthnutrihubs.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87120,6 +87183,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "trustedhomeimprove.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "trustsoftware.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87716,6 +87786,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "v4vw4ytvo4.execute-api.us-east-2.amazonaws.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "vale-quaeum-a4hc9.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
