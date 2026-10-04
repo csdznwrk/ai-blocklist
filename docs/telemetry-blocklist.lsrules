@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12714 domains. Updated 2026-10-04.",
+  "description": "12715 domains. Updated 2026-10-04.",
   "rules": [
     {
       "action": "deny",
@@ -79484,6 +79484,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "lummastealer.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "luqiuid91.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
