@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12715 domains. Updated 2026-10-04.",
+  "description": "12716 domains. Updated 2026-10-04.",
   "rules": [
     {
       "action": "deny",
@@ -88906,6 +88906,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "yieldmo.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "yinxing688.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
