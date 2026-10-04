@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12711 domains. Updated 2026-10-04.",
+  "description": "12714 domains. Updated 2026-10-04.",
   "rules": [
     {
       "action": "deny",
@@ -70992,6 +70992,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "allegro.ofe90392.pics",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "allownotification.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75711,6 +75718,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ddiutilities.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "de-zines.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84195,6 +84209,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "sandbox97.seniorsafetyapp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "sandsprecast.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
