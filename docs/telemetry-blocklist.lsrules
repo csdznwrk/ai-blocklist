@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12690 domains. Updated 2026-10-05.",
+  "description": "12698 domains. Updated 2026-10-05.",
   "rules": [
     {
       "action": "deny",
@@ -71475,6 +71475,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "aniv.ddoblxd.cn",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "anlytic-js-cloud.beer",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72876,6 +72883,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "app.snoopza.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "app.spotifylite.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75410,6 +75424,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "d3g4zswpacwtfb.cloudfront.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "dagasz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78734,6 +78755,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "kaifitness.penwfe.asia",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "kanuis2.duckdns.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81051,6 +81079,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "nozazisoda.z11.web.core.windows.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "npm-security-audit.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81171,6 +81206,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ogymoggy.firebaseio.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ohhhhhmoney.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83026,6 +83068,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ptai.in",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "pub-106f839a8e06470ebf320252d50291c1.r2.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85700,6 +85749,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "statsigapi.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "stc-chaffoteaux.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
