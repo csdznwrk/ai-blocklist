@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12698 domains. Updated 2026-10-05.",
+  "description": "12708 domains. Updated 2026-10-06.",
   "rules": [
     {
       "action": "deny",
@@ -70040,6 +70040,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "130826.ngrok.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "1419993777.cyou",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73134,6 +73141,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "asiioasdjasiojasodijasa.eastus.cloudapp.azure.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ask.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75101,6 +75115,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "cosmicsky.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "costcodeltosin.s3.us-east-1.amazonaws.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76019,6 +76040,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "domenpozh.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "dongphucasian.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78867,6 +78895,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "kkk.tttkkkssww.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "klaviyo.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79337,6 +79372,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "loverman.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "loyalcustomdrums.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80695,6 +80737,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "myonlinemarkets.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "myssoauth.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83249,6 +83298,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "pususufim.z28.web.core.windows.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "px.ads.linkedin.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83747,6 +83803,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "rlcdn.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "rmans.webredirect.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87779,6 +87842,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "veriskmarketing.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "vermontsolidsurface.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
