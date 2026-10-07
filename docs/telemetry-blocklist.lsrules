@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12702 domains. Updated 2026-10-07.",
+  "description": "12727 domains. Updated 2026-10-07.",
   "rules": [
     {
       "action": "deny",
@@ -70726,6 +70726,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "adserverworkshub.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "adservice.google.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73428,6 +73435,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "aykfm.cn",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "azurenetfiles.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73513,6 +73527,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "backup-a71f4.firebaseio.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bagueie.xyz",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75262,6 +75283,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "couhe79.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "countly.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75382,6 +75410,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "crosswise.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "crying881.beer",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76648,6 +76683,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "exopurple.blob.core.windows.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "expirience.icu",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77033,6 +77075,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "fnfkv.cn",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "fogdatascience.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77076,6 +77125,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "fptls.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "fqelt.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77537,6 +77593,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "hahah1101.mom",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "hanvior.cfd",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77552,6 +77615,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "harborstonegroup.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "hardly-signatures-loc-surf.trycloudflare.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77755,6 +77825,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "hubstaff.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "hugg1ngvx.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78286,6 +78363,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "infosever.linkup.store",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "infosum.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78713,6 +78797,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "jrxciw2.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "js-agent.newrelic.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78910,6 +79001,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "komodia.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "krioldflaeara-willow.pro",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79547,6 +79645,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "maskingofking.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "matadorbetonlinegiris.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81023,6 +81128,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "nomaiei.sbs",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "notifications-pa.googleapis.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81955,6 +82067,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "playintegrity.googleapis.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "plbkm.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83249,6 +83368,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "qjkoy.cn",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "qkxcs.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -84104,6 +84230,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "sas.smartadserver.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "sayosay.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86231,6 +86364,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "teams-microsoft-downloads.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "teams-online.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87295,6 +87435,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ufatr.cn",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ug.evaspy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87471,6 +87618,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "update.dealply.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "update.zip",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87737,6 +87891,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "verify-captcha-human.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "verifyaccount-google.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88219,6 +88380,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "winatp-gw-neu-cdfwbue5cvdsfpa5.a02.azurefd.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "winupdate.live",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88248,6 +88416,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "wookidoodlesalga.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "workspacegranite.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
