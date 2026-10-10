@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12640 domains. Updated 2026-10-10.",
+  "description": "12642 domains. Updated 2026-10-10.",
   "rules": [
     {
       "action": "deny",
@@ -76438,6 +76438,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "expirience.click",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "extremetracking.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86127,6 +86134,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "thd.cc",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "thedentalsuite.com.au",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
