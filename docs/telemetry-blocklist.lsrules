@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12647 domains. Updated 2026-10-09.",
+  "description": "12661 domains. Updated 2026-10-10.",
   "rules": [
     {
       "action": "deny",
@@ -6669,6 +6669,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootprivatetrap.0-058.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-boots1trap.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -6726,6 +6733,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-bootst00proplus3xnap.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootst00proplus3xnapcorpr-es-1.0-030.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -33514,6 +33528,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "01-car21-web-wwww11node-webapp.admin8.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "01-car21-web-wwww11node-webapp.apac-cfw-c2s-01-n6x026.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -45947,27 +45968,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "01-skidoitruyar21-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-skinsr21-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-smtp-cf23region.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-socialxar21-10-r-oa-1.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75983,6 +75983,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "documents1.worldbank.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "domenpozh.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76242,6 +76249,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "efine-post.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "einformatiks.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76250,6 +76264,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "elcore-api.azurewebsites.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "element.proxy08.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76893,6 +76914,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ftp.fundacionpiaz.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ftp.info-taxi.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77138,6 +77166,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "google-play-store.duckdns.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "googleanalytics.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77286,6 +77321,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "habu.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "hackforums.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77489,6 +77531,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "hs-analytics.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "httprat.xyz",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78454,6 +78503,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "justtoit.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "kadam.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78700,6 +78756,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "labrador.ua",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "lake-90.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80218,6 +80281,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mxk-762399649109.southamerica-east1.run.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mxspy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80618,6 +80688,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "news.healthnutrihubs.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "neww-project-pdffiles.vercel.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82655,6 +82732,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "proxy.reptilicus.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "proxy8.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86224,6 +86308,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "times.eastus.cloudapp.azure.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "timesyns.eastus.cloudapp.azure.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87149,6 +87240,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "update-ssl.netlify.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "update.cdnlinks.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
