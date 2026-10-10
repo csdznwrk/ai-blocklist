@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12632 domains. Updated 2026-10-10.",
+  "description": "12636 domains. Updated 2026-10-10.",
   "rules": [
     {
       "action": "deny",
@@ -70061,6 +70061,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "1dyorzi7.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "1topspy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70853,6 +70860,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "agent.veriato.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ahanaucmexicanulsage.urest.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78636,6 +78650,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "kucoinapps.b12sites.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "kuuvv.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79603,6 +79624,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mediasncr.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "meetoa.protofire.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
