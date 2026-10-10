@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12636 domains. Updated 2026-10-10.",
+  "description": "12640 domains. Updated 2026-10-10.",
   "rules": [
     {
       "action": "deny",
@@ -70355,6 +70355,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "accessdocu.b-cdn.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "accoun.nyrwhax.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -84285,6 +84292,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "session.bugsnag.kindle.amazon.dev",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "sessions.bugsnag.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85518,6 +85532,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "svlogin.asia",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "swervimgbackj.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87282,6 +87303,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "uxcam.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "v0-exodus-wallet-app.vercel.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
