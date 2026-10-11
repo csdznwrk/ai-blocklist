@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12642 domains. Updated 2026-10-11.",
+  "description": "12643 domains. Updated 2026-10-11.",
   "rules": [
     {
       "action": "deny",
@@ -79211,6 +79211,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "maglook.eu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mail-mof-gov-np.netlify.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
