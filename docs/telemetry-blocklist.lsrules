@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12635 domains. Updated 2026-10-14.",
+  "description": "12641 domains. Updated 2026-10-14.",
   "rules": [
     {
       "action": "deny",
@@ -73491,6 +73491,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "beaconpromotions.com.na",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "beacons.gcp.gvt2.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74220,6 +74227,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cdn.silverpush.co",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cdn.simplynetworking.eu",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75144,6 +75158,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cs.cobaltstrike.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "csg-soft.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76922,6 +76943,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ginuary.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "glamour-studio.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81731,6 +81759,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "predictivenomics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "presanis.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88367,6 +88402,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "zeotap.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "zewalegin.z43.web.core.windows.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
