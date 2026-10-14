@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12624 domains. Updated 2026-10-14.",
+  "description": "12635 domains. Updated 2026-10-14.",
   "rules": [
     {
       "action": "deny",
@@ -70089,6 +70089,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "3d7hz1zm.onlinewebshop.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "4-dot-all-tracker.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73890,6 +73897,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "c97xx6lx.onlinewebshop.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "cabinet.ecohouse-eg.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75668,6 +75682,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "dfskk2.oss-cn-hongkong.aliyuncs.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "diagnostics.apple.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77201,6 +77222,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "hl0ghsi9.onlinewebshop.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "hlk.criteo.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78140,6 +78168,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "iterable.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "iwnw-1knwni-21siw.xo.je",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80820,6 +80855,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ollama-for-macos.github.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "olurdaolurdediler.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83466,6 +83508,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "s1z0j88g.onlinewebshop.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "s2.spylive360.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85230,6 +85279,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "stellasallaku.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "stormvenomforge.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85280,6 +85336,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "stupendoussnow.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "stzaeyv.click",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86679,6 +86742,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "u0bfilhn.onlinewebshop.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "u1.panspy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87401,6 +87471,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "vscode-extension-update.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "vsdhjjt.club",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
