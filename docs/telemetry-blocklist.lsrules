@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12596 domains. Updated 2026-10-15.",
+  "description": "12607 domains. Updated 2026-10-15.",
   "rules": [
     {
       "action": "deny",
@@ -74625,6 +74625,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "cobrastealer.cool",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "coco-fun2.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75535,6 +75542,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "dev.sbphototours.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "dev.snoopza.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76151,6 +76165,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "essentialkneadsforhealth.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "eu.api.fpjs.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76508,6 +76529,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "fllicensehealthpdf-viewer.vercel.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "flow-note-zsgf.p-dthpnqnd.workers.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76719,6 +76747,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "g7wq4gvc17.onlinewebshop.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "gambah.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78125,6 +78160,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "johnhaywoodphotography.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "journallepoint.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78896,6 +78938,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mail.spymasterpro.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "manuelitellc.screenconnect.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80506,6 +80555,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "nvidiasdk.fly.dev",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "nxmpv.addbazaar.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83641,6 +83697,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "secure.cornebrdjubf.top",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "securebackuponline.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85755,6 +85818,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "thegouldings.co.uk",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "theodoi24h.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87863,6 +87933,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "xiaoxiangliu-jp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "xionamiconm.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
