@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12613 domains. Updated 2026-10-15.",
+  "description": "12616 domains. Updated 2026-10-15.",
   "rules": [
     {
       "action": "deny",
@@ -77033,6 +77033,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "gumruk.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "gvagsb.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77244,6 +77251,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "httprat.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "https--www--roblox.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84566,6 +84580,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "sovrn.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "sox-protest-regular-criticism.trycloudflare.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
