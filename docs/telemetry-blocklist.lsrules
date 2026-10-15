@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12607 domains. Updated 2026-10-15.",
+  "description": "12613 domains. Updated 2026-10-15.",
   "rules": [
     {
       "action": "deny",
@@ -73610,6 +73610,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "bluesoftsdocrks.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "blurspy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75781,6 +75788,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "doboski.top",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "docusignappinstallers.help",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80939,7 +80953,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "oxooxmnl67z5t5cctt3uw7ukqoy6k7kr6x5vn2yyhcfpbuj5ddq2hjid.onion",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "p2p.peer2profit.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "p581488.pro",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84292,6 +84320,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "sinsp6ibw32abbcoagbjwetgm2w56u7tr4izy3xzp7ehqoenxvdd3qyd.onion",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "siteimproveanalytics.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87219,6 +87254,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "visit.tealiumiq.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "vivid-flicker-anvil-creoen.pro",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
