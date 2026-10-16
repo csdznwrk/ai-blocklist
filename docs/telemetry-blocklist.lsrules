@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12628 domains. Updated 2026-10-16.",
+  "description": "12630 domains. Updated 2026-10-16.",
   "rules": [
     {
       "action": "deny",
@@ -70005,6 +70005,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0xrpc.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12d60.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83579,6 +83586,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "sc-analytics.appspot.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "scarlettgugldabhgz3uertpnxglxytddxbd5vnoma5pihfk6k5q2sid.onion",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
