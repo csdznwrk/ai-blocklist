@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12630 domains. Updated 2026-10-16.",
+  "description": "12632 domains. Updated 2026-10-16.",
   "rules": [
     {
       "action": "deny",
@@ -75570,6 +75570,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "dechert.myssologin.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "decide.mixpanel.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85210,6 +85217,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "stellasallaku.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "stinson.myssologin.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
