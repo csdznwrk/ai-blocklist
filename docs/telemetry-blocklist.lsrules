@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12619 domains. Updated 2026-10-17.",
+  "description": "12625 domains. Updated 2026-10-17.",
   "rules": [
     {
       "action": "deny",
@@ -72812,6 +72812,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "app.slidy.ai",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "app.snoopza.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73982,6 +73989,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "canabit.ca",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "canjepuntosrapidobac.click",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79694,6 +79708,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mixpanel.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mizuhoca.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87625,6 +87646,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "wordmoss.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "workspacegoogle.net.ru",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "workspacegoogle.org.ru",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "workspacegoogle.pp.ru",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
