@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12625 domains. Updated 2026-10-17.",
+  "description": "12632 domains. Updated 2026-10-17.",
   "rules": [
     {
       "action": "deny",
@@ -76452,6 +76452,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "f005.backblazeb2.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "factual.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76768,6 +76775,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "forum.reptilicus.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "forumst.co.kr",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78881,6 +78895,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "lojalivretos.store",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "lotame.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79008,6 +79029,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mads.freewheel.tv",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "maga-zine-luiza.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83494,6 +83522,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "salator.es",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "samba.tv",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87519,6 +87554,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "websalat.top",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "webseoanalytics.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87688,6 +87730,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "wrs.clevertap.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "wruser.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
