@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12609 domains. Updated 2026-10-18.",
+  "description": "12613 domains. Updated 2026-10-18.",
   "rules": [
     {
       "action": "deny",
@@ -70145,6 +70145,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "7k.iakmialor.web.id",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "83dd4.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78762,6 +78769,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "login.caimanying.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "login.quanly24h.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87288,6 +87302,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "vpass.tuyonghao.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "vpn.5tr.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87485,6 +87506,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "webwatchernow.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "wellsfargo-secure-login.beauty",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
