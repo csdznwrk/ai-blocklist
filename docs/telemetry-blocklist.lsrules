@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12610 domains. Updated 2026-10-18.",
+  "description": "12615 domains. Updated 2026-10-18.",
   "rules": [
     {
       "action": "deny",
@@ -70033,6 +70033,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "1300762.us8.myftpupload.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "179-43-175-64.sslip.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78622,6 +78629,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "liveeee365.dothome.co.kr",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "liveramp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80953,6 +80967,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "outlook365livee.dothome.co.kr",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "outlookportal.framer.ai",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81493,6 +81514,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "portal.flexispy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "portalmsn365.dothome.co.kr",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82970,6 +82998,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "remoto.foxspy.com.br",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "renovar365.dothome.co.kr",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
