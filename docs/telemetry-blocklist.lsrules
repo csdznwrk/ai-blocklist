@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12613 domains. Updated 2026-10-18.",
+  "description": "12610 domains. Updated 2026-10-18.",
   "rules": [
     {
       "action": "deny",
@@ -70005,13 +70005,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "0xrpc.io",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "12d60.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70048,13 +70041,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "1ca43.appspot.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "1rpc.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73211,13 +73197,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "auth.properties",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "auth.split.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73534,6 +73513,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "bhexfwo.cn",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bhfs.myssologin.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76438,13 +76424,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "f005.backblazeb2.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "factual.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76873,13 +76852,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "gamedb.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "gateway.tenderly.co",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78860,6 +78832,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "loneiggel.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "lotame.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80380,6 +80359,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "nemospy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "nenkin.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83971,13 +83957,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "seon.io",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "sepolia.gateway.tenderly.co",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
