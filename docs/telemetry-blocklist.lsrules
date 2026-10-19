@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12613 domains. Updated 2026-10-19.",
+  "description": "12618 domains. Updated 2026-10-19.",
   "rules": [
     {
       "action": "deny",
@@ -73463,6 +73463,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "beacon.viafoura.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "beaconpromotions.com.na",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76599,6 +76606,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "fixbetamp.vip",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "flexible-networks.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78938,6 +78952,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "lytics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "m-fixbet.vip",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87526,6 +87547,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "whatruns.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "where-is-my-children.firebase.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88045,6 +88073,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "xionamiconm.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "xml-v4.pushub.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
