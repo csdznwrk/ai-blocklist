@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12604 domains. Updated 2026-10-20.",
+  "description": "12612 domains. Updated 2026-10-20.",
   "rules": [
     {
       "action": "deny",
@@ -70061,6 +70061,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "31.56.209.167.sslip.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "33across.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70307,6 +70314,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ac480.firebaseio.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "academiaarin-jp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73610,6 +73624,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "bjjmsjcfsb.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "bk128.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75046,6 +75067,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cpcontacts.spymasterpro.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "crackcodes.in",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78552,6 +78580,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "leanviainc.top",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "letmespy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79610,6 +79645,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "microtracker-1ca43.firebaseio.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mimori.group",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80793,6 +80835,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "onlinefundb.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "only1mafia.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83089,6 +83138,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "rncdn1.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "roblox.fo",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
