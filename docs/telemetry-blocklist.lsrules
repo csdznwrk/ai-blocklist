@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12595 domains. Updated 2026-10-20.",
+  "description": "12604 domains. Updated 2026-10-20.",
   "rules": [
     {
       "action": "deny",
@@ -75913,6 +75913,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "drive-security.zapto.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "drive-sharing.work.gd",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "drive-surge.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77929,6 +77943,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "instagram.dothome.co.kr",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "install.branch.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78546,6 +78567,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "lg.conviva.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "lhdn.tos-cn-hongkong.volces.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79554,6 +79582,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mgfdeutschland.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mgmylc.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83550,6 +83585,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "scnk3.club",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "scorecardresearch.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86518,6 +86560,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ualf53oo.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ualvujp.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86722,6 +86771,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "uo.evaspy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "uob-bk6-c3gnawcfendtf8gu.z01.azurefd.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87464,6 +87520,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "wmt.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "worker-broken-wood-ddaf.discord854832.workers.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
