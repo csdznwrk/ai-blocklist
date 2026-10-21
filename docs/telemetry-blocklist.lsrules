@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13312 domains. Updated 2026-10-21.",
+  "description": "13325 domains. Updated 2026-10-21.",
   "rules": [
     {
       "action": "deny",
@@ -70054,6 +70054,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "224meetgooglecomfskqcdzfcwh.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "2baserec2.guru",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70978,6 +70985,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "alertbot-lake.vercel.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "alex.a2z.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71602,6 +71616,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "anh-whatsapp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "aniv.ergstlj.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73772,6 +73793,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "azocnrq.cn",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "aztrona18.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77978,6 +78006,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "domain-privacy.group",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "domenpozh.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80940,6 +80975,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "kdyweb-whatsapp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "keisigr.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84054,6 +84096,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "onyxkrunker.duckdns.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ooni.cslt168.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86469,6 +86518,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "relay.autoskreenllc.one",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "relay1.trackview.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86673,6 +86729,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "rjxweb-whatsapp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "rkm-20260709-1514.zip",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88926,6 +88989,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "stake-app-au.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "star-layer.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89591,6 +89661,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "tag-p.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "tag-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89879,6 +89956,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "teramind.co",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tergenerator.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -91146,6 +91230,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "us.umobix.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "us06webzoomus2fj2f830440905293.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
