@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13892 domains. Updated 2026-10-22.",
+  "description": "13902 domains. Updated 2026-10-22.",
   "rules": [
     {
       "action": "deny",
@@ -70201,6 +70201,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "9oogle.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "a-qa3.thd.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70321,6 +70328,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "aax.amazon-adsystem.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ababy9.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76376,6 +76390,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "arvax.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "arvion.network",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82563,6 +82584,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "google.drive03.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "googleanalytics.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82802,6 +82830,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "heapanalytics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "helensolution.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87358,6 +87393,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ntp.reposync.to",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "o1.ingest.sentry.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88353,6 +88395,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "plausible.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "play-googlese.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89507,6 +89556,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "psoz96apk.9yyl9.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "psznaoehteeh.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90208,6 +90264,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "reports.appsee.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "reposync.to",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -91958,6 +92021,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "slotbid.a-mo.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "smaluf.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
