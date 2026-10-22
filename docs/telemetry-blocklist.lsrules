@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13888 domains. Updated 2026-10-22.",
+  "description": "13892 domains. Updated 2026-10-22.",
   "rules": [
     {
       "action": "deny",
@@ -70299,6 +70299,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "aaenen.cc",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "aaf0d9.vn-open888.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86210,6 +86217,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mlroweb.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mnjuvzg.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87940,6 +87954,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "patch-whatsapp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "paulenelson.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -97215,6 +97236,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "zt171.eu.cc",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "zyxel.sh",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     }
