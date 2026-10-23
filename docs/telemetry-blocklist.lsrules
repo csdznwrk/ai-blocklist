@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13898 domains. Updated 2026-10-23.",
+  "description": "13913 domains. Updated 2026-10-23.",
   "rules": [
     {
       "action": "deny",
@@ -74506,6 +74506,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "antibot-linkedin.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "antibotv3.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74717,6 +74724,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "api.blueconic.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "api.brandogdigital.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79329,6 +79343,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "cmail-geogle.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "cmd.crwdcntrl.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82605,6 +82626,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "gptverification.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "gracenote.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82773,6 +82801,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "hackattackkaboom.botlesscucks.st",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "hadronid.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82872,6 +82907,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "highstermobi.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "hik.gettingheadfromduckysmom.st",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85321,6 +85363,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "maildeveloper.site",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "maillink-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86798,6 +86847,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "n1-us-google.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "n6sm2m.celltracker.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87569,6 +87625,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "openfpcdn.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "opengraph.vip",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88388,6 +88451,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "playintegrity.googleapis.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "pnalumni.dgitd.anchorbolnorth.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -92216,6 +92286,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "sobesmarje.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "socket-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -93427,6 +93504,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "t-trustrest.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "t.adjust.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -93630,6 +93714,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "telegra.loan",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "telematicssdk.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -93826,6 +93917,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "tglog.iwatch.vip",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "tgvweb-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -93911,6 +94009,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "thriddata.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "thunder.godofthunder.st",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
