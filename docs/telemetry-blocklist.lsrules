@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13870 domains. Updated 2026-10-23.",
+  "description": "13879 domains. Updated 2026-10-23.",
   "rules": [
     {
       "action": "deny",
@@ -70187,7 +70187,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "99totoapp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "9oogle.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "9tcj2.tik-tok-18.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73575,6 +73589,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "agustoto.vip",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ai-nexora.sbs",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75781,6 +75802,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "apitest.awarenesstechnologies.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "apiupdated.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78776,6 +78804,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "certificazi.one",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "cf.hb.adriver.ru",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80337,6 +80372,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "dbaoi.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "dbcache-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81654,6 +81696,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "f.appjiagu.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "f003.backblazeb2.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84048,6 +84097,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "jgsbdrd.cc",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "jimcooks211.github.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -95416,6 +95472,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "vscode-extension-update.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "vwwv-roblox.co",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
