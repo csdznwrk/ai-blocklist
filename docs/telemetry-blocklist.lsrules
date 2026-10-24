@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13947 domains. Updated 2026-10-24.",
+  "description": "13949 domains. Updated 2026-10-24.",
   "rules": [
     {
       "action": "deny",
@@ -80092,6 +80092,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "cyuop.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "d-app-apk.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81822,6 +81829,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "f9-whatsapp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "facebook.recovery.jisandev.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
