@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13671 domains. Updated 2026-10-25.",
+  "description": "13675 domains. Updated 2026-10-25.",
   "rules": [
     {
       "action": "deny",
@@ -80421,6 +80421,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "google.workspacedoc.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "googleanalytics.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81696,6 +81703,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "instacart.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "instagram.82.165.110.7.backname.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88192,6 +88206,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "rne1sf2u.onlinewebshop.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "robiox.com.af",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -94793,6 +94814,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "wiredrum.llc",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "wizardexpensive.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
