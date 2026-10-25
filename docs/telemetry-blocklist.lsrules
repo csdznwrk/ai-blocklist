@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13675 domains. Updated 2026-10-25.",
+  "description": "13679 domains. Updated 2026-10-25.",
   "rules": [
     {
       "action": "deny",
@@ -70887,6 +70887,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ahutn0lm.onlinewebshop.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ai-nexora.sbs",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81709,6 +81716,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "instagram-verifica.freemyip.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "instagram.82.165.110.7.backname.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82004,6 +82018,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "japanpostr7l.club",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "jg97xz957ekix.scienceontheweb.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -95339,6 +95360,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "xmyevq.birxpk.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "xncdvoghw.wuaze.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
