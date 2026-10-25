@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13669 domains. Updated 2026-10-25.",
+  "description": "13671 domains. Updated 2026-10-25.",
   "rules": [
     {
       "action": "deny",
@@ -70439,6 +70439,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "acounts-google.duckdns.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "acoustic.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -91727,6 +91734,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "t3389.workers.dev",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "t4uwm.tik-tok-18.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
