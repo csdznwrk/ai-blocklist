@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13607 domains. Updated 2026-10-26.",
+  "description": "13619 domains. Updated 2026-10-26.",
   "rules": [
     {
       "action": "deny",
@@ -70005,6 +70005,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0c7057.wjpeso-ph.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12d60.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70874,6 +70881,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ahutn0lm.onlinewebshop.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "ai-gateway.internal-corp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72463,6 +72477,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "api.near.co",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "api.newenterpr1se.lat",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78223,6 +78244,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "docu-sign.biz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "domain-privacy.group",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79022,6 +79050,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "fastlane.rubiconproject.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "fastpath.cyou",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83704,6 +83739,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mivaworker.pro",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mixpanel.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87897,6 +87939,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "rosaehessfrzimbra.vercel.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "roundel.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88647,6 +88696,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "secsys-whatsapp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "secure-xdomain-25359.dashboard-payment.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "secure-xdomain-26376.dashboard-payment.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "secure-xdomain-38084.dashboard-payment.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "secure-xdomain-69242.dashboard-payment.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -93183,6 +93260,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "usafe.ru",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "usdts1.icu",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
