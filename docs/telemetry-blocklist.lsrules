@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13648 domains. Updated 2026-10-26.",
+  "description": "13653 domains. Updated 2026-10-26.",
   "rules": [
     {
       "action": "deny",
@@ -70474,6 +70474,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "acxjixsd.ltd",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ad.centrum.cz",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76606,6 +76613,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "cmp1.s3.filebase.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cmp2.s3.filebase.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "cms.krux.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80646,6 +80667,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "havelbeenpwned.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "hcnksadcn.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89858,6 +89886,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "smsurvey.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "smulaf.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
