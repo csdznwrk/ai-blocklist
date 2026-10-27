@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12952 domains. Updated 2026-10-27.",
+  "description": "12955 domains. Updated 2026-10-27.",
   "rules": [
     {
       "action": "deny",
@@ -74023,6 +74023,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "bvkaka.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "byte-armor.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79616,6 +79623,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "kongzaixian.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "kozae666.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "krogerads.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -84580,6 +84601,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "rosaehessfrzimbra.vercel.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "roujizaixian.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90390,13 +90418,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "xbxj1.top",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "xml-v4.pushub.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
