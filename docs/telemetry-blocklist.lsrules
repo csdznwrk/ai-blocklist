@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12955 domains. Updated 2026-10-28.",
+  "description": "12762 domains. Updated 2026-10-28.",
   "rules": [
     {
       "action": "deny",
@@ -70061,20 +70061,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "224meetgooglecomfskqcdzfcwh.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "26etou1.cn",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "2baserec2.guru",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70160,13 +70146,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "89685.firebaseio.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "8j536vj.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70370,20 +70349,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "account.trackerplus.ru",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "account.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "account.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70740,13 +70705,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "aesmartdata.cloud",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "aexshorthood.cactx5.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70944,13 +70902,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "alert.xiz4me.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "alertbot-lake.vercel.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71482,13 +71433,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "android.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "androidapk.biz",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71511,13 +71455,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "androidlost.firebaseio.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "aniv.ergstlj.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72672,21 +72609,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "api.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "api.webengage.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "api.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72799,13 +72722,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "apk.mtf.re",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "apk.webapi-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72980,20 +72896,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "app.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "app.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "app.xdspy.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73065,13 +72967,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "apprtc.appspot.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "apps.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73184,34 +73079,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "aps22.spyhuman.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "ar-ae.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "ar-eg.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "ar-sa.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "ar.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73414,20 +73281,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "auth.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "auth.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "authenticated-traffic-solution.rlcdn.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73485,13 +73338,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "axe-net.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "aztrona18.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73568,20 +73414,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "backup.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "backup.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "bam-cell.nr-data.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73604,13 +73436,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "bark-android-media.s3.amazonaws.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "battledansuli.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73702,13 +73527,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "bestbuy.narrative.io",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "bestpartneha-jp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73835,13 +73653,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "blog.ikeymonitor.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "blog.webapi-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74149,20 +73960,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "call.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "calls.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "cambridgemobiletelematicsdata.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74234,6 +74031,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cd.signalfx.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cdn-edge-f3f85b.netlify.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74415,13 +74219,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "cdn.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "cdn.youlovemybiba.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74555,20 +74352,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "channel.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "channels.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "chartbeat.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74576,21 +74359,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "chat.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "chat.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "chats.webstatici-whatsapp.com",
+      "remote-domains": "chatlgpt.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74850,13 +74619,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cloudautosolutions.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "clouddesk.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75143,27 +74905,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "contact.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "contact.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "contacts.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "contentsquare.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75207,20 +74948,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "conversantmedia.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "conversation.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "conversations.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75857,27 +75584,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "de-at.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "de-de.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "de.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "dealply.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75927,13 +75633,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "desktop.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "dev.hoverwatch.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75956,13 +75655,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "developer.huawei.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "developer.webapi-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76018,13 +75710,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "device.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "deviceatlas.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76040,13 +75725,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "devices.nest.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "devices.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76179,28 +75857,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "docs.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "docss-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "docu-sign.biz",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "domain-privacy.group",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76236,20 +75893,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "download.transunionbiba.lat",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "download.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "download.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76445,13 +76088,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "echallan.party",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "ecom.flexispy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76536,55 +76172,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "en-au.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "en-ca.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "en-gb.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "en-in.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "en-sg.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "en-us.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "en.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "endpoint-api-v1.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76642,41 +76229,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "errors.trackjs.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "es-ar.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "es-co.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "es-es.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "es-mx.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "es.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76865,13 +76417,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "faq.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "fast-mob.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76914,35 +76459,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "file.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "file.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "files.prebid.org",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "files.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "fileserver.devin-hk.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77726,13 +77243,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "forumst.co.kr",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "forzaverification.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77755,27 +77265,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "fptls.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "fr-ca.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "fr-fr.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "fr.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77874,13 +77363,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "gerardo.desarrollowebalcala.es",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "get-googlemeet.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78153,27 +77635,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "group.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "group.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "groups.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "guestspy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78182,13 +77643,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "gugyh.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "guide.webapi-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78321,27 +77775,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "help.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "help.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "hi.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "highstermobi.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78357,13 +77790,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "hippocratic.top",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "history.webapi-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78447,13 +77873,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "howto.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "hpapp.mywebsearch.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78469,6 +77888,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "hubstaff.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "huipiaoxia-jp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78734,13 +78160,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "id.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "id5-sync.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78853,13 +78272,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "img.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "immunosuppressant.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78917,13 +78329,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "inappevent.appsflyer.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "inbox.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79098,6 +78503,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "insicdesignszu.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "insight.adsrvr.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79231,13 +78643,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "ios.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "iovation.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79315,13 +78720,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "it.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "iterable.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79351,13 +78749,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "izspy-1313.firebaseio.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "ja.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79413,14 +78804,14 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "jorvlen.cfd",
+      "remote-domains": "join-inapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "joymspcb.cn",
+      "remote-domains": "jorvlen.cfd",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79470,13 +78861,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "kbmgroup.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "keisigr.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79546,13 +78930,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "kikicloud.es",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "killi.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79589,13 +78966,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "klg.a-spy.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "ko.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79652,13 +79022,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "kruxdigital.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "ktoktotam.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79791,13 +79154,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "lhdn.tos-cn-hongkong.volces.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "lifecircle-223805.firebaseio.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79813,13 +79169,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "linkmob.org",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "linkprofile.blob.core.windows.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79959,27 +79308,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "login.en.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "login.es.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "login.pt-br.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "login.quanly24h.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79987,28 +79315,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "login.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "login.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "login.webwatcher.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "login.zh.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80058,13 +79365,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "logx.optimizely.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "lopog.sonicanimehub.cfd",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80169,13 +79469,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "mac.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "macos-diagnostics.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80226,6 +79519,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "maildeveloper.site",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mamatambiensr-jp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80624,20 +79924,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "media.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "media.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "mediagetapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80687,27 +79973,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "message.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "message.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "messages.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "messages01.smstracker.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80716,13 +79981,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "messages02.smstracker.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "messenger.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81178,13 +80436,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mrswd.wo87sf.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "ms.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81667,13 +80918,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "news.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "nexsnield.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81731,20 +80975,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "nitlebuf.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "nl-be.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "nl.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81982,13 +81212,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "olympushorse.com.br",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "onclick.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82038,35 +81261,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "online.en.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "online.es.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "online.zh.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "onlinefundb.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "onyxkrunker.duckdns.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82290,13 +81485,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "pairing.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "panel-aura.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82347,13 +81535,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "panspy.me",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "password.webapi-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82452,13 +81633,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "pc.viptelefonprogrami.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "pc.webapi-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82682,13 +81856,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "php-web-server--unitmexi.replit.app",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "phppatcher.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82732,13 +81899,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "pixel.eyeota.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "pl.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82976,20 +82136,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "privacy.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "privacy.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "prmtracking.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83019,20 +82165,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "prod.uidapi.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "profile.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "profile.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83865,28 +82997,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "pt-br.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "pt-pt.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "pt.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "pub-614b6a8544664ad7845f0c49488560a3.r2.dev",
+      "remote-domains": "pub-3f84de9aa4f04824a3cf79d4adea59cb.r2.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84062,13 +83173,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "qbot-c2.net",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "qr.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84306,13 +83410,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "register.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "reimage.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -84321,13 +83418,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "relay.alico.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "relay.autoskreenllc.one",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84446,20 +83536,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "restore.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "restore.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "restsetestes.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -84503,13 +83579,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "riverpartner.org",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "rkm-20260709-1514.zip",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84692,13 +83761,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "rtc.ttspy.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "ru.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85020,13 +84082,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "scan.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "scientiamobile.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85314,13 +84369,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "secure.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "securebackuponline.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85342,20 +84390,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "security.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "security.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "sedotracker.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85364,13 +84398,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "seg.audigent.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "segatvlegends.cfd",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85608,21 +84635,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "settings.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "setup.nemospy.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "setup.webapi-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85825,13 +84838,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "sexygal.top",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "shadow-logs.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85875,20 +84881,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "signalfx.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "signin.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "signin.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85945,13 +84937,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "siteimproveanalytics.io",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "sivthara.cfd",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86182,13 +85167,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "snuznsva.cn",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "sobesmarje.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86225,20 +85203,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "sp18022019.firebaseio.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "sp26ct10-zalvako-biz-mureti.pages.dev",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "sp26ct10-zorvemi-biz-kaluno.pages.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86288,13 +85252,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "split.io",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "spnetflx.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86595,13 +85552,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "ssl.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "sslwidget.criteo.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86610,13 +85560,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "sspstats.smartadserver.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "stadiadev.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86645,13 +85588,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "staging.smstracker.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "stake-app-au.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86721,13 +85657,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "static.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "stats.clevertap.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86778,20 +85707,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "statsigapi.net",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "status.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "status.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87330,13 +86245,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "support-apple-in.live",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "support.mtoolapp.biz",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87345,20 +86253,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "support.phoneparental.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "support.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "support.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87603,20 +86497,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "sync.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "sync.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "sync.xiz4me.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87695,13 +86575,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "taaeiuep.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "tag-p.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88044,20 +86917,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "tergenerator.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "terms.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "ternate.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88156,13 +87015,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "th.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "thd.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88178,6 +87030,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "thecanniballazu.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "thedragonson-jp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88219,13 +87078,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "theworkshop-sign.skin",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "thiefguardbd.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88255,13 +87107,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "timedoctor.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "tips.webapi-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88310,28 +87155,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "tool.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "tools.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "topzaloha.cz",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "torvenix.cfd",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88360,13 +87184,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "tr.appmia.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "tr.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88933,20 +87750,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "tutorial.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "two-step.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "typeform.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89101,13 +87904,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "uk.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "ul.evaspy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89228,13 +88024,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "updatebrowser.net",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "upload.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89444,13 +88233,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "vahuebivaet.cc",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "varenie.live",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89493,13 +88275,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "verify.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "verisk.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89522,13 +88297,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "vervegroup.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "vi.webhwsapp-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89592,13 +88360,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "video.unrulymedia.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "video.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89675,13 +88436,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "voice.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "vscode-extension-update.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89752,13 +88506,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "web.boot-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "web.chyldmonitor.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89766,35 +88513,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "web.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "webanalytics.zohodcm.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "webapp.webstatici-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "webclient.webstatici-whatsapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89934,13 +88653,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "windows.webapi-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "winter-dawn-c288.suplayer810.workers.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90025,14 +88737,14 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "wurfl.io",
+      "remote-domains": "wumingcccv.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "wuzheshijue.cyou",
+      "remote-domains": "wurfl.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90403,21 +89115,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "x3pf5mva2liano2rmgnkf5ktbe0efzvv.lambda-url.ap-south-1.on.aws",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "xad.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "xbxj1.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90522,13 +89220,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "yjgift.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "ymetrica1.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90613,41 +89304,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "zh-cn.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "zh-hk.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "zh-sg.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "zh-tw.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "zh.webhwsapp-whatsapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "zinhoooo.workers.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90656,13 +89312,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "zion-telemetry.api.cnn.io",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "zivvvnvt.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
