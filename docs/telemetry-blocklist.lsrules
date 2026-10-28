@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12798 domains. Updated 2026-10-28.",
+  "description": "12808 domains. Updated 2026-10-28.",
   "rules": [
     {
       "action": "deny",
@@ -70341,6 +70341,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "account.payoneer.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "account.refog.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71497,6 +71504,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "anmon1.android-monitor.ru",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "anthropic.rsvpconnect-events.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76669,6 +76683,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "flipkarrt-helu-sale.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "flixarena.cyou",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80505,6 +80526,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "moneyhub-cebicuzotoy.click",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "moneyhub-juzozohagid.click",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "monitask.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82276,6 +82311,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "pregnantkha-jp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "press-f12-continue.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83564,6 +83606,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "register.rsvpconnect-events.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "reimage.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83894,6 +83943,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "rs.rudderstack.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "rsvpconnect-events.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88338,6 +88394,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "us968web-zoom.us",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "usabilla.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88731,6 +88794,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "web-sdk.smartlook.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "web-static-cdn.od-files-repo.workers.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
