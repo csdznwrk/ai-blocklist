@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "12799 domains. Updated 2026-10-29.",
+  "description": "12806 domains. Updated 2026-10-29.",
   "rules": [
     {
       "action": "deny",
@@ -71594,6 +71594,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "api-webvision.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "api.activtrak.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73807,6 +73814,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "bugsnag.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "buildpoint.blob.core.windows.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78902,6 +78916,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "jal-air.spguiapp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "jampp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79001,6 +79022,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "kbmgroup.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "kethvion.cfd",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82108,6 +82136,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "plesk.swissrdp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "pnalumni.dgitd.anchorbolnorth.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -84594,6 +84629,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "securemetrics.apple.com.cn",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "security.cortivas.us",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88633,6 +88675,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "visit.tealiumiq.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "viuonicoiscienic.web.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
