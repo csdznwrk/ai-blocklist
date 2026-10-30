@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13261 domains. Updated 2026-10-30.",
+  "description": "13265 domains. Updated 2026-10-30.",
   "rules": [
     {
       "action": "deny",
@@ -71209,6 +71209,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "americanexpcnh.w1u2p60.asia",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "amnestyreports.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80869,6 +80876,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "joi-user-res.oss-us-west-1.aliyuncs.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "join-inapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82591,6 +82605,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "microsoftoutlook.flazio.online",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "microsoftteams.site",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82711,6 +82732,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mliteapp.alter757.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mmarketplaces.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
