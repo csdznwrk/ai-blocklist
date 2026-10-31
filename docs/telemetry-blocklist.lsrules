@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13128 domains. Updated 2026-10-31.",
+  "description": "13131 domains. Updated 2026-10-31.",
   "rules": [
     {
       "action": "deny",
@@ -77089,6 +77089,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "distenel.site",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "distractionfar.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81366,6 +81373,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mail-googleaccounts-verification.uw.ua",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mail.mobistealth.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85476,6 +85490,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "qdxz4578.hkg.bcebos.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "qihangweiye.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
