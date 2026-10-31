@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13121 domains. Updated 2026-10-31.",
+  "description": "13128 domains. Updated 2026-10-31.",
   "rules": [
     {
       "action": "deny",
@@ -74170,6 +74170,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "birch-nuiis-d9q37.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "birxpk.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74640,6 +74647,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cabs.thomsonreuters.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cachedpage-jp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78573,6 +78587,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "gemini-alarmes.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "genderconference.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78784,6 +78805,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "gotruemotion.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "grabola.cfd",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -91579,6 +91607,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "xfinity-145t.square.site",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "xiksjha.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -91832,6 +91867,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "zoomclientus.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "zoommeeting.click",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "zoommeetingconnect.click",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
