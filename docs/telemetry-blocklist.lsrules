@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13131 domains. Updated 2026-10-31.",
+  "description": "13128 domains. Updated 2026-10-31.",
   "rules": [
     {
       "action": "deny",
@@ -70390,13 +70390,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "account.payoneer.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "account.refog.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70986,13 +70979,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ai-nexora.sbs",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "aiconsultation.co.uk",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77250,13 +77236,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "download-files.wixmp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "download.webwatcherdata.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77342,6 +77321,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "drummerjourney.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "dtb-bank.pages.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78966,6 +78952,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "gw.api.dh.comcast.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "gwkinvestmicrosoftteams.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82157,13 +82150,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "miricanvas.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "mivaworker.pro",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82347,20 +82333,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "moengage.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "moneyhub-cebicuzotoy.click",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "moneyhub-juzozohagid.click",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87379,13 +87351,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "shamswilliams.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "shareitwork.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87730,6 +87695,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "snowplowanalytics.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "sofel.site",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90824,6 +90796,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "volusialawyer.screenconnect.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "vpnaegis2.site",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },

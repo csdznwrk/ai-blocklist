@@ -1,6 +1,6 @@
 {
   "name": "Anti-AI + Anti-ISP-Snooping Blocklist",
-  "description": "Auto-updated every 15 min. Blocks AI platform endpoints, ISP tracking/ad-injection domains, telemetry collectors, and training data harvesters. Includes firewall rules that force all DNS through trusted resolvers (Cloudflare/Quad9/Google/NextDNS), blocking ISP DNS interception, NXDOMAIN hijacking, and query logging. Sources: crt.sh CT logs, Hagezi Pro, v2fly, MoralCode antitelemetry, seed list. Updated: 2026-10-31 19:02 UTC | Domains: 935",
+  "description": "Auto-updated every 15 min. Blocks AI platform endpoints, ISP tracking/ad-injection domains, telemetry collectors, and training data harvesters. Includes firewall rules that force all DNS through trusted resolvers (Cloudflare/Quad9/Google/NextDNS), blocking ISP DNS interception, NXDOMAIN hijacking, and query logging. Sources: crt.sh CT logs, Hagezi Pro, v2fly, MoralCode antitelemetry, seed list. Updated: 2026-10-31 22:16 UTC | Domains: 939",
   "rules": [
     {
       "action": "allow",
@@ -319,6 +319,8 @@
     "edge.chatgpt.com",
     "edunewsletter.openai.com",
     "elevenlabs.io",
+    "elm.relay.anthropic.com",
+    "eu.api-staging.anthropic.com",
     "eu.api.anthropic.com",
     "eu.api.openai.com",
     "eus.rubiconproject.com",
@@ -524,6 +526,7 @@
     "liveramp.com",
     "llmglobalvalues.anthropic.com",
     "mail-review.openai.com",
+    "maple.relay.anthropic.com",
     "marabou.feather.openai.com",
     "match.adsrvr.org",
     "math.forum.openai.com",
@@ -539,6 +542,7 @@
     "microscope.openai.com",
     "midjourney.com",
     "mint.identity.anthropic.com",
+    "mint.staging.identity.anthropic.com",
     "mistral.ai",
     "moatads.com",
     "mozilla.cloudflare-dns.com",
