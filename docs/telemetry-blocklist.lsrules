@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13116 domains. Updated 2026-11-01.",
+  "description": "13121 domains. Updated 2026-11-01.",
   "rules": [
     {
       "action": "deny",
@@ -70607,6 +70607,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "adobeacrobatupdate.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ads-game-187f4.firebaseapp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76369,6 +76376,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "d1fzw0miu1r9rc.cloudfront.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "d1g9mpv1gr3wxx.cloudfront.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86777,6 +86791,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "securedocument-docusign.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "securemetrics.apple.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88675,6 +88696,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "system-reporter.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "t-reff.eu.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90628,6 +90656,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "vigilantsolutions.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "vijaydarda.in",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
