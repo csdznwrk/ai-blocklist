@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13119 domains. Updated 2026-11-05.",
+  "description": "13247 domains. Updated 2026-11-05.",
   "rules": [
     {
       "action": "deny",
@@ -1118,6 +1118,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-00proplus0xn-latin-documentation.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-00proplus0xn-latin.fw.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-00proplus0xn-latin.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -1385,6 +1399,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "0-01-car29cf22.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-01-car29cf22developers.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -3246,6 +3267,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-2customer-app-zeirishi.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-2customer-app.bootstraevents.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-2customer-brand.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -3540,6 +3575,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-2psageng5-northamerica.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-2psageng5netapi512319v1.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-2psagengcloudapp.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -3562,6 +3611,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "0-2psagengpay.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-2psagengqa.mx.dcsportal.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -3666,7 +3722,21 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-3arymnapidocs.drone.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-3arymnapidocs.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-3arymnapidocsnetsandboxwww.dcsportal.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -3946,6 +4016,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-87.is.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-8a.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -4002,7 +4079,28 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-admin-17web.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-admin-mobile.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-admin.0-058.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-admin.shop.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -4374,6 +4472,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "0-astrologie-16www-19smtp-logindevops.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-16www-cf02-000002.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -4849,6 +4954,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-astrologie-assets043.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-astrologie-c8c2da48843d-profile-pay.0-134.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -4884,6 +4996,90 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-astrologie-nautilus-k8s.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-nautilus.agemn.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-nautilus.netpaywall.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-nautilus.sre.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-nautilus.supplier.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-nautilus300000000.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-nautilusnetmhjn.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-nautilusnetx.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-oneloadpk.comsivaawsv.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-oneloadpk.cykkk.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-oneloadpk.nethelp.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-oneloadpkenvoy.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-astrologie-pre-lazada-sg-2.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -4912,6 +5108,76 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-astrologie-t-csr11.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-t-nettesting.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-t.main.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-tbitbucket.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-www-cnppsprimarybilling.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-www-netblank.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-www-paymentlib.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-www.bianuaq.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-www.netv.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-wwwdeploy.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-astrologie-zkgp4cak3fd59b94.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -4920,6 +5186,41 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "0-astrologie-zong-kube-partner.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-zr2pk4kb37ai3yd7-mq.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-zr2pk4kb37ai3yd7.netcenturylink.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-zr2pk4kb37ai3yd7mail.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-zr2pk4kb37ai3yd7netae2.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie-zr2pk4kb37ai3yd7nrg.0-10-marketing.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -4962,6 +5263,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "0-astrologie18.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-astrologie2tpe14.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -5871,6 +6179,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-car21-net00d6f000001bianuaq135.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-car21-net083ns11.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-car21-web-wwww0node-00df3980000ntjaeau.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -6214,7 +6536,28 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-car21.helm.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-car21.lrgmbqpyqqw.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-car21.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-car21.nginx.dcsportal.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -6585,7 +6928,42 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "0-checksrvdisabled-emailvision.158auth.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "0-checksrvdisabled-emailvision.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-checksrvdisabled-emailvision45.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-checksrvdisabled-emailvisionalpha.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-checksrvdisabled-emailvisionnetobong.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-checksrvdisabled-emailvisionspf.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -7650,6 +8028,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "0-ns-eng.ns.0-apachevision.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "0-ns-engcl.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -8993,6 +9378,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-01-car21c-f11.netelasticbeanstalk.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-01-car21c-f11.teamcity.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-01-car21c-f11asset.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-01-car21c-f11gato.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-01-car21c-f8-0mxvc5vhpu74ypyw-043-web-promo6lan.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -9105,6 +9518,41 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-02-car24c-f8-123.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-02-car24c-f8-dwh.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-02-car24c-f8.info.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-02-car24c-f8.search.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-02-car24c-f8bextranetextranettstrap.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-04-car21c-f8.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -9141,6 +9589,62 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-0696dcc4-009.dcsportal.0-astrologie.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-08-car61c-f5-adm.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-08-car61c-f5-netcomune.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-08-car61c-f5-netsandboxns.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-08-car61c-f5-northamerica.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-08-car61c-f5.ewebvision.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-08-car61c-f5.fr.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-08-car61c-f5console.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-08-car61c-f5tunnel.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -9399,6 +9903,48 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-91-car31c-f8boards-assets.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-91-car31c-f8boards-coreastrologie.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-91-car31c-f8boards-net132getter.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-91-car31c-f8boards.bd.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-91-car31c-f8boards.origin.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-91-car31c-f8boards.testbed.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-93993-8jjd.weeblysite.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -9490,7 +10036,49 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-authenticate-hadoop.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-authenticate-netstaffns.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-authenticate-us-east-1.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-authenticate.api1.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-authenticate.bootstgxwwwtrap.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-authenticate.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-authenticateold.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -9588,7 +10176,91 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bextranetextranettstrap-autodiscover.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrap-bucket.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bextranetextranettstrap.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrap.ap-southeast-2.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrap.netmail.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrap.nettpe.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrap.pay.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrap.saml.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrap.zendesk.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrapboointegrationtrap.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrapcheckout.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrapis.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bextranetextranettstrapnet05802011tl.0-10-marketing.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -9742,7 +10414,84 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-boointegrationtrap-512319.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-boointegrationtrap.netae2.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-boointegrationtrap.netxvglc5so8neiagn6.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-boolazadatrap.0-132.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-boolivetrap-coreastrologie477web240.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-boolivetrap-netyancancookp.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-boolivetrap.hvqxub.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-boolivetrap.net132apac.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-boolivetrap.netmail2.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-boolivetrap.source.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-boolivetraperp.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-boolivetrapnetze.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -9798,6 +10547,97 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootadmrtrap-dev.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrap-eu-south-1.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrap-netedocumentationvision.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrap-neteiadvision.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrap-netrg.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrap-supplier.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrap.net0arymn.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrap.netbootstek8sp.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrap.netcs.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrapallseason.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrapapis.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrapf8boards.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootadmrtrapmo.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootalphatrap.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -9827,6 +10667,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-bootarttrap.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootbdrap-netd.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootbdrapbootslib.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootbdrapsso.dcsportal.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -9924,7 +10785,119 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootfbassetsap-dataler.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbassetsap-it.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbassetsap.1.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbassetsap.bellsouth.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbassetsap.cpanel.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbassetsap.git.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbassetsap.netghcpi.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbassetsapbeta1.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbpartner-bambooap-labs.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbpartner-bambooap-lrgmbqpyqqw.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbpartner-bambooap.netboosharepointtrap.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbpartner-bambooap.netupload.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbpartner-bambooap2ap.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbpartner-bambooapnetbootstek8sp.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbrap-icinga.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootfbrap-netzioxmo4foeo4dmv4.dcsportal.0-astrologie.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbrap.astae2.dcsportal.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -9973,7 +10946,28 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootfbrap.mta-sts.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbrapcd.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootfbrapcompute.dcsportal.0-astrologie.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootfbraptemp.dcsportal.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -10022,6 +11016,90 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootjenkinstestrap-30000000.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootjenkinstestrap-apacheemailvision.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootjenkinstestrap-bd.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootjenkinstestrap-confluence.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootjenkinstestrap-gw.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootjenkinstestrap.f8boards.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootjenkinstestrap.net00d1u000000x0jquai.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootjenkinstestrapcsr12.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootlab-localhostrap.influx.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootlab-localhostrap.lib.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootlab-localhostrap.webmail.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootlab-localhostrapnetrgsdocker.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootlabrap.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -10044,6 +11122,62 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-bootmantistrap.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootn-switchtrap-apac.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootn-switchtrap.eu-central-2.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootn-switchtrap.grpc.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootn-switchtrap.netuploadsns.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootn-switchtrap14kk.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootn-switchtraplivebappsappststrap.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootn-switchtrapnetreset.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootn-switchtraput158control.dcsportal.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -10113,7 +11247,210 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootsbitbucket-nfreyaap-70.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsbitbucket-nfreyaap-netreset.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsbitbucket-nfreyaap-redash.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsbitbucket-nfreyaap.priv.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootscore-apirap.0-132.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardap-10dc0000000qi0fmac.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardap-8.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardap-adfs.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardap-fw.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardap-intranet.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardap-mesos.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardap-mx.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardap-netchef.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardap.netm.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardapdrupal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardapfreshegg.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardapnetadmins.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsdashboardapwinter.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrap-amer.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrap-net2agemn.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrap-netcontainer.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrap-sites.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrap-staffns.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrap-summer.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrap.boobugstrap.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrap.netsupportlib.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrapacc.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrapnetfabio.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrapnetrg.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootsee-trackrapviviotech.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -10155,6 +11492,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootslib-ht-2ap-server.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootslib-ht-2ap.billing.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootslib-ht-2apnetppp4.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootsmainap.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -10176,7 +11534,56 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootspre-productionap-netboocloudrtrap.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootspre-productionap-reviewsv5.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootspre-productionapnetconnected.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootspre-productionapnetsellerpackaging.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootst00proplus0xnap-heroku.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootst00proplus0xnapauthmarketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootst00proplus0xnapnetpantheon.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootst00proplus0xnapsvn.dcsportal.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -10246,6 +11653,48 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootstage-spyder-pdprap-eapacvision.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstage-spyder-pdprap-emea.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstage-spyder-pdprap-net00d2e000001gna7uao.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstage-spyder-pdprap.invoice.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstage-spyder-pdprap.resetdata.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstage-spyder-pdprapbootstgxwwwtrap.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootstapidocskeeleap.0-10-marketing.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -10274,6 +11723,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootstatsemailvisionrap-customer.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstatsemailvisionrap-swarm.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstatsemailvisionrapnetadm.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootstauthpartnerap.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -10282,6 +11752,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-bootstbarcodesap.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstbarcodesp-netfabio.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstbarcodesp-rancher.0-10-marketing.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstbarcodesp.dc2.0-10-marketing.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -10309,6 +11800,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootstc2sapeadminvision.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstc2sapnetmissions.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootstcfwap.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -10324,6 +11829,41 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-bootstdashboardap.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstdevenvp-erp.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstdevenvp-restore.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstdevenvp.management.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstdevenvp.netshohda.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstdevenvpneo4j.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -10359,6 +11899,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-bootstdocumentationap.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstdogfoodap-eadminvision.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstdogfoodap-orders.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstdogfoodapnetpluto.dcsportal.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -10491,6 +12052,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00-bootstgistemailvisionap-netxvglc.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstgistemailvisionap.gcp.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00-bootstgistemailvisionap.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -10506,6 +12081,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-bootstglobalcsap.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstgxwwwtrapcomsivaawsv.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstgxwwwtrapnetae.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -10541,6 +12130,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-bootstmailap.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstmailapelasticsearch.dcsportal.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstmailaprg.dcsportal.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -10590,6 +12193,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-bootstner-payap.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstopsap.staff.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstopsap63.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstopsapcanary.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstopsapsalesforce.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -10681,6 +12312,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00-bootstraconference.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstraecivision.devel.0-0.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00-bootstraevents.bucket.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -28201,6 +29846,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "00d2e000001gna7uaopsagengcloudapp.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "00d2i000000oy0yuau.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -31135,6 +32787,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "00proplus0xncf83region.net.daraz.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "00proplus0xncnppsprimarycms.0-0.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -44239,1665 +45898,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "01-car21c-f8.cl.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.disabledpartner.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.dns1.freshegg.client.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.dr01.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.draganddropobjects.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.ebs-partner.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.ebs.10-marketing.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.ftpd.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.kubernetes.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.mailstage.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.meta1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.pdp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.personal.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.pre-push-drzlive.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.repo.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.rj82p.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.secure-dns1.freshegg.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.security.ns1.twtelecom.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.spyder-api-stage.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.sso.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.staging-push-drzlive.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.store.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.swag.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.swag.w-htgb-a.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.vpdp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8.ww1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8achoice-stg.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8api-xspace.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8authorization.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8careers.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8cfw.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8chimera.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8clientes.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8dhcms.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8discover.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8doclogin.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8e29-sjc12-dr01.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8fantasy.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8fet.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8gw.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8imap.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8kube-partner.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8kubernetes.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8latin.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8lib-ln-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8lib-oa-1-administrators-csr40.dssl.ns.emailvision.authenticate.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8moodle.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8n-switch.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8net.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8news.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8opsacademy.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8partner.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8pluto.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8pre-livekit.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8pull-drzlive.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8pull-pk-local-drzlive.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8push-bd-drzlive.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8redirect.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8s.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8s3.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8score.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8skidoitruy.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8spyder-vpdp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8stagecisco-capwap-controller.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8stagetubidy.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8staging.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8stg.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8tw.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8two.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8ui.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8v1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-f8www.rgsdocker.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-github.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-hermes8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-integration.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-interaction.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-interno8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-invoice.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-kubemarketing.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-livekit.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-nginx.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-oneloadpk.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-pcanywhere8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-poland8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-pre-pull-alt2-drzlive.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-pre.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-priv.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-qlikview.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-rating.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-retail-missions.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-scm-r-ln-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-sso.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-static1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-test.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-traffic.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-uac-pre.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-vansax.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-x8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21c-zong-staging.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21cf22.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21exchange.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21latinaws.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21search-www-cf6-l.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21vpntrops8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21web-devpreferences-10.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21web-vpn-qa-l-k.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21web-wwww3-lax6.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21workstationqa-0ghcpi.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21www-0latinamericajenkins-testbed.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21www-3-springlatinamericaeuropewest.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21www-5-k-4.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21www-cf-15pub-secure.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21www-cf-25-p-git.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car21www-cf-8pub-cfg.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car22-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car22-web-wwww11stage-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car23-web-wwww17node-webappecho-063-gls-023-68-238.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car23-web-wwww17node-wwww17node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car24-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car26-web-8s59geexezp7q9u0web-wwww2node-analytics-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car26-web-wwww10node-northamerica.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car27-web-billing-16-1-astrologie-17ae29-sjc19-dr01.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car27c-f8-0psdadj4szljo593wwwapi62nov.management-application-spring.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car27c-f8.management-01-lib-oa-6roundcube6-spring.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car27c-f8.management-application-spring.redir.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car27c-f8.management-application-springoid.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car31-web-wwww11application-webapporg.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car31-web-wwww11node-k8s.0p10g003000tnfwcao.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car31c-f8.net.daraz.com.00d20000000lgfveaa.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car3arketing1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car41-10-r-internal-1.00-bootstrap.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car41-10-r-oa-1.net.daraz.com.006-zigzagstr.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car41-cf16github.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car41-web-wwww11node-lazada-sg-8.echo.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car41-web-wwww11node-webapp.00-bootstrap-21-car21c-f8echo.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car41-web-wwww11node-webapp.9marketing01echo.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car41-web-wwww11node-webapp.adm-cfw-c2s-01-n6x056-echo.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car41-web-wwww11node-webapp.echo-switchw19node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car61-www-20-euw.01-car27c-f8.management-application-spring.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car61stg10.net.daraz.com.00d3t000002re27eag.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car71-web-vpn-prod8n.net.daraz.com.00d1n0000017glquam.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car71www-0latinamericajenkins-testbed0mq-5sqmi6docsi13.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-car81-10-r-oa-1.net.daraz.com.00d1n0000017glquam.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cara1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-caradmin81-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carae2-dfw3-dr021c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-caraffiliate1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-caralicert-admin1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-caralt11-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carapac-cfw-c2s-01-n6x0261-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carapidocs-winter1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carapisellerpackaging1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carauthorization-car401-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carbe1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carbellsouth1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carberndpulchmedotcom-consul1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carboards1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carcdn1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carci1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carconfig1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carcontent1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cardesktop1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cardev1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cardev21-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cardevelopment1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-careaccess1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carebs1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carebswww1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-caredu1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-careers-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-caregister21-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carek8s1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carelastic1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carelasticbeanstalkallseason1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carengineapplication1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carenglish1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carerdektarim1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carestrict21-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carfree1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carfrontpage1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cargame1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cargateway1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cargetteremailvision1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carhwcdn1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carimusikmuc-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carjob1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carjune1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cark1push-pk-drzliverepository1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carla1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carlazada-sg-21-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carlove1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carmb1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carmdm1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carmovil1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carmrtg1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carn-switch1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carnet1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carnew1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carnomad1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carns1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-caroperation1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carpages1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carpages1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carpartner-cdnpre-bms1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carphoenix1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carpop31c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carpre-ai1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carpre-pull-alt2-drzlive1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carpre-retail1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carpre-web1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carpush-drzlive1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carr1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carredirect1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carrestricted-r-ht-21-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carsellerpackaging1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carsellerpackaging1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carshop1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carsports1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carstage-spyder-ps1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carstaging-ocr-drzlive1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carstaging-ocr-drzlive1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carstaging-pull-drzlive1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carstream1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cart21c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cartoolbarw-htgb-a1-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-caruat-oneloadpk1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carupdate1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carview1-10-r-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carweb011-web-wwww0node.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carweb1-web-wwww11node-webapp.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carx-space1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-carzigzagstr1c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cas321-10-s3-oa-1.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-cashop21c-f8.net.daraz.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "01-caskidoitruy-doitruy21c-f8.net.daraz.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70005,6 +70005,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "10today-diwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "10today-diwalisales.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "12d60.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70013,6 +70027,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12d60.firebaseio.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12today-diwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "12today-diwalisales.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70054,6 +70082,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "1stdiwali-bigsavingsale.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "1today-diwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "1today-diwalisales.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "1topspy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70062,6 +70111,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "2baserec2.guru",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "2stdiwali-bigsavingsale.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "2stdiwali-bigsavingsale.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "2today-diwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "2today-diwalisales.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70089,6 +70166,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "3today-diwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "3today-diwalisales.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "4-dot-all-tracker.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70110,6 +70201,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "4today-diwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "4today-diwalisales.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "51degrees.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70124,6 +70229,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "5today-diwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "5today-diwalisales.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "6-dot-all-tracker.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70132,6 +70251,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "6kvses.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "6today-diwalisales.icu",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70195,6 +70321,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "98aicode.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "9today-diwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "9today-diwalisales.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70286,6 +70426,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "aa-metrics.trip-ai.jp",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "aadhar.tech",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70565,6 +70712,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "admin.model-point.click",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "admin.mtrtb.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70832,6 +70986,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "adx.petal-ads.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "aes-pdf.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "aespdf.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -72861,6 +73029,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "api.v1techdomainsec.sbs",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "api.venntel.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73113,7 +73288,28 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "app-web-diwali.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "app.adjust.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "app.aes-pdf.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "app.aespdf.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73142,6 +73338,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "app.foreverspy.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "app.keplr.to",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74051,6 +74254,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "best-diwali-offers.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "best-spy-apps.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74066,6 +74276,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "bestcarent.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bestdiwalioffers.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74135,7 +74352,42 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "big-diwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "big-diwalisales.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bigdiwali-offers.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bigfilpkart-diwali-offers.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "bigriemp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bigsavingg-diwali.space",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74150,6 +74402,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "billing.umobix.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "binache.app",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "binache.click",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "binachemax.lol",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "binachemax.manus.space",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74206,6 +74486,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "binanceverify.live",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "binancn.live",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76298,6 +76585,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "cx-rat-v2-dpyshdh12b1m.edgeone.dev",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "cyberdriftmatrix8.cyou",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76788,6 +77082,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "dealdiwali.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "dealply.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76810,6 +77111,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "dediccatedconsideration.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "deducationist.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77012,6 +77320,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "dhamaka-diwali-offer.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "diagnostics.apple.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77041,6 +77356,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "dis.criteo.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "discodiwali.fun",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77124,6 +77446,307 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "diwali-best-offers.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali-big-offer.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali-big-offers.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali-fksale.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali-gift.site",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali-offerss.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali-seasonsale.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali-seasonsale.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali-supermegasale.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali-supermegasale.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali-wish.family",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali.homes",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali.lol",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali.pics",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali2026.website",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwali99.bar",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalibest-offers.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalibumparsale.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalibumparsale.store",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalicasback.click",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalidazzle.in",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalidecor.in",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalidhamaka.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalidhamakaoffer.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwaliglow.tech",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalijackpot.store",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalijackpott.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalimela.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwaling.store",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalioff.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalioffers.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalirchrg.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalirchrg.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalirecharge.online",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalisale.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalisale2026a-flippkart.space",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalisalefliepkart2026.space",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalisaleslive.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalisuperoffersofthemagasale.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwalisweets.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwaliwishes.online",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwaliwishes.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "diwaliwishes4u.online",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "djp.bz",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77201,6 +77824,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "docsportal.in",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "docusign-document.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77251,6 +77881,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "downapk.spytoapp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "download-6zk.pages.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77488,6 +78125,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "easydiwali.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "easydoc.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77636,6 +78280,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "endpoint-api-v1.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "eng-keplr.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78048,6 +78699,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "fiklghytart-diwali-sale.space",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "fileautumncastle.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78203,6 +78861,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "filevelvettractor.sbs",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "filpkart-diwali-offers.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "filpkartdiwali-offers.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78706,6 +79378,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ggdxorxunolcknocbnfc.supabase.co",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ginuary.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79021,6 +79700,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "happydiwali-offers.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "happydiwali.tech",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "haqerra.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79043,6 +79736,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "hdfdsi84j3h.top",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "health3.flex-haven.click",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79190,6 +79890,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "honeygain.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "host6.southspark.lat",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79812,6 +80519,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "index.brew-reef.lat",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "indoprogress.co",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80428,6 +81142,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "kbardiwali.fun",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "kbmgroup.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80443,6 +81164,27 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "kenpousland.cfd",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "kepler.com-walletconnect.workers.dev",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "keplr-station.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "keplr.to",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80856,6 +81598,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "lifecircle-223805.firebaseio.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "lightdiwali.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81387,6 +82136,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mahafestdiwalii5000.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mail-googleaccounts-verification.uw.ua",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81402,6 +82158,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mail.spymasterpro.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mail.uspsfund.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81849,6 +82612,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mega-bigdiwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "megapush.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82032,6 +82802,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "miao.wondershare.cn",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "microservice6533.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82333,6 +83110,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "monitor-ultra.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mossypinediwali.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82739,6 +83523,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mydishisbom.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mydiwali.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83172,6 +83963,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "npparchive.z1.web.core.windows.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "nr-data.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83263,6 +84061,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "offer-diwali-sale2026.space",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "offercoremedia.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83271,6 +84076,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "offercorestats.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "offers-fkarrts-diwali.space",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88478,6 +89290,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "swiftpoint.cyou",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "swrve.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89206,6 +90025,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "tik-tok-18-2.cc",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tik-tok-18-3.cc",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tik-tok-18-4.cc",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "tik-tok-18.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89283,6 +90123,34 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "today-biggesst-diwalisale.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "today-biggesst-diwalisale.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "today-diwalisales.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "toddloftindds.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "tookps.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89347,6 +90215,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "trace.agent.datadoghq.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "trace9.web-nest.xyz",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90494,6 +91369,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "v1techdomainsec.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "v4.bnbvf.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90851,6 +91733,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "web-keplr.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "web-sdk.smartlook.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90866,6 +91755,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "webanalytics.zohodcm.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "webbit6551.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
