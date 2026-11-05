@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13109 domains. Updated 2026-11-05.",
+  "description": "13119 domains. Updated 2026-11-05.",
   "rules": [
     {
       "action": "deny",
@@ -70117,6 +70117,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "529motors.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "6-dot-all-tracker.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71168,6 +71175,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "altzserberin.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "amazing-rooms.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73519,6 +73533,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "asiioasdjasiojasodijasa.eastus.cloudapp.azure.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ask.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74150,6 +74171,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "binance-com-nk.refers.workers.dev",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "binance-kplaw.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76131,6 +76159,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "crashreporter-update.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "crepiehumru.lol",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80407,6 +80442,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "kenpousland.cfd",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "key-logger-90fff.firebaseio.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82367,6 +82409,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mscupdate.blob.core.windows.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mspy.alter757.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82683,6 +82732,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mydishisbom-jp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "mydishisbom.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84006,6 +84062,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "pixel.eyeota.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90390,6 +90453,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "userswordpress-signin-customer.aromadiroma.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "uspsfund.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
