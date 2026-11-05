@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13141 domains. Updated 2026-11-04.",
+  "description": "13150 domains. Updated 2026-11-05.",
   "rules": [
     {
       "action": "deny",
@@ -77257,6 +77257,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "docusign.alt3-doc3ea7-v2.sbs",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "docusignaccessportal.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77699,6 +77706,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "engine.factual.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "engrdist.site",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79658,6 +79672,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "icollections.github.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "id5-sync.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79736,6 +79757,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "ikm.awsapi.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "im-quirky.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87764,6 +87792,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "sni13.docsmanagement.endl.site",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "snoopza.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88254,6 +88289,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "stalevi-shershni.somee.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "star-layer.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88395,6 +88437,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "stellarnodegrid8.cyou",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "store2.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89843,6 +89892,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "translucentle.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "transmitsecurity.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89851,6 +89907,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "transunion.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "trastwallet.cam",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
