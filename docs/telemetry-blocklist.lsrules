@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13380 domains. Updated 2026-11-06.",
+  "description": "13396 domains. Updated 2026-11-06.",
   "rules": [
     {
       "action": "deny",
@@ -70285,6 +70285,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "7fcafe.wwvip88.site",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "83dd4.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71965,6 +71972,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "api-63nkaf68d.berimazinjagentleman.sbs",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "api-com.cfd",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -72540,6 +72554,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "api.kontakt.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "api.kyamich.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74968,6 +74989,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "avinfra.in",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "aw.ktonemail.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75277,6 +75305,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "bepxt.online",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "berimazinjagentleman.sbs",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75641,6 +75676,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "blueguradian.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bluerocksfinance.live",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76586,6 +76628,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "citecivilization.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cjoxgdvexb6wyhih45rmzgeram0vijbb.lambda-url.us-east-1.on.aws",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80176,6 +80225,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "fpnov4-zone.eastus.cloudapp.azure.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "fptls.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82025,6 +82081,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "joinushealth.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "joinzoommeeting.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -87827,6 +87890,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "rsg63gpp.s3.us-east-2.amazonaws.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "rtax.criteo.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90858,6 +90928,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "test-api.claude.gg",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "test-client.mobilefonex.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -92608,6 +92685,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "vt3.eu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "vys.me",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -93637,6 +93721,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "zoommeet.live",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "zoommeetcall.live",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "zoommeeting.click",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -93651,6 +93749,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "zoomworkplace.sbs",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "zsxocjarsate.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -93659,6 +93764,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "zxc.pidanokbj.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "zz.aiapi2025.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     }
