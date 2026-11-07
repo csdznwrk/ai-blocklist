@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13407 domains. Updated 2026-11-07.",
+  "description": "13413 domains. Updated 2026-11-07.",
   "rules": [
     {
       "action": "deny",
@@ -74520,6 +74520,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "apple.eu10hub.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "applefilevault.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75592,6 +75599,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "bit-ly.site",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "bitlaunch.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76971,6 +76985,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cm.quantserve.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cm88king.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82913,6 +82934,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "login-msftportal.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "login.quanly24h.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85286,6 +85314,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "open.spotify.mint.89237892.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "opencamping.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -86281,6 +86316,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "pressaviation.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "privatealps.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
