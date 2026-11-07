@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13389 domains. Updated 2026-11-07.",
+  "description": "13407 domains. Updated 2026-11-07.",
   "rules": [
     {
       "action": "deny",
@@ -70537,6 +70537,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "accounts.billingmicrosloft365.site",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "accounts.wondershare.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76221,6 +76228,48 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "cb-customa.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cb-customb.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cb-customc.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cb-customd.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cb-oiuwalsdd.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cb-woiuuasd.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "cd.biocatch.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80890,6 +80939,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "homegardenfocus.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "homelygrill.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82451,6 +82507,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ladygirl-series.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "lanhd6549tdhse.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82669,6 +82732,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "liokida.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "liuwamksdas.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83096,6 +83166,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "macromint.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "madeofinkandiron.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84111,6 +84188,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "movecogi.z16.web.core.windows.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "moyora.live",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85440,6 +85524,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "paiwdlasd.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "panel-aura.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85853,6 +85944,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "pinkgirl-tv.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "pipe.thd.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85938,6 +86036,34 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "pochtarossiy.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "poijkukasdd.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "poiwalsdas.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "poiwamsda.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "pokikwasd.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
