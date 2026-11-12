@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13271 domains. Updated 2026-11-12.",
+  "description": "13274 domains. Updated 2026-11-12.",
   "rules": [
     {
       "action": "deny",
@@ -86413,6 +86413,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "public.mexc.co.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "publicismedia.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89437,6 +89444,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "store2.shop",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "strand-output-firefox-laptop.trycloudflare.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90404,6 +90418,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "tmsapi.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "tolfex.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
