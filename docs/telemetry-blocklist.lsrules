@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13267 domains. Updated 2026-11-12.",
+  "description": "13271 domains. Updated 2026-11-12.",
   "rules": [
     {
       "action": "deny",
@@ -81863,6 +81863,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "lc5o45m.medianewsonline.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "leadscorepro.com.br",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83389,6 +83396,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mofa-gov-np.donwloaad-file.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "monitask.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -84286,6 +84300,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "nutralove.co",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "nzxaxcj.cn",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86750,6 +86771,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "rcomlogin.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "realmadridistats.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
