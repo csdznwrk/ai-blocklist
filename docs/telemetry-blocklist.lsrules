@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13403 domains. Updated 2026-11-11.",
+  "description": "13410 domains. Updated 2026-11-12.",
   "rules": [
     {
       "action": "deny",
@@ -71391,6 +71391,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "amd-country-prince-episode.trycloudflare.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "americanexmissionit.jgenkr.asia",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81394,6 +81401,27 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "icicilombardonlinerenewal.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "icicilombardrenew.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "icicilombardrenewal.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "icicilombardsrenewal.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81892,6 +81920,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "instana.io",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "instance-hsiwi5-relay.screenconnect.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85056,6 +85091,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "noujx.s9gxw8.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "nov6fp-zone-1488-reg.westus2.cloudapp.azure.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -92805,6 +92847,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "w8l35buwr.onlinewebshop.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "walks-remained-aruba-scuba.trycloudflare.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
