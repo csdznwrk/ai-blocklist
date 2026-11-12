@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13410 domains. Updated 2026-11-12.",
+  "description": "13267 domains. Updated 2026-11-12.",
   "rules": [
     {
       "action": "deny",
@@ -70005,20 +70005,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "10today-diwalisales.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "10today-diwalisales.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "12d60.appspot.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70027,13 +70013,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "12d60.firebaseio.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "12today-diwalisales.icu",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70075,27 +70054,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "1stdiwali-bigsavingsale.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "1today-diwalisales.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "1today-diwalisales.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "1topspy.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70124,34 +70082,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "2stdiwali-bigsavingsale.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "2stdiwali-bigsavingsale.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "2today-diwalisales.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "2today-diwalisales.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "3262d48df5d75e34.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -70160,20 +70090,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "33across.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "3today-diwalisales.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "3today-diwalisales.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70208,42 +70124,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "4today-diwalisales.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "4today-diwalisales.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "51degrees.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "529motors.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "5today-diwalisales.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "5today-diwalisales.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70258,13 +70139,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "6kvses.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "6today-diwalisales.icu",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70342,20 +70216,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "98aicode.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "9today-diwalisales.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "9today-diwalisales.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70454,13 +70314,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "aa-metrics.trip-ai.jp",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "aadhar.tech",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -70768,13 +70621,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "admin.model-point.click",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "admin.mtrtb.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -71042,27 +70888,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "aepc.in",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "aes-pdf.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "aespdf.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "aexshorthoo26d.9zy6p8.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -71350,13 +71175,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "altzserberin.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "amazing-rooms.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73099,13 +72917,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "api.v1techdomainsec.sbs",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "api.venntel.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -73358,28 +73169,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "app-web-diwali.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "app.adjust.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "app.aes-pdf.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "app.aespdf.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -73408,13 +73198,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "app.foreverspy.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "app.keplr.to",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -74835,13 +74618,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "asiioasdjasiojasodijasa.eastus.cloudapp.azure.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "ask.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75318,13 +75094,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "best-diwali-offers.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "best-spy-apps.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75340,13 +75109,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "bestcarent.org",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "bestdiwalioffers.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -75423,41 +75185,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "big-diwalisales.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "big-diwalisales.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "bigdiwali-offers.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "bigfilpkart-diwali-offers.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "bigsavingg-diwali.space",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "bilineate.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75472,49 +75199,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "binache.app",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "binache.click",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "binachemax.lol",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "binachemax.manus.space",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "binance-kplaw.top",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "binanceai.fun",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "binancn.live",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76075,13 +75760,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "carboniferous.top",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "carloxmextos.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77523,13 +77201,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "crepiehumru.lol",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "cropcritique.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77650,13 +77321,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cvspharmacy.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "cx-rat-v2-dpyshdh12b1m.edgeone.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78146,13 +77810,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "dealdiwali.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "dealply.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78175,13 +77832,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "dediccatedconsideration.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "deducationist.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78391,13 +78041,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "dhamaka-diwali-offer.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "diagnostics.apple.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78427,13 +78070,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "dis.criteo.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "discodiwali.fun",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78510,210 +78146,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "diwali-best-offers.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali-big-offer.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali-big-offers.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali-fksale.xyz",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali-gift.site",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali-offerss.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali-seasonsale.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali-seasonsale.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali-supermegasale.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali-supermegasale.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali-wish.family",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali.homes",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali.lol",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali.pics",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "diwali20.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali2026.website",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwali99.bar",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalibest-offers.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalibumparsale.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalibumparsale.store",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalicasback.click",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalidazzle.in",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalidecor.in",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalidhamaka.xyz",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalidhamakaoffer.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwaliglow.tech",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalijackpot.store",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalijackpott.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalimela.org",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwaling.store",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78727,105 +78160,7 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "diwalioff.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalioffers.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "diwalioffers2026.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalirchrg.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalirchrg.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalirecharge.online",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalisale.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalisale2026a-flippkart.space",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalisalefliepkart2026.space",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalisaleslive.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalisuperoffersofthemagasale.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwalisweets.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwaliwishes.online",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwaliwishes.xyz",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "diwaliwishes4u.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -78902,20 +78237,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "docsportal.in",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "docusign.alt3-doc3ea7-v2.sbs",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "docuxsign.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -78945,13 +78266,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "downapk.spytoapp.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "download-6zk.pages.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79217,13 +78531,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "easydiwali.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "easydoc.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79421,13 +78728,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "endpoint-api-v1.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "eng-keplr.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79840,13 +79140,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "fiklghytart-diwali-sale.space",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "fileautumncastle.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79995,20 +79288,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "filevelvettractor.sbs",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "filpkart-diwali-offers.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "filpkartdiwali-offers.shop",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80533,13 +79812,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "ggdxorxunolcknocbnfc.supabase.co",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "ginuary.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80834,20 +80106,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "happydiwali-offers.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "happydiwali.tech",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "haqerra.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -80863,13 +80121,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "hdfdsi84j3h.top",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "health3.flex-haven.click",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81031,13 +80282,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "honeygain.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "host6.southspark.lat",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -81660,13 +80904,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "index.brew-reef.lat",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "indoprogress.co",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81933,13 +81170,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "insuranceforteenagedrivers.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "integ.euid.eu",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82095,13 +81325,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "it.imonitorsoft.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "itau-com.vercel.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82269,13 +81492,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "kbardiwali.fun",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "kbmgroup.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82291,34 +81507,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "kenoratravels.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "kenpousland.cfd",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "kepler.com-walletconnect.workers.dev",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "keplr-station.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "keplr.to",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82746,13 +81934,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "lifecircle-223805.firebaseio.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "lightdiwali.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83298,13 +82479,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "mahafestdiwalii5000.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "mail.mobistealth.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83313,13 +82487,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mail.spymasterpro.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "mail.uspsfund.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83781,13 +82948,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "mega-bigdiwalisales.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "megapush.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83978,13 +83138,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "miao.wondershare.cn",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "microservice6533.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84264,13 +83417,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "mossypinediwali.online",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "motorolasolutions.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -84342,13 +83488,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mscloud.cfd",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "mscupdate.blob.core.windows.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -84685,20 +83824,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "mycloud1.wisemo.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "mydishisbom.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "mydiwali.online",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85118,14 +84243,14 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "npparchive.z1.web.core.windows.net",
+      "remote-domains": "nr-data.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "nr-data.net",
+      "remote-domains": "ns.mo7sen.dev",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -85223,13 +84348,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "offer-diwali-sale2026.space",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "offercoremedia.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -85238,13 +84356,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "offercorestats.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "offers-fkarrts-diwali.space",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -86071,13 +85182,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "pixel.eyeota.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "pixelra2qbx7zhvb6mxdzxlo6rxm2mtouhbabqmdzyd4fesicvbz7bqd.onion",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89724,13 +88828,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "sp10ct10-hurnek-biz-zurevo.pages.dev",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "sp18022019.firebaseio.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -89781,13 +88878,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "spinbox.versiontracker.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "splace.co.za",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90488,13 +89578,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "svlogin.asia",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "swiftpoint.cyou",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -91222,27 +90305,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "tik-tok-18-2.cc",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "tik-tok-18-3.cc",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "tik-tok-18-4.cc",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "tik-tok-18-app-5.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -91320,34 +90382,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "today-biggesst-diwalisale.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "today-biggesst-diwalisale.info",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "today-diwalisales.icu",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "toddloftindds.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "tookps.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -91419,13 +90453,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "trace.agent.datadoghq.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "trace9.web-nest.xyz",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -92503,13 +91530,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "uspsfund.online",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "utdid.taobao.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -92538,13 +91558,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "v1techdomainsec.shop",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "v4vw4ytvo4.execute-api.us-east-2.amazonaws.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -92553,6 +91566,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "validate.appsflyersdk.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "valuesmbc.tailieuctu.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -92923,13 +91943,6 @@
     {
       "action": "deny",
       "process": "any",
-      "remote-domains": "web-keplr.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
       "remote-domains": "web-production-ea392.up.railway.app",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -92952,13 +91965,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "webanalytics.zohodcm.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "webbit6551.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -93078,13 +92084,6 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "webwatchernow.com",
-      "notes": "telemetry-blocklist-plus",
-      "disabled": false
-    },
-    {
-      "action": "deny",
-      "process": "any",
-      "remote-domains": "wekash.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
