@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13076 domains. Updated 2026-11-13.",
+  "description": "13079 domains. Updated 2026-11-13.",
   "rules": [
     {
       "action": "deny",
@@ -79546,6 +79546,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "ii-sen.ir",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ikeymonitor.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -87442,6 +87449,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "smokingpussy.store",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "smoot-api-spotlight-ause1a.v.aaplimg.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90859,6 +90873,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "winmslaf.xyz",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "winne.mynetav.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
