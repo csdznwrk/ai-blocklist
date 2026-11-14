@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13053 domains. Updated 2026-11-14.",
+  "description": "13056 domains. Updated 2026-11-14.",
   "rules": [
     {
       "action": "deny",
@@ -73512,6 +73512,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "asiannetmark.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "ask.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -81674,6 +81681,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "metaslate.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "metastealer.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83390,6 +83404,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "pair.google.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "pakdigital.org",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
