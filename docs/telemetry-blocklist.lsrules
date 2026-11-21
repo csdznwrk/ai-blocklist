@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13517 domains. Updated 2026-11-20.",
+  "description": "13530 domains. Updated 2026-11-21.",
   "rules": [
     {
       "action": "deny",
@@ -71321,6 +71321,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "allegrolokalnie.01097978.sbs",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "allownotification.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -74933,6 +74940,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "bucket-ynote-online-cdn.note.youdao.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "bugsnag.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -75109,6 +75123,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "cabs.thomsonreuters.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "cache-provider.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -76851,6 +76872,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "czqnl.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "d-app-apk.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77362,6 +77390,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "dedication-presenting.tun.ply.gg",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "dediccatedconsideration.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -77482,6 +77517,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "dev2.refog.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "developdatum.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -80100,6 +80142,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "haqerra.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "hardener33.opik.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82738,6 +82787,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mainsearchtools.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "makes4.dynu.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mangocloudfile.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -83830,6 +83893,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mpegs-arrived-columns-vocal.trycloudflare.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mpmetrics.kochava.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -84580,6 +84650,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "nextgenvahanparivahan.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "nexttools2022.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -90956,6 +91033,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "swiftops7.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "swissnet711911.top",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -93799,6 +93883,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "worklifetoday-jp.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "workstation0422.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
