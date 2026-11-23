@@ -1,6 +1,6 @@
 {
   "name": "Telemetry + Malware Blocklist",
-  "description": "13388 domains. Updated 2026-11-23.",
+  "description": "13406 domains. Updated 2026-11-23.",
   "rules": [
     {
       "action": "deny",
@@ -73624,6 +73624,20 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "app25006.servicebus.windows.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "app99940.servicebus.windows.net",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "appcues.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76158,6 +76172,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "comcast.fqtjw.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "comicstar.lat",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -76950,6 +76971,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "dahieenloo.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "daiichilife-group.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -77790,6 +77818,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "downloads.refog.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "dp3jryp4.s3.us-east-1.amazonaws.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79413,6 +79448,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "gl-inet.top",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "glassbox.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -79505,6 +79547,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "gomeetbridge.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "google-917533.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79687,6 +79736,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "gta6-keys-ru.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "gta6cloud.cc",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -79918,6 +79974,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "honeygain.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "host-4001.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -82227,6 +82290,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "m.makrobet548.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "mac-storage-guide.squarespace.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -82333,6 +82403,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "makes4.dynu.org",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "makrobet548.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -83865,6 +83942,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "mygta6.icu",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "myipinfo.io",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -84790,6 +84874,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "orangesmartfile.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "orbittwilightx-jp.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -88310,6 +88401,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "secure-xserver-28110-paymentlink.horschamp.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "secure-xserver-29525-paymentlink.horschamp.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -88318,6 +88416,20 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "secure-xserver-43885-paymentlink.horschamp.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "secure-xserver-55751-paymentlink.horschamp.info",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "secure-xserver-95587-paymentlink.horschamp.info",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
@@ -89962,6 +90074,13 @@
     {
       "action": "deny",
       "process": "any",
+      "remote-domains": "stroygeotrans.ru",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
       "remote-domains": "studio11-7e288.firebaseio.com",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
@@ -90460,6 +90579,13 @@
       "action": "deny",
       "process": "any",
       "remote-domains": "tags.tiqcdn.com",
+      "notes": "telemetry-blocklist-plus",
+      "disabled": false
+    },
+    {
+      "action": "deny",
+      "process": "any",
+      "remote-domains": "takeup4.dynuddns.net",
       "notes": "telemetry-blocklist-plus",
       "disabled": false
     },
